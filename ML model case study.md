@@ -1,0 +1,6 @@
+- illustrates key concepts by Sullivan and T&S
+	- link uncertainty, data-misrepresentation link uncertainty
+	- implementation black boxes
+	- highest-level black box
+	- "narrow vs wide view" on understanding
+- focus on a specific science and its usecase for ML models for understanding 

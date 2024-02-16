@@ -1,0 +1,69 @@
+## Räz & Beisbart, 2022
+- Sullivan employs a strong notion of understanding (explanatory understanding) which she cannot reasonably back up
+- however, employing a weak notion would not do her a favour as it has nothing to do with true understanding for which she wants to argue (objectional understanding; heuristics; exploration)
+- Sullivan argues that ML can provide explanatory understanding; her reasons are not sufficient; in fact there are fundamental reasons why DNN cannot provide explanatory understanding 
+- challenge anology between factorial function and DNN classifier for implementation irrelevance (classifier function cannot be known and expressed like factorial)
+- thus, DNN lack "functional transparency" (Creel, 2020) which they argue is in fact a problem for understanding from ML models
+- DNN do "implement" classifier function, rather classifier is a property of DNN and represents the input-output relation of the DNN (but for the sake of argument, R&B give her that)
+- "indirect means" (saliency maps) do not provide general understanding of ML models (thus, they do not reduce the level of opacity for ML models which Sullivan needs to claim that even black boxed ML models still enable understanding)
+- DNN do not enable explanatory understanding
+	- predicitive power is not explanatory power
+	- how-possibly explanations do not provide explanatory understanding
+	- DNN do not even provide how-possibly explanations
+
+
+## failed analogies
+- a climate model is very different from a deep patient DNN as I cannot imagine how it would be empirically validated in the same sense as the DNN would be empirically validated?
+- sub-models of a climate model could theoretically be empirically validated, but the whole model with all kludges (and admittedly it seems that there are a lot of untheorerical parts to a climate model)?
+- as Sullivan argues that a good model is one that is linked to the target, it sounds like climate models can never be good models?
+## no link vs weak link?
+- “Without empirical evidence validating that the possible causes identified by Shelling’s model are actual causes, there is no link connecting the model to the phenomenon. There is a high level of link uncertainty, that is, a lack of scientific and empirical evidence supporting the link that connects the model to the target phenomenon.”
+- “to reduce link uncertainty”
+- “when the link uncertainty is removed”
+- lack of selectivity: no link that needs to be established? Or link with high level of uncertainty?
+- Is it even possible within Sullivan's own framework that link uncertainty can be completely "removed"?
+- “There is a high level of link uncertainty, that is, a lack of scientific and empirical evidence supporting the link that connects the model to the target phenomenon.”
+- **point of attack** lack of selectivity: right before lack of validating that the modeled causes are the actual causes means "no link", now there is a link, but it is not supported by evidence, i.e. the exiting link has a high level of uncertainty
+- “The way of establishing the necessary link”
+- critique: it needs to say "the way of reducing link uncertainty" or "the way of supporting the established, but weak link"
+- “to reduce link uncertainty”
+- critique: here, she switches back to degrees of uncertainty of an established link
+- “The stronger the link, the greater possible understanding the model can provide.”
+- again, here degree of link is about degree of possible understanding
+- “once the link uncertainty is resolved”
+- and again, can link uncertainty ever be resolved?
+- “because of reducing link uncertainty”
+- I thought it was about "resolving link uncertainty"?
+
+## what is meant by empirical evidence?
+- “What constitutes the amount and kind of scientific evidence needed to reduce link uncertainty will differ depending on the phenomenon and the model. In the case of Schelling’s model, link uncertainty is inversely related to the amount and quality of empirical evidence connecting individual preferences to causes of segregation and a lack of evidence that suggests a different overriding causal factor.”
+- “The level of scientific justification and background knowledge linking the appearance of moles to instances of melanoma is extensive”
+- “Understanding is narrowed to a population subset, which is common in medical sciences. Just like many other scientific models, the usefulness of the model depends on the target system and the explanandum. If certain parameters change, the given model ceases to be the right model for explaining.”
+- empirical/ scientific evidence, background knowledge, model, phenomenon, contextual parameters – what else does impact link / link uncertainty?
+
+
+## distinction between understanding how the model works and using the model to understand the phenomenon?
+- “There is a distinction between understanding and explaining how the model works and using that model to understand a phenomenon of interest. If one is chiefly concerned about explaining or understanding how a given model is implemented, it is not necessary to know how the model maps on to some real-world phenomenon. The question of this paper, on the other hand, is to what extent understanding the model is necessary for gaining understanding of the phenomenon that the model explains.”
+- how distinct are these perspectives really?
+- is it true that understanding how the model maps onto the phenomenon is irrelevant for understanding model implementation?
+- however, from that it does not follow for Sullivan that if you are mainly interested to understand how the model maps onto a phenomenon, you do not need understanding of model implementation  
+- **point of attack** "is it possible to argue for the possibility of understanding from ML models without saying anything about what this understanding is?"
+- "how is it possible schizo can be predicted and correlated with features found in medical records?"
+- but is that a how-possibly question asked to understand possibilities surrounding target systems OR to understand how the model works?
+- RELEVANT to reinstall opacity as relevant factor for understanding
+- if understanding how a phenomenon is possibly predicted using the model necessitates insight into the model workings, then model opacity impedes  understanding.
+- if understanding how a phenomenon is possibly predicted using the model does not necessitate insight into the model workings, then model opacity  does not impede understanding.
+
+## mapping? (relevant for distinction?)
+- “This mapping allows us to interpret the results of the simulation as identifying a possible causal mechanism of segregation.”
+- critique and ?: what does "mapping" mean?
+- what does it mean that "it maps onto a possible population"?
+- to what does the algorithmic model (its "key features") map onto?
+- to the modelled "causes and dependencies operating in the target phenomenon"?
+- to the target itself (segregation)?
+- is the mapping getting empirically validated?
+- is the connection between identified causes and actual causes empirically validated?
+- "empirically validated" means "connecting identified causes to actual causes
+- "validating the model-target mapping" means empirically validate the possible causes identified
+
+
