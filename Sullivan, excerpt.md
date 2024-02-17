@@ -26,9 +26,14 @@ This implies that Sullivan is striving for explanatory understanding that is ena
 Sullivan uses the Schelling model to argue from analogy that what is true for simple models is also true for complex models such as DNN. And her argument works for all types of DNN architecture:
 - “The exact structure and implementation of each type of DNN varies.3 However, the nuances of these different techniques do not impact the larger argument concerning opacity and understanding;” (Sullivan, 2022, p. 13)
 
+
+The melanoma DNN takes as input-data images of melanoma and healthy moles and classifies which is which. The melanoma DNN is trained on training data of sample pairs containing a feature represented by input data (an image depiciting a melanoma) and a label represented by output data (classification as melanoma). During training the parameterization of the melanoma DNN is optimized to maximize the probability for right predictions.
+
+
 Sullivan argues that the melanoma DNN implements a classifier function that abstracts features of the target phenomenon, in this case melanoma, that represents features that are assumed to be causally relevant for melanoma. A DNN is a complex model as it implements computations that are unintelligible to the modeller. However, the modeller still has background knowledge of the DNN concerning model architecture or the kind of sample data that it uses during training. 
 Sullivan argues that even though the melanoma DNN is a complex model, its higher-level functioning is intelligible. It is not a highest-level black box. And even though lower-level implementation details are opaque, understanding them is not relevant for understanding melanoma which the DNN bears on. 
-Analogous to the Schelling model, model implementation is irrelevant for understanding the target phenomenon. 
+Analogous to the Schelling model, model implementation is irrelevant for understanding the target phenomenon.
+- “So, while the modeler does not have direct control over the modelling process, a contrast case with Schelling’s model, still the process is not black boxed at the highest level, such that it would prevent understanding of the phenomenon the resulting model aims to capture.” (Sullivan, 2022, p. 18)
 
 The problem that I see is that there could be a meaningful difference between model implementation being irrelevant versus understanding model implementation being irrelevant. R&B seem to dispute the first in the case of DNN and argue that model implementation of DNN is very much relevant for understanding from DNN. It could be that Sullivan's analogy from simple to complex models fails in this regard, i.e. that it is not so simple to argue that because detail implementations of the Schelling model are irrelevant for its overall model decision as the basis for understanding from it, that the computational implementation of a DNN is irrelevant for its overall classification that is the basis for understanding from DNN.
 
