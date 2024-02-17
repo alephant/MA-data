@@ -23,7 +23,9 @@ When the mechanism based on individual preference that is assumed to be operatin
 
 This implies that Sullivan is striving for explanatory understanding that is enabled by establishing a link between model and target. 
 
-Sullivan uses the Schelling model to argue from analogy that what is true for simple models is also true for complex models such as DNN. 
+Sullivan uses the Schelling model to argue from analogy that what is true for simple models is also true for complex models such as DNN. And her argument works for all types of DNN architecture:
+- “The exact structure and implementation of each type of DNN varies.3 However, the nuances of these different techniques do not impact the larger argument concerning opacity and understanding;” (Sullivan, 2022, p. 13)
+
 Sullivan argues that the melanoma DNN implements a classifier function that abstracts features of the target phenomenon, in this case melanoma, that represents features that are assumed to be causally relevant for melanoma. A DNN is a complex model as it implements computations that are unintelligible to the modeller. However, the modeller still has background knowledge of the DNN concerning model architecture or the kind of sample data that it uses during training. 
 Sullivan argues that even though the melanoma DNN is a complex model, its higher-level functioning is intelligible. It is not a highest-level black box. And even though lower-level implementation details are opaque, understanding them is not relevant for understanding melanoma which the DNN bears on. 
 Analogous to the Schelling model, model implementation is irrelevant for understanding the target phenomenon. 
