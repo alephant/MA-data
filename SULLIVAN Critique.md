@@ -1,7 +1,9 @@
 It seems that Sullivan adheres to the following view when it comes to modelling DNN:
 The model is a function. Before training the set of weights describe a function that is far from capturing the phenomenon. During training the set of weights change and describe a function that better captures the phenomenon. The function that truly captures the phenomenon can never be reached. After training the set of weights describe a function that is a close approximation of the true target function. The DNN "learns" its own algorithm that governs the input-output relation and drives the model decision. This higher-level algorithm is the result of the modelling process.
 - “In machine learning, the word “hypothesis” is often used interchangeably with “model”. A hypothesis is a function described by the set of weights that is presumed to capture the phenomenon. The target function is the function that will truly capture the phenomenon. Often the target function is an ideal that is not reachable; the goal is to settle on a hypothesis that is as close to the ideal target function as possible (see Mitchell [1997]).” (Sullivan, 2022, p. 16)
-- “The result of the modelling process produces a DNN model that follows its own algorithm that it learned through the modelling process. The modelling process is what determines the set of steps or rules that the resulting model will follow with any new input data it receives.” (Sullivan, 2022, p. 17) 
+- “The result of the modelling process produces a DNN model that follows its own algorithm that it learned through the modelling process. The modelling process is what determines the set of steps or rules that the resulting model will follow with any new input data it receives.” (Sullivan, 2022, p. 17)
+- “So, while the modeler does not have direct control over the modelling process, a contrast case with Schelling’s model, still the process is not black boxed at the highest level, such that it would prevent understanding of the phenomenon the resulting model aims to capture.” (Sullivan, 2022, p. 18)
+- “Once the model is trained, the modeler still has a general idea of how the finalized model works in virtue of having knowledge about how the model was trained and validated.” (Sullivan, 2022, p. 18)
   
 The question however is:
 - Is the assumption correct that it is the function described by the set of weights that drives the model decision?
@@ -12,20 +14,6 @@ The question however is:
 - What does actually drive the DNN model decision?
 - Is this function only based on the optimized set of weights after training? 
 - Or is the final function better described by the whole history of sets of weights during training? i.e. it cannot be described solely on the basis of the final parameterization?
-
-## Räz & Beisbart, 2022
-- Sullivan employs a strong notion of understanding (explanatory understanding) which she cannot reasonably back up
-- however, employing a weak notion would not do her a favour as it has nothing to do with true understanding for which she wants to argue (objectional understanding; heuristics; exploration)
-- Sullivan argues that ML can provide explanatory understanding; her reasons are not sufficient; in fact there are fundamental reasons why DNN cannot provide explanatory understanding 
-- challenge anology between factorial function and DNN classifier for implementation irrelevance (classifier function cannot be known and expressed like factorial)
-- thus, DNN lack "functional transparency" (Creel, 2020) which they argue is in fact a problem for understanding from ML models
-- DNN do not "implement" classifier function, rather classifier is a property of DNN and represents the input-output relation of the DNN (but for the sake of argument, R&B give her that)
-- "indirect means" (saliency maps) do not provide general understanding of ML models (thus, they do not reduce the level of opacity for ML models which Sullivan needs to claim that even black boxed ML models still enable understanding)
-- DNN do not enable explanatory understanding
-	- predicitive power is not explanatory power
-	- how-possibly explanations do not provide explanatory understanding
-	- DNN do not even provide how-possibly explanations
-
 
 ## failed analogies
 - a climate model is very different from a deep patient DNN as I cannot imagine how it would be empirically validated in the same sense as the DNN would be empirically validated?
@@ -82,3 +70,7 @@ The question however is:
 - "validating the model-target mapping" means empirically validate the possible causes identified
 
 
+### Creel:
+- it seems like Sullivan employs a notion of transparency while arguing for DNN not being highest-level black boxes, i.e. the high-level algorithms and properties of DNN are transparent. At first glance, this seems to be what Creel calls "functional transparency", i.e. the modeler has epistemic access to knowing “high-level, logical rules according to which the system will transform a given input into an output.” (Creel, 2020, p. 9) 
+- However at second glance, Creel's notion of functional transparency seems to not apply to DNN
+- I don't whether this is relevant or not
