@@ -1,0 +1,4 @@
+- general motivation of my thesis
+- predictive strength of DNN
+- DNN already used as models
+- criteria 
