@@ -3,7 +3,7 @@
 	2. DNN as scientific models
 		1. Reflecting key aspects of scientific modelling on the background of ML models
 			1. what are models: surrogates, Weisberg
-			2. how do they model / mapping relation: isomorphism, similarity, teleological
+			2. how do they model / represent / mapping relation: isomorphism, similarity, teleological
 		2. lack of transparency = lack of explanation and understanding?
 		3. First, what are commonly discussed criteria for models to enable scientific explanation and understanding?
 			1. Prediction versus or indicative of explanation/understanding?
