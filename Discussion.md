@@ -1,0 +1,7 @@
+- philosophy of science's emphasis on empirical validation and the iterative process of theory refinement
+- practical and theoretical challenges due to ==underdetermination of a theory by the data== and model selection
+- reliable predicition are crucial for understanding; reliable predicition however require the consideration of more than just the data, but of ==non-empirical model assumptions== as well
+	- “The predictions of the ML model hence depend not only on the data but also on the architecture of the ML model and, in the absence of evidence to the contrary, also on the algorithmic and initialisation details.” (Scorzato, 2024, p. 4) 
+	- i.e. detail implementations & model assumptions are relevant for understanding from ML models?
+- “But for DNNs the problem is somewhat harder because the ==domain of applicability is difficult to define== also with reference to features that we do know.” (Scorzato, 2024, p. 6)
+- 
