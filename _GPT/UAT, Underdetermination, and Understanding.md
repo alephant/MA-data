@@ -10,7 +10,7 @@
 
 #### Implications for Understanding from ML Models
 
-- **Predictive vs. Explanatory Power**: ML models, due to their flexibility and the UAT, often excel in predictive accuracy. However, this does not equate to understanding or explaining the underlying phenomena. The underdetermination issue highlights that even if a model predicts accurately, it might be one of many possible models that could do so, some of which might capture the true underlying mechanisms while others do not.
+- **Predictive vs. Explanatory Power**: ML models, due to their flexibility and the UAT, often excel in predictive accuracy. However, this does not equate to understanding or explaining the underlying phenomena. ==The underdetermination issue highlights that even if a model predicts accurately, it might be one of many possible models that could do so, some of which might capture the true underlying mechanisms while others do not.==
 - **True Understanding and Causality**: True understanding from a scientific perspective often involves grasping the causal relationships behind observed phenomena. ML models, especially those that are purely data-driven and not designed to uncover causal mechanisms, may offer limited insight into why certain patterns exist or how changes in one variable cause changes in another.
 - **The Role of Domain Knowledge**: Integrating domain knowledge into the development and interpretation of ML models is crucial for advancing understanding. By incorporating theoretical principles and causal relationships known from domain expertise, one can guide the model not just to fit data but also to align with known mechanisms, thereby enhancing the interpretability and explanatory power of the model.
 
