@@ -15,10 +15,11 @@
 			3. lack of transparency = lack of explanation and understanding?
 		2. what are commonly discussed criteria for models to enable scientific explanation and understanding?
 			1. Prediction versus or indicative of explanation/understanding?
-				1. my thesis is about understanding and not explanation
-			2. The nature of good scientific models (Cichy and Kaiser)
-			3. Account of scientific understanding: theories need to be intelligible to enable (explanatory) understanding - so what about opaque ML models? (de Regt, 2017)
-			4. explanatory understanding has to get close to correct understanding - can ML model get us close to correct understanding? (Khalifa, 2017)
+				1. introduction to the relation between prediction and understanding is highly relevant if I want to use Scortazo
+				2. my thesis is about understanding and not explanation
+			3. The nature of good scientific models (Cichy and Kaiser)
+			4. Account of scientific understanding: theories need to be intelligible to enable (explanatory) understanding - so what about opaque ML models? (de Regt, 2017)
+			5. explanatory understanding has to get close to correct understanding - can ML model get us close to correct understanding? (Khalifa, 2017)
 		3. are these criteria met by ML models? What are views on criteria for ML models to count as scientific models? Three key distinctions to make:
 			1. ML models as scientific models: model-centric vs. model-external view
 			2. what to understand: understanding of vs understanding with ML models:
