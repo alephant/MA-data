@@ -1,4 +1,4 @@
-Thank you for your encouragement! Let's delve into the Universal Approximation Theorem (UAT) and its significance, particularly in the context of Deep Neural Networks (DNNs), which is a fascinating topic within both the philosophy of science and computational theory.
+The universal approximation theorem states that a neural network can approximate any function given enough data and complexity.
 
 ### Universal Approximation Theorem (UAT)
 
