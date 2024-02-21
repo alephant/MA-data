@@ -1,7 +1,23 @@
-- philosophy of science's emphasis on empirical validation and the iterative process of theory refinement
 - practical and theoretical challenges due to ==underdetermination of a theory by the data== and model selection
 
 ## criticism based on model assumption
+"DNN predictions are only valuable when they stem from a valuable model". 
+Scorzato investigates the reliability of ML models. Reliable predictions of a model are crucial for the model to enable understanding. Thus, aspects that impact reliability impact the possibility of the model to enable understanding.
+Model reliability is assessed by estimating the uncertainty of model predictions. He argues that a statistical error analysis of prediction error needs to integrated with a deeper epistemological analysis. He emphasizes that DNN have special characteristics that set them apart from other ML or TS models. This has implications in how to assess DNN reliability.
+Scorzato argues that the “the reliability of a model necessarily depends on the reliability of all its model assumptions, which are never self-justifying.” (Scorzato, 2024, p. 7).
+These model assumptions are non-empirical, language-independent, theory-laiden and cannot be made future-proof. Assumptions can fail under future circumstances.
+Based on the thesis underdetermination of theory by the data, he argues that just like there are no theory-free observations in science, prediction error of a model cannot be estimated solely based on fit with the data. 
+Based on the Universal Approximation Theorem, ML models are even more prone to underdetermination. There is an infinite number of different ML models that can be parameter fitted to the same data and deliver the same prediction. The inherent flexibility of ML models adds to their underdetermination: ML model parameters can be adjusted to produce any desired prediction.
+“The predictions of the ML model hence depend not only on the data but also on the architecture of the ML model and, in the absence of evidence to the contrary, also on the algorithmic and initialisation details.” (Scorzato, 2024, p. 4) 
+Thus, assessing reliability of ML models solely based on the fit with data is unfeasible. It needs to take into account model details and underlying model assumptions.
+Model assumptions that are not future-proof mean that that the model can fail under future circumstances. The scope of applicability of the model cannot be definitely defined.
+The domain of applicability of TS is better restricted (background science, transparent approach to parameter instantiation, parameter consistent with broad range of empirical evidence). 
+
+
+
+
+
+
 - reliable predicition are crucial for understanding; reliable predicition however require the consideration of more than just the data, but of ==non-empirical model assumptions== as well
 	- “The predictions of the ML model hence depend not only on the data but also on the architecture of the ML model and, in the absence of evidence to the contrary, also on the algorithmic and initialisation details.” (Scorzato, 2024, p. 4) 
 	- i.e. detail implementations & model assumptions are relevant for understanding from ML models?
