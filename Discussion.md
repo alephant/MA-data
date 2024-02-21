@@ -1,48 +1,61 @@
-- practical and theoretical challenges due to ==underdetermination of a theory by the data== and model selection
-
-## criticism based on model assumption
-"DNN predictions are only valuable when they stem from a valuable model". 
-Scorzato investigates the reliability of ML models. Reliable predictions of a model are crucial for the model to enable understanding. Thus, aspects that impact reliability impact the possibility of the model to enable understanding.
+### reliability as condition for understanding from ML models
+“Trustworthy predictions require trustworthy premises.” (Scorzato, 2024, p. 6)
+“This confirms that also DNN predictions are only valuable when they stem from a valuable model.” (Scorzato, 2024, p. 7)
+Scorzato investigates the reliability of ML models. Reliable predictions of a model are crucial for  models to enable understanding. As reliability requires reliable model assumptions, the capacity to enable understanding needs to be investigated in light of model assumptions.
 Model reliability is assessed by estimating the uncertainty of model predictions. He argues that a statistical error analysis of prediction error needs to integrated with a deeper epistemological analysis. He emphasizes that DNN have special characteristics that set them apart from other ML or TS models. This has implications in how to assess DNN reliability.
 Scorzato argues that the “the reliability of a model necessarily depends on the reliability of all its model assumptions, which are never self-justifying.” (Scorzato, 2024, p. 7).
 These model assumptions are non-empirical, language-independent, theory-laiden and cannot be made future-proof. Assumptions can fail under future circumstances.
+
+### underdetermination of ML models
 Based on the thesis underdetermination of theory by the data, he argues that just like there are no theory-free observations in science, prediction error of a model cannot be estimated solely based on fit with the data. 
 Based on the Universal Approximation Theorem, ML models are even more prone to underdetermination. There is an infinite number of different ML models that can be parameter fitted to the same data and deliver the same prediction. The inherent flexibility of ML models adds to their underdetermination: ML model parameters can be adjusted to produce any desired prediction.
+
+### reliability determined by model assumptions
 “The predictions of the ML model hence depend not only on the data but also on the architecture of the ML model and, in the absence of evidence to the contrary, also on the algorithmic and initialisation details.” (Scorzato, 2024, p. 4) 
 Thus, assessing reliability of ML models solely based on the fit with data is unfeasible. It needs to take into account model details and underlying model assumptions.
 Model assumptions that are not future-proof mean that that the model can fail under future circumstances. The scope of applicability of the model cannot be definitely defined.
 The domain of applicability of TS is better restricted (background science, transparent approach to parameter instantiation, parameter consistent with broad range of empirical evidence). 
+The domian of applicability of ML models is even harder to define as it is even difficult to say how the model applies in reference to known features of the target space, let alone to unknown features. 
+### attack on Sullivan's link uncertainty
+This raises questions on Sullivan's notion of link uncertainty and what it means to "link a DNN to its target phenomenon". What does it mean to link a ML model to its target, if the link is established in reference to a difficult to define domain of applicability?
+
+### attack on Sullivan's lack of consideration for model assumptions
+Sullivan considers model assumptions into account when she is referencing background knowledge of the model and knowledge of higher-level functioning of the model. However, she considers these assumptions in such a way that she can argue that further details of model implementation become irrelevant for understanding. She argues that considering these assumptions and model characteristics is enough to determine model decision, assumptions that determine detail parameterization are irrelevant to characterize overall model behavior as detail parameterization does not drive model outcome. So Sullivan takes model assumptions into consideriation, but in such a way to wave away other assumptions.
+Whereas for Scorzato, model assumption are insofar relevant that understanding model implementation becomes necessary for estimating reliability of predicition, and thus, need to be considered for understanding from ML models as well. 
+Sullivan only considers a subset of model assumptions. She can wave away the need for transparency as she does not consider all ML model assumptions. For Scorzato, considering the whole set of model assumptions makes transparency important.
+
+### attack on Sullivan's "understanding model implementation is irrelevant"
+Sullivan argues that understanding model implementation is irrelevant for understanding phenomena. She argues that ML model predictions are driven by "high-level properties" of the model. As long these are transparent, i.e. as long as the modeler knows the high-level functioning of the model that supposedly determines model outcome, detail implementations can be opaque without impeding understanding.
+Scorzato argues the contrary. He argues that the model outcome is determined by model details and underlying assumptions of the model.
+“The predictions of the ML model hence depend not only on the data but also on the architecture of the ML model and, in the absence of evidence to the contrary, also on the algorithmic and initialisation details.” (Scorzato, 2024, p. 4)
+
+### model outcome determined by model details
+He argues that proving the independence of model outcome from parameter details is wanted, but is difficult to prove in DNN and was not achieved. 
+- “Formal proofs of independence from details, if available, are very desirable, because no further assumption is needed in that case.” (Scorzato, 2024, p. 8)
+- “Despite considerable effort, researchers have not been able to identify any simple set of rules that makes the outcome of DNN models independent of any further detail.” (Scorzato, 2024, p. 8)
+
+There are strong indications that "Predictions are certainly determined by the entire set of DNN parameters" is true as flexibly parameterized DNN do in fact inform different model decisions. The UAT-enabled flexibility of DNN is probably not compatible with a simple set of rules that make model decision independent of any further detail.
+- “Moreover, this difficulty might actually be an intrinsic price to pay for the great flexibility of DNN models (see also Hartmann and Richter (2023).” (Scorzato, 2024, p. 8) 
+
+Sullivan tries to de-correlate model details and "high-level properties" in order to argue that opacity of detail implementations is not a problem for understanding. Understanding from ML models depends on epistemic access to "high-level properties". Sullivan tries to render ML model outcome independent of any further assumptions that take detail implementation into consideration.
 
 
 
-
-
-
-- reliable predicition are crucial for understanding; reliable predicition however require the consideration of more than just the data, but of ==non-empirical model assumptions== as well
-	- “The predictions of the ML model hence depend not only on the data but also on the architecture of the ML model and, in the absence of evidence to the contrary, also on the algorithmic and initialisation details.” (Scorzato, 2024, p. 4) 
-	- i.e. detail implementations & model assumptions are relevant for understanding from ML models?
-	- it seems like Sullivan does take "model assumptions" into consideration when she is talking about background knowledge of the model; but for her, these assumption work in her favor and enable her to wave away opacity as a problem; whereas for Scorzato, the model assumption are insofar relevant that understanding model implementation becomes necessary for estimating reliability of predicition, and thus, need to be considered for understanding from ML models as well (Sullivan: model assumptions wave away opacity; Scorzato: model assumptions make transparency important)
 - “Ideally, the specific values of all those parameters are not essential to determine a prediction, which should depend only on the training domain. However, the training domain is difficult to define and the outcome may depend also on subtle details of the training process. In fact, weight initialisation and pre-training techniques are key design choices when training and deploying a DNN model (Narkhede et al., 2022; Glorot and Bengio, 2010). Adversarials (Szegedy et al., 2014) are also evidence of high sensitivity to details.” (Scorzato, 2024, p. 7) 
 	- this shoots down "model decision driven by high-level properties" as not the exact parameterization is relevant but model decision is highly sensitive to details of the training process (weight initialization, pre-training, adversarials as evidence for sensitivity)
 	- as ML predictions are determined by model assumptions: Sullivan's post-training ML model decisions are predominantly driven by "high-level properties", whereas pre-training there must have been many more underlying assumptions that made training possible? it sounds like a weird decrease in model assumptions before and after training? can it be even the same model, when the model assumption change so drastically?
 - “Instead, the lack of understanding of the training dynamics enforces the inclusion of the full specification of the DNN (initial) parameters and training data as part of the assumptions.” (Scorzato, 2024, p. 8) 
 	- the increase in complexity leads to the inclusion of more detailed model assumptions
-- “Formal proofs of independence from details, if available, are very desirable, because no further assumption is needed in that case.” (Scorzato, 2024, p. 8) 
-	- this sounds like what Sullivan tries to achieve with "only predictive model and high-level properties needed": make DNN decision independent of any further assumptions that take detail implementation into consideration
-	- “Despite considerable effort, researchers have not been able to identify any simple set of rules that makes the outcome of DNN models independent of any further detail.” (Scorzato, 2024, p. 8)
-- “Moreover, this difficulty might actually be an intrinsic price to pay for the great flexibility of DNN models (see also Hartmann and Richter (2023).” (Scorzato, 2024, p. 8) 
-	- strong indication that "Predictions are certainly determined by the entire set of DNN parameters" is true as flexibly parameterized DNN do in fact inform different model decisions
-	- probably the UAT-enabled flexibility of DNN is not compatible with a simple set of rules that make model decision independent of any further detail
-	- Sullivan tries to achieve some de-correlation between detail parameterization and "high-level properties" whereas in fact detail parameterization is highly correlated with model outcome
+
 - ==“High sensitivity to details is the key aspect of the so-called black-box problem (Desai et al., 2022) of some ML methods: lack of understanding is a serious limitation to the extent that we cannot tell which details actually matter for a conclusion.” (Scorzato, 2024, p. 8)==
 	- model outcome is sensitive to details in training; it is very difficult (impossible?) to identify which exact details are driving model outcome; underlying DNN model assumptions that determine model outcome are thus opaque; so we do not understand which model details actually determined model outcome in DNN
 
 ## on "simply having a highly predictive model"
+- “In fact, predictions alone—no matter how impressive—are never sufficient to warrant trust in a model (Barnes, 2022; Votsis et al., 2014).” (Scorzato, 2024, p. 6)
 - “The fact that some successful DNN architectures keep being successful over time is certainly convincing evidence that they can learn something valuable. However, also in those cases, we cannot exclude that the DNNs have actually learned unwanted features that happened to have a strong spurious correlation with the labels (see, e.g., Xiao et al. (2021) for an example of this phenomenon).” (Scorzato, 2024, p. 7)
 - “This confirms that also DNN predictions are only valuable ==when they stem from a valuable model==.” (Scorzato, 2024, p. 7)
 
 ## Sullivan: DNN are just like other models, but more complex
+Sullivan treats DNN just like any other model. She argues for what is true for simple models is also true for complex models. And DNN are nothing else than a complex model with increased levels of opacity. They can be understood analogous to other classes of models.
+Scorzato stresses crucial differences between TS and DNN models. DNN models are even qualitatively different to other ML models due to their inherent flexibility.
 - crucial difference between TS and DNN in respect to assumptions that restrict the domain of applicability, approach to parameterization (transparent in TS), parameter fitting (consistency with empirical findings of background scientific domains in TS)
-## on link uncertainty
-- “But for DNNs the problem is somewhat harder because the ==domain of applicability is difficult to define== also with reference to features that we do know.” (Scorzato, 2024, p. 6)
-- 
