@@ -23,6 +23,12 @@ The TML target does not refer to the vertical side of the C-schema!
 Thus, T&S can say that:
 - “In order to study trained ML models, especially complex DL models, for insight into external targets, we must first clarify how a link from ML models to TML targets (horizontal bottom side of a C-schema) may work.” (Shech and Tamir, 2022, p. 9)
 
+### Wide vs narrow view of understanding from ML models
+
+==Sullivan's target of understanding refers to the external target T==
+==T&S' target of understanding refers to the abstraction of T==
+
+
 
 ### C-Schema
 The horizontal top of the C-schema concerns the modeling or representational relationship between M and T
