@@ -11,6 +11,15 @@ How does a ML model enable understanding of T? How can we improve understanding 
 
 
 
+### Modes of Understanding
+By "modes of understanding", T&S refer to different ways to draw intra-model inferences. 
+==It is not about modes of understanding the enable to draw intra-model inferences!==
+
+**Modes of understanding = to draw inferences on how different aspects of how the model data is structured:**
+- IR understanding: understanding how well the model can estimate target features given input data
+- IF: understanding of what particular features of input data are important for correctly estimating target features
+- LR: understanding how input data is transformed in learned representations to estimate target features
+
 
 
 
@@ -35,4 +44,5 @@ How does a ML model enable understanding of T? By relevant structural similariti
 “We argue below that while DL models do not necessarily provide understanding in the same manner as (say) map representations, learned representation layers may be leveraged to improve understanding by providing insight into how a DL model learns to organize raw input data to optimally estimate y-targets.” (Shech and Tamir, 2022, p. 7) 
 
 
+“Inferences about how well the model can estimate y-targets given x-data, exploration of what particular features of x-data tend to play important roles in (correct) estimations of y-targets, and the study of how network parameters and hidden layer transformations organize and restructure x-data to effectively estimate y-targets are all examples of “vertical” inferences in a C-schema.” (Shech and Tamir, 2022, p. 8) 
 
