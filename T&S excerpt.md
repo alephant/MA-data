@@ -1,6 +1,8 @@
 **T&S key approach:**  
 To improve understanding how a ML model draws inferences on T, i.e. how the ML model enables understanding of T (= how the ML model comes to an optimal estimation of probability across output elements/ distribution of probability mass across elements of state space for random variables Y) we need to look at learned representation layers (i.e. data representations) to gain understanding, i.e. draw intra-model inferences on how the ML model organizes raw input data to optimally estimate y-targets.
 
+So, it is about understanding how the ML model data is structured to enable optimal estimation / optimal prediction / enable optimal understanding.
+
 T&S are interested in understanding what powers understanding from the ML model.
 By "interacting directly with the model" one can gain understanding of how the model enables understanding of T.
 e.g. a map enables understanding of a city. So one can use the model to draw inferences on the city. But we can also look at how the inferences on the city are drawn, i.e. understand how the map enables understanding of the city by looking at the relevant similarities between the map and the city.
