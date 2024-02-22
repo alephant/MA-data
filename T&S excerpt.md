@@ -9,6 +9,18 @@ e.g. a map enables understanding of a city. So one can use the model to draw inf
 So the question that T&S are interested in is: 
 How does a ML model enable understanding of T? How can we improve understanding from ML models on T?
 
+### C-Schema
+The horizontal top of the C-schema concerns the modeling or representational relationship between M and T
+- ==T&S identify this relationship as relevant for determining link uncertainty:== does M model, i.e. identify features that are causally relevent to T?
+
+Last, on the horizontal bottom side, M is used to relevantly draw inferences and answer questions about, or impute properties to, T.
+- this is link is what "understanding" refers to: using M to understand T
+
+
+By sampling data (x,y) one gains a sample probability distribution that estimates the true probability distribution p(sampled output element y of state space Y given sampled input element x of state space X).
+A ML algorithm (i.e. the estimator function scoring conditional probabilities of (x,y)) "learns" to best estimate the true probability distribution.
+The scoring conditional probabilities of (x,y) induces a sample probability distribution.
+A trained ML algorithm induces a sample probability distribution (any output element y of state space Y given the sampled input element x of state space X) by how probable it estimated (i.e. scores) an output element y given sampled input elements x. 
 
 
 ### Modes of Understanding
