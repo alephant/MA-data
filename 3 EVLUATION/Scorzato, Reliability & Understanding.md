@@ -1,3 +1,5 @@
+>[!note]
+>“‘realism of the assumptions debate’ (see Knuuttila 2009 for a review)” (Regt, 2015, p. 3787) relevance for Scorzato's point on model assumptions?
 ### Reliability as condition for understanding from ML models
 Scorzato investigates the reliability of ML models. Reliable predictions of a model are crucial for  models to enable understanding. As reliability requires reliable model assumptions, the capacity to enable understanding needs to be investigated in light of model assumptions.
 ==“Trustworthy predictions require trustworthy premises.” (Scorzato, 2024, p. 6)==

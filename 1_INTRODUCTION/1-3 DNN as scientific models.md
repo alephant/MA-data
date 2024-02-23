@@ -9,6 +9,22 @@ understanding enables us to predict
 intelligbility: what values do scientist attribute to the theoretical virtues of a model
 
 
+If we embrace scientific understanding as something that models enable us to gain and reject the idea understanding has no place in science (e.g. on anti-realist accounts of explanation like Hempel's covering law model, 1965), then we need to answer the question what this kind of understanding is.
+Scientific realism argues that understanding can only be gained from theories and models that are true. i.e. to understand the world requires to have an at least approximately realistic representation of the world. However, higher realism of a model makes it typically less intelligible.
+
+
+
+
+
+
+Model:
+Knuuttila and Merz (2009) presents an objectual approach to modelling according to which a model is an 'concrete constructed object'. Its function is not representive, but productive. The way a model provides understanding depends on the way we interact with it and how it is implemented. Thus, a single model may provide a multiplicity of understanding depending on its practical use. The specific implementation of a model is key to understand how the model affords understanding. The objectual approach allows for models to be highly unrealistic while still allowing for understanding to be gained. 
+
+how-possibly explanations/ heuristics etc. do enable understanding:
+- “Lipton (2009, pp. 49–52) presents interesting arguments for the thesis that potential (how-possibly) explanations can provide understanding” (Regt, 2015, p. 3789)
+
+highly idealized and abstract models that enable understanding 
+
 
 model
 target phenomenon
@@ -19,7 +35,11 @@ complex model
 idealization
 simulation
 abstraction
-similarity
+similarity:
+- “The semantic conception provides a straightforward answer to the question of how models give us knowledge of the world: they specify structures that are posited as possible representations of either the observable phenomena or, even more ambitiously, the underlying structures of the real target systems.” (Knuuttila and Merz, 2009, p. 4) ==semantic approach to modelling==
+- “Thus, according to the semantic view, the structure specified by a model represents its target system if it is either structurally isomorphic or somehow similar to it.” (Knuuttila and Merz, 2009, p. 4)
+
+
 explainability
 intelligibility: as pragmatic value
 contextuality: purpose-context, 

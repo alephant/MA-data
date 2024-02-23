@@ -19,6 +19,20 @@ The question however is:
 #### link not established in the first place
 Newton's theory was empirically validated over and over again. A successful link between theory/model and phenomenon, gravitation, was established on the basis of empirical evidence. No one disputed that Newton's theory enabled understanding of the phenomenon. Later on it turned out to be, although useful, false. This implies that there was no link connecting the theory to the phenomenon in the first place. Does this mean that no understanding could have been gained from Newton's theory as there was high link uncertainty between it and gravitational phenomena?
 But this doesn't seem like a viable option. The empirical validation that Sullivan is thinking about is connected to the broader scientific field in which the model is operating insofar as the scientific community sets the bar to what counts as acceptable empirical evidence. 
+There is a similarity to the 'pessimistic induction' from the history of science. If in the past, empirical evidence for theories turned out to be false, one can induce that it is plausible that current theories also rest on a false empirical basis.
+- “So too in the deep patient case, once the link uncertainty is resolved, the deep patient model is able to explain and enable understanding of disease development. ==Indeed, it is precisely because of reducing link uncertainty that this understanding is possible.== For example, physicians can use the model, along with the link connecting the model to the phenomenon, to explain and enable understanding for patients about their risk factors.” (Sullivan, 2022, p. 22 ff.)
+
+Sullivan argues that it is precisely when link uncertainty is resolved that a model can provide understanding. 
+- But what about models that are used to explain and understood for which it is difficult to find empirical evidence?
+- What about models whose empirical validation turned out to be false, but are still used to provide understanding?
+- It sounds like resolving link uncertainty cannot be decisive factor to establish whether or not a model can or cannot provide understanding
+- There are numerous examples of scientific theories and models that turned out to be not linked to their target system in the sense that the empirical evidence that established their link to the target system turned out to be false
+- link uncertainty and the possibility for models to provide understanding does not appear to be correlated
+- models that turned out to have link uncertainty in respect to their target system, can still provide understanding
+- I agree with Sullivan to the degree that empiricial evidence can give credence to the causes that the model identified to be actual causes
+- link uncertainty is not sufficient to dismiss a model's capacity to provide understanding
+- two models of different degree of link uncertainty are an indication that the understanding that they can provide also differs in degree
+- a doctor can use a model that has a weaker link to a biological phenomenon to successfully provide some degree of understanding to a patient
 
 
 #### failed analogies
