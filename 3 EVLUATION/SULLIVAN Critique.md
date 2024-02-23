@@ -18,6 +18,7 @@ The question however is:
 
 #### link not established in the first place
 Newton's theory was empirically validated over and over again. A successful link between theory/model and phenomenon, gravitation, was established on the basis of empirical evidence. No one disputed that Newton's theory enabled understanding of the phenomenon. Later on it turned out to be, although useful, false. This implies that there was no link connecting the theory to the phenomenon in the first place. Does this mean that no understanding could have been gained from Newton's theory as there was high link uncertainty between it and gravitational phenomena?
+But this doesn't seem like a viable option. The empirical validation that Sullivan is thinking about is connected to the broader scientific field in which the model is operating insofar as the scientific community sets the bar to what counts as acceptable empirical evidence. 
 
 
 #### failed analogies
