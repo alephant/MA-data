@@ -2,16 +2,13 @@ Accounts of scientific understanding
 What are the crucial conditions for understanding from a model?
 The history and practice of science regularly shows that its theories and models are not true descriptions of reality. If we assume that we still understand something with (mostly) untrue models - what characteristics of a model enable us to do so, and of what kind of understanding do we mean?
 - idealized, fictional models are untrue
-- 
-De Regt: 
-when you understand, you do not gain some type of knowledge, but rather you gain the skill to predict behavior of the target system.
-understanding enables us to predict
-intelligbility: what values do scientist attribute to the theoretical virtues of a model
 
 
-If we embrace scientific understanding as something that models enable us to gain and reject the idea understanding has no place in science (e.g. on anti-realist accounts of explanation like Hempel's covering law model, 1965), then we need to answer the question what this kind of understanding is.
-Scientific realism argues that understanding can only be gained from theories and models that are true. i.e. to understand the world requires to have an at least approximately realistic representation of the world. However, higher realism of a model makes it typically less intelligible.
 
+
+If we want to understand how DNN can be used as scientific models, we first need to consider which properties models much have to provide understanding and how these criteria relate to DNN.
+
+Models are intelligible in virtue of modellers that can understand and use them to gain understanding of phenomena in the world. In this sense, intelligibility is a context-dependent property of a model as it relates to the ability of the modeller or other scientists' to use the model to make inferences on the target phenomenon. An intelligible model doesn't need to be realistic to provide understanding (DeRegt_2005, 2015). 
 
 
 
