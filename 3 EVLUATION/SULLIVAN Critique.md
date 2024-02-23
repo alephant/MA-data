@@ -15,11 +15,16 @@ The question however is:
 - Is this function only based on the optimized set of weights after training? 
 - Or is the final function better described by the whole history of sets of weights during training? i.e. it cannot be described solely on the basis of the final parameterization?
 
-## failed analogies
+
+#### link not established in the first place
+Newton's theory was empirically validated over and over again. A successful link between theory/model and phenomenon, gravitation, was established on the basis of empirical evidence. No one disputed that Newton's theory enabled understanding of the phenomenon. Later on it turned out to be, although useful, false. This implies that there was no link connecting the theory to the phenomenon in the first place. Does this mean that no understanding could have been gained from Newton's theory as there was high link uncertainty between it and gravitational phenomena?
+
+
+#### failed analogies
 - a climate model is very different from a deep patient DNN as I cannot imagine how it would be empirically validated in the same sense as the DNN would be empirically validated?
 - sub-models of a climate model could theoretically be empirically validated, but the whole model with all kludges (and admittedly it seems that there are a lot of untheorerical parts to a climate model)?
 - as Sullivan argues that a good model is one that is linked to the target, it sounds like climate models can never be good models?
-## no link vs weak link?
+#### no link vs weak link?
 - “Without empirical evidence validating that the possible causes identified by Shelling’s model are actual causes, there is no link connecting the model to the phenomenon. There is a high level of link uncertainty, that is, a lack of scientific and empirical evidence supporting the link that connects the model to the target phenomenon.”
 - “to reduce link uncertainty”
 - “when the link uncertainty is removed”
@@ -38,14 +43,14 @@ The question however is:
 - “because of reducing link uncertainty”
 - I thought it was about "resolving link uncertainty"?
 
-## what is meant by empirical evidence?
+#### what is meant by empirical evidence?
 - “What constitutes the amount and kind of scientific evidence needed to reduce link uncertainty will differ depending on the phenomenon and the model. In the case of Schelling’s model, link uncertainty is inversely related to the amount and quality of empirical evidence connecting individual preferences to causes of segregation and a lack of evidence that suggests a different overriding causal factor.”
 - “The level of scientific justification and background knowledge linking the appearance of moles to instances of melanoma is extensive”
 - “Understanding is narrowed to a population subset, which is common in medical sciences. Just like many other scientific models, the usefulness of the model depends on the target system and the explanandum. If certain parameters change, the given model ceases to be the right model for explaining.”
 - empirical/ scientific evidence, background knowledge, model, phenomenon, contextual parameters – what else does impact link / link uncertainty?
 
 
-## distinction between understanding how the model works and using the model to understand the phenomenon?
+#### distinction between understanding how the model works and using the model to understand the phenomenon?
 - “There is a distinction between understanding and explaining how the model works and using that model to understand a phenomenon of interest. If one is chiefly concerned about explaining or understanding how a given model is implemented, it is not necessary to know how the model maps on to some real-world phenomenon. The question of this paper, on the other hand, is to what extent understanding the model is necessary for gaining understanding of the phenomenon that the model explains.”
 - how distinct are these perspectives really?
 - is it true that understanding how the model maps onto the phenomenon is irrelevant for understanding model implementation?
@@ -57,7 +62,7 @@ The question however is:
 - if understanding how a phenomenon is possibly predicted using the model necessitates insight into the model workings, then model opacity impedes  understanding.
 - if understanding how a phenomenon is possibly predicted using the model does not necessitate insight into the model workings, then model opacity  does not impede understanding.
 
-## mapping? (relevant for distinction?)
+#### mapping? (relevant for distinction?)
 - “This mapping allows us to interpret the results of the simulation as identifying a possible causal mechanism of segregation.”
 - critique and ?: what does "mapping" mean?
 - what does it mean that "it maps onto a possible population"?
@@ -70,7 +75,7 @@ The question however is:
 - "validating the model-target mapping" means empirically validate the possible causes identified
 
 
-### Creel:
+#### Creel:
 - it seems like Sullivan employs a notion of transparency while arguing for DNN not being highest-level black boxes, i.e. the high-level algorithms and properties of DNN are transparent. At first glance, this seems to be what Creel calls "functional transparency", i.e. the modeler has epistemic access to knowing “high-level, logical rules according to which the system will transform a given input into an output.” (Creel, 2020, p. 9) 
 - However at second glance, Creel's notion of functional transparency seems to not apply to DNN
 - I don't whether this is relevant or not
