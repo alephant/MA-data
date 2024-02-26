@@ -1,6 +1,10 @@
 **T&S key approach:**  
-To improve understanding how a ML model draws inferences on T, i.e. how the ML model enables understanding of T (= how the ML model comes to an optimal estimation of probability across output elements/ distribution of probability mass across elements of state space for random variables Y) we need to look at learned representation layers (i.e. data representations) to gain understanding, i.e. draw intra-model inferences on how the ML model organizes raw input data to optimally estimate y-targets.
-- ***=="how the model organizes raw input data to optimally estimate y-targets" = data representations?==***
+“we show how direct analysis of an estimator’s learned transformations (specifically, the hidden layers of a deep learning model) can improve understanding of the target phenomenon and reveal how the model organizes relevant information.” (Shech and Tamir, 2022, p. 1)
+
+To improve understanding how a ML model draws inferences on T, i.e. how the ML model enables understanding of T (= how the ML model comes to an optimal estimation of probability across output elements/ distribution of probability mass across elements of state space for random variables Y) 
+- we need to draw intra-model inferences on how the ML model organizes raw input data to optimally estimate y-targets (vertical link)
+- to understand learned representation layers (TML targets, bottom horizontal link)
+
 
 So, it is about understanding how the ML model data is structured to enable optimal estimation / optimal prediction / enable optimal understanding.
 
@@ -32,8 +36,10 @@ We draw ==model inferences== on the relationships of features represented by the
 
 
 **ML model-as-a-map analogy:**
+By making inferences on the abstraction of the city of the right details, one can (better) the city layout.
 By looking at how the map represents the city, you gain understanding of the mapping relation between the map and the city layout.
 You look at the map, and then you look into the world, and then you see the data on the map is organized like this, and because there is some similarity/isomorphic mapping you look into the world and you can draw inferences about the world (bottom horizontal link).
+- “The map represents ==an abstraction of the right details==, enabling judgments based directly on the map’s topology to be linked back to things like understanding how to navigate the represented subway system.” (Shech and Tamir, 2022, p. 9)
 
 By looking at how the ML model-as-a-map organizes input data to estimate output data, you gain understanding of the mapping relation between the structural (internal?) organization of the data and the abstract representation of T.
 You look at the structural organisation of data on the ML model-as-a-map, and because there is some similarity/isomorphic mapping you look into the abstraction of T (TML targets) ***==and draw inferences about some relevant features of the target in abstract representation (bottom horizontal link).==***
@@ -48,9 +54,9 @@ You look at the structural organisation of data on the ML model-as-a-map, and be
 ### Mapping relations according TML hypothesis?
 - there needs to be some mapping relation between how the ML model organizes x to y data and the abstraction of T
 - ==is there a twofold mapping? ==
-	- Data representation mapping understood by looking at sampling methodology? (top horizontal link)
-	- Data transformation through learned representation layers (vertical link)
-	- ***==M to TML-mapping understood by intra-model inferences (bottom horizontal link)==***
+	- mapping between M data representation and T - ***==not TML??==*** (top horizontal link)
+	- Intra-model inferences on data transformation (vertical link)
+	- mapping between M and TML (bottom horizontal link)
 
 
 ### TML target = appropriate target of understanding for ML models
@@ -67,7 +73,11 @@ The TML target does not refer to the vertical side of the C-schema!
 Thus, T&S can say that:
 - “In order to study trained ML models, especially complex DL models, **==for insight into external targets==**, we must first clarify how a **==link from ML models to TML targets==** (horizontal bottom side of a C-schema) may work.” (Shech and Tamir, 2022, p. 9)
 
-
+### Different words that all refer to TML targets
+- estimator's learned transformations
+- learned representation layers
+- relationships of features represented by the data, feature relationships
+- learned sample probability distribution
 
 ### Wide vs narrow view of understanding from ML models
 
@@ -77,12 +87,15 @@ Thus, T&S can say that:
 ==**By making intra-map inferences you understand the mapping relation to the external target.**==
 ==**By making intra-model inferences you understand the mapping relation to the abstraction of the external target. This is what it means to have a narrow view of understanding.**==
 
-### C-Schema
-The horizontal top of the C-schema concerns the modeling or representational relationship between M and T
+### C-Schema for T&S approach
+Horizontal top link concerns the modeling or representational relationship between M and T
 - as the top link determines what the model represent, the top link also determines whether or not the model can be linked to the target "shit in, shit out?"
 - ==T&S identify this relationship as relevant for determining link uncertainty:== does M model, i.e. identify features that are causally relevent to T?
+- ***==However, T&S would then identify an different target for each horizontal link: external T at the top, TML-target at the bottom==***
 
-Last, on the horizontal bottom side, M is used to relevantly draw inferences and answer questions about, or impute properties to, T.
+Vertical side concern making intra-model inferences on data transformations
+
+Intra-model inferences give then the basis for the horizontal bottom side that concerns the understanding of the TML target which then improves understanding of T.
 - this link is what "understanding" refers to: using M to understand T
 - ***==but isn't this what identifies what the driving cause in T is, thus, what needs to be empirically validated acc. Sullivan? (so it is the bottom link that determines link uncertainty and not the top?)==***
 
@@ -90,7 +103,13 @@ Last, on the horizontal bottom side, M is used to relevantly draw inferences and
 By sampling data (x,y) one gains a sample probability distribution that estimates the true probability distribution p(sampled output element y of state space Y given sampled input element x of state space X).
 A ML algorithm (i.e. the estimator function scoring conditional probabilities of (x,y)) "learns" to best estimate the true probability distribution.
 The scoring conditional probabilities of (x,y) induces a sample probability distribution.
-A trained ML algorithm induces a sample probability distribution (any output element y of state space Y given the sampled input element x of state space X) by how probable it estimated (i.e. scores) an output element y given sampled input elements x. 
+A trained ML algorithm induces/ learned a sample probability distribution (any output element y of state space Y given the sampled input element x of state space X) by how probable it estimated (i.e. scores) an output element y given sampled input elements x. 
+The sample probability distribution is then generalized to the distribution underlying the whole input population. 
+
+### Functionally Approximate Irrelevance
+A ML models learned probability distribution depends directly on parameterization and model architecture.
+FAI is when variations in parameterization change the TML target, but only in ways that preserve the relevant features of the external target phenomenon that the TML target is an abstraction for.
+
 
 
 ### Modes of Understanding
@@ -105,8 +124,8 @@ By "modes of understanding", T&S refer to different ways to draw intra-model inf
 ==***I guess that the modes of understanding are to understand this mapping relation between the organisation of model data and the abstraction of T?***==
 
 
-
-
+### what T&S have to say about Sullivan
+“Sullivan’s argument refutes that DL models cannot be used for understanding merely due to some opacity, but the reliance on the implementation irrelevance of certain details, ==particularly their irrelevance to the target of understanding==, is essential for this defense.” (Shech and Tamir, 2022, p. 10)
 
 
 
