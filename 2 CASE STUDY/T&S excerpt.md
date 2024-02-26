@@ -73,6 +73,8 @@ The TML target does not refer to the vertical side of the C-schema!
 Thus, T&S can say that:
 - “In order to study trained ML models, especially complex DL models, **==for insight into external targets==**, we must first clarify how a **==link from ML models to TML targets==** (horizontal bottom side of a C-schema) may work.” (Shech and Tamir, 2022, p. 9)
 
+T&S understand the TML target similar to the "learned" probability distribution estimating the "true" distribution describing the external target phenomenon's features.
+
 ### Different words that all refer to TML targets
 - estimator's learned transformations
 - learned representation layers
@@ -108,18 +110,21 @@ The sample probability distribution is then generalized to the distribution unde
 
 ### Functionally Approximate Irrelevance
 A ML models learned probability distribution depends directly on parameterization and model architecture.
-FAI is when variations in parameterization change the TML target, but only in ways that preserve the relevant features of the external target phenomenon that the TML target is an abstraction for.
+***==FAI is when variations in parameterization change the TML target, but only in ways that preserve the relevant features of the external target phenomenon that the TML target is an abstraction of.==***
 
+Parameterization influences how the TML target "looks" (which feature relationships it represents).
+FAI means that a parameterization preserves how a TML target "looks" relative to another different parameterization that generate a equivalent TML target
 
-
+To understand the TML target, you have to draw intra-model inferences on how model data is structured.
+But if the difference in how the model data is structured is functionally approx. irrelevant, then understanding of the TML target is still possible.
 ### Modes of Understanding
-By "modes of understanding", T&S refer to different ways to draw intra-model inferences. 
-==It is not about modes of understanding the enable to draw intra-model inferences!==
+By "modes of understanding", T&S refer to understanding different aspects of the TML target. 
+==It is not about modes of understanding that enable to draw intra-model inferences!==
 
-**Modes of understanding = to draw inferences on different aspects of how the model data is structured:**
-- IR: understanding how well the model can estimate target features given input data
-- IF: understanding of what particular features of input data are important for correctly estimating target features
-- LR: understanding how input data is transformed in learned representations to estimate target features
+***==Modes of understanding = to draw inferences on/ attributing which features of the TML target are predictive of the external target phenomenon==***
+- Informative Relationship: 
+- Feature Importance: attribute which x-features are predictive of the target
+- LR
 
 ==***I guess that the modes of understanding are to understand this mapping relation between the organisation of model data and the abstraction of T?***==
 
@@ -127,7 +132,8 @@ By "modes of understanding", T&S refer to different ways to draw intra-model inf
 ### what T&S have to say about Sullivan
 “Sullivan’s argument refutes that DL models cannot be used for understanding merely due to some opacity, but the reliance on the implementation irrelevance of certain details, ==particularly their irrelevance to the target of understanding==, is essential for this defense.” (Shech and Tamir, 2022, p. 10)
 
-
+“Our account may be interpreted as a refinement of Sullivan, making explicit that accounting for role and degree of approximation matters to understanding.” (Shech and Tamir, 2022, p. 10)
+-  
 
 
 
