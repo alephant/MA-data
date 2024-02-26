@@ -1,5 +1,6 @@
 **T&S key approach:**  
 To improve understanding how a ML model draws inferences on T, i.e. how the ML model enables understanding of T (= how the ML model comes to an optimal estimation of probability across output elements/ distribution of probability mass across elements of state space for random variables Y) we need to look at learned representation layers (i.e. data representations) to gain understanding, i.e. draw intra-model inferences on how the ML model organizes raw input data to optimally estimate y-targets.
+- ***=="how the model organizes raw input data to optimally estimate y-targets" = data representations?==***
 
 So, it is about understanding how the ML model data is structured to enable optimal estimation / optimal prediction / enable optimal understanding.
 
@@ -13,7 +14,8 @@ How does a ML model enable understanding of T? How can we improve understanding 
 **==By understanding aspects of how input data and output data are related you understand features of the external target abstractly represented by the data==**
 
 By drawing intra-model inferences, you better understand the TML targets, i.e. you better understand abstractions of T. 
-By drawing intra-model inferences, you better understand which features of the target in abstract representation are in some sort relevant to the external target.
+By drawing intra-model inferences, you better understand which features of the target in abstract representation ==**are in some sort relevant to the external target.**==
+- ***==does T&S approach truly help us better understand how and if the DNN represents relevant features of the external target?==***
 By understanding how input and output data are related, you gain understanding of the external target insofar it is abstractly represented by the relationships.
 
 
@@ -34,12 +36,12 @@ By looking at how the map represents the city, you gain understanding of the map
 You look at the map, and then you look into the world, and then you see the data on the map is organized like this, and because there is some similarity/isomorphic mapping you look into the world and you can draw inferences about the world (bottom horizontal link).
 
 By looking at how the ML model-as-a-map organizes input data to estimate output data, you gain understanding of the mapping relation between the structural (internal?) organization of the data and the abstract representation of T.
-You look at the structural organisation of data on the ML model-as-a-map, and because there is some similarity/isomorphic mapping you look into the abstraction of T (TML targets) and draw inferences about some relevant features of the target in abstract representation (bottom horizontal link).
+You look at the structural organisation of data on the ML model-as-a-map, and because there is some similarity/isomorphic mapping you look into the abstraction of T (TML targets) ***==and draw inferences about some relevant features of the target in abstract representation (bottom horizontal link).==***
 
-**==So you can draw inferences on the external target (actual T) by drawing inferences on the TML target (abstraction of T) ??==**
+***==So you can draw inferences on the external target (actual T) by drawing inferences on the TML target (abstraction of T) ??==***
 
-**You do not take the ML model-as-a-map and draw direct inferences about the world.**
-**But you draw inferences about the abstract representation of the world.**
+**You do not take the ML model-as-a-map and draw direct inferences on the world.**
+**But you draw inferences on the abstract representation of the world.**
 
 ***==Are they truly saying: by looking at the abstract representation of T (which is not looking at actual T), you better understand the external target?==***
 
@@ -48,7 +50,7 @@ You look at the structural organisation of data on the ML model-as-a-map, and be
 - ==is there a twofold mapping? ==
 	- Data representation mapping understood by looking at sampling methodology? (top horizontal link)
 	- Data transformation through learned representation layers (vertical link)
-	- M to TML-mapping understood by intra-model inferences (bottom horizontal link)
+	- ***==M to TML-mapping understood by intra-model inferences (bottom horizontal link)==***
 
 
 ### TML target = appropriate target of understanding for ML models
@@ -57,13 +59,13 @@ To understand relationships of features represented by the data, you have to und
 
 i.e. to understand the TML target, you have to draw intra-model inferences on how model data is structured.
 
-The TML target refer to the external target phenomenon that the ML model is used to understand. 
+The TML target ***==refers==*** to the external target phenomenon that the ML model is used to understand. 
 The TML target is the relationship patterns of target features as they are represented by the data.
-The TML targets are abstract representations of relationships of features of the external target.
+The TML target is an abstract representation of relationships of features of the external target.
 ==The TML target is not how the ML model organizes raw input data to optimally estimate y-targets.==
 The TML target does not refer to the vertical side of the C-schema!
 Thus, T&S can say that:
-- “In order to study trained ML models, especially complex DL models, for insight into external targets, we must first clarify how a link from ML models to TML targets (horizontal bottom side of a C-schema) may work.” (Shech and Tamir, 2022, p. 9)
+- “In order to study trained ML models, especially complex DL models, **==for insight into external targets==**, we must first clarify how a **==link from ML models to TML targets==** (horizontal bottom side of a C-schema) may work.” (Shech and Tamir, 2022, p. 9)
 
 
 
@@ -77,10 +79,12 @@ Thus, T&S can say that:
 
 ### C-Schema
 The horizontal top of the C-schema concerns the modeling or representational relationship between M and T
+- as the top link determines what the model represent, the top link also determines whether or not the model can be linked to the target "shit in, shit out?"
 - ==T&S identify this relationship as relevant for determining link uncertainty:== does M model, i.e. identify features that are causally relevent to T?
 
 Last, on the horizontal bottom side, M is used to relevantly draw inferences and answer questions about, or impute properties to, T.
-- this is link is what "understanding" refers to: using M to understand T
+- this link is what "understanding" refers to: using M to understand T
+- ***==but isn't this what identifies what the driving cause in T is, thus, what needs to be empirically validated acc. Sullivan? (so it is the bottom link that determines link uncertainty and not the top?)==***
 
 
 By sampling data (x,y) one gains a sample probability distribution that estimates the true probability distribution p(sampled output element y of state space Y given sampled input element x of state space X).
@@ -93,12 +97,22 @@ A trained ML algorithm induces a sample probability distribution (any output ele
 By "modes of understanding", T&S refer to different ways to draw intra-model inferences. 
 ==It is not about modes of understanding the enable to draw intra-model inferences!==
 
-**Modes of understanding = to draw inferences on how different aspects of how the model data is structured:**
-- IR understanding: understanding how well the model can estimate target features given input data
+**Modes of understanding = to draw inferences on different aspects of how the model data is structured:**
+- IR: understanding how well the model can estimate target features given input data
 - IF: understanding of what particular features of input data are important for correctly estimating target features
 - LR: understanding how input data is transformed in learned representations to estimate target features
 
-==I guess that the modes of understanding are to understand this mapping relation between the organisation of model data and the abstracton of T?==
+==***I guess that the modes of understanding are to understand this mapping relation between the organisation of model data and the abstraction of T?***==
+
+
+
+
+
+
+
+
+
+
 
 
 Classifier function is implemented by DNN vs is a property of DNN:
