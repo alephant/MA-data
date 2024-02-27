@@ -1,7 +1,7 @@
 ### Objections against Sullivan
-1. DNN are not harmless implementation black boxes (DNN implementation cannot be known analogous to factorials, DNN implementation is not transparent analogous to the Schelling model)
-2. DNN's higher-level properties are not known (saliency maps do not enable epistemic access)
-3. Understanding DNN implementation is relevant for understanding phenomena
+1. **==DNN are not harmless implementation black boxes==** (DNN implementation cannot be known analogous to factorials, DNN implementation is not transparent analogous to the Schelling model)
+2. **==DNN's higher-level properties are not known==** (saliency maps do not enable epistemic access)
+3. **==Understanding DNN implementation is relevant for understanding phenomena==**
 	1. DNN's epistemic achievements are not enough for explanatory understanding: a strong reading of Sullivan's thesis fails (DNN do not and cannot enable explanatory understanding, a weak reading is trivial or plausible (DNN can enable objectual understanding)
 	2. As we do not understand DNN properties that make DNN predictively successful, we cannot use them for understanding
 
@@ -19,13 +19,11 @@ R&B challenges the assumption that an understanding of the higher-level function
 
 Objection 3: 
 Objection against Sullivan's notion of understanding:
-- Sullivan employs a strong notion of understanding (explanatory understanding) which she cannot reasonably back up
-- however, employing a weak notion would not do her a favour as it has nothing to do with true understanding for which she wants to argue (objectional understanding; heuristics; exploration)
-- Sullivan argues that ML can provide explanatory understanding; her reasons are not sufficient; in fact there are fundamental reasons why DNN cannot provide explanatory understanding; however, a weak sense of understanding provided by DNN (e.g. heuristics) trivial as DNN certainly provide this sense of understanding already
+Sullivan employs a strong notion of understanding (explanatory understanding) which she cannot reasonably back up.
+However, employing a weak notion would not do her a favour as it has nothing to do with true understanding for which she wants to argue (objectional understanding; heuristics; exploration)
+Sullivan argues that ML can provide explanatory understanding; her reasons are not sufficient; in fact there are fundamental reasons why DNN cannot provide explanatory understanding; however, a weak sense of understanding provided by DNN (e.g. heuristics) trivial as DNN certainly provide this sense of understanding already
 
-- thus, DNN lack "functional transparency" (Creel, 2020) which they argue is in fact a problem for understanding from ML models
-- DNN do not "implement" classifier function, rather classifier is a property of DNN and represents the input-output relation of the DNN (but for the sake of argument, R&B give her that)
-- DNN do not enable explanatory understanding as DNN achieve conditions for expl. understanding only to some degree:
+DNN do not enable explanatory understanding as DNN achieve conditions for expl. understanding only to some degree:
 	- predicitive power is not explanatory power
 	- how-possibly explanations do not provide explanatory understanding
 	- DNN do not even provide how-possibly explanations
