@@ -1,9 +1,11 @@
 ### Objections against Sullivan
 1. **==auxiliary: DNN are not harmless implementation black boxes==** (DNN implementation is significantly different and cannot be known analogous to factorials, is not transparent analogous to the Schelling model)
 2. **==auxiliary: DNN's higher-level properties are not known==** (saliency maps do not enable epistemic access)
-3. **==main: Understanding DNN implementation is relevant for understanding phenomena==**
-	1. DNN's epistemic achievements are not enough for explanatory understanding: a strong reading of Sullivan's thesis fails (DNN do not and cannot enable explanatory understanding, a weak reading is trivial or plausible (DNN can enable objectual understanding)
+3. **==main: Understanding DNN implementation is relevant for understanding phenomena, i.e. DNN opacity is an in-principle problem for understanding==**
+	1. DNN's epistemic achievements are not enough for explanatory understanding: a strong reading of Sullivan's thesis fails (DNN do not and cannot enable explanatory understanding), a weak reading is trivial or plausible (DNN can enable objectual understanding)
 	2. As we do not understand DNN properties that make DNN predictively successful, we cannot use them for understanding
+
+***==How do these objections also argue against T&S approach?==***
 
 ### Objections in detail
 Objection 1: 
