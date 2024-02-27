@@ -29,6 +29,16 @@ We draw ==model inferences== on the relationships of features represented by the
 
 **Distinction between how x data is related to y data in some sense and how the data abstractly represents relationships of features of the external target**
 
+### How ML outcome relates to TML target
+The TML target "closely relates to how a learned distribution estimates the “actual” distribution describing a phenomenon’s studied features".
+Model outcome depends on the underlying learned distribution.
+Model outcome depends on the "relationships of features represented by the data" (TML target).
+
+**But what does this mean?**
+- what does it mean for a learned distribution to approximate the "true" distribution in relation to "understanding the phenomenon"?
+
+
+
 ### Key difference & analogy between map and ML model
 
 ==**By making intra-map inferences you understand the mapping relation to the external target.**==
@@ -107,10 +117,15 @@ A ML algorithm (i.e. the estimator function scoring conditional probabilities of
 The scoring conditional probabilities of (x,y) induces a sample probability distribution.
 A trained ML algorithm induces/ learned a sample probability distribution (any output element y of state space Y given the sampled input element x of state space X) by how probable it estimated (i.e. scores) an output element y given sampled input elements x. 
 The sample probability distribution is then generalized to the distribution underlying the whole input population. 
+- ==“That is, the result of an ML training process is an estimator f0 for random variable Y given X, such that the model can estimate conditional probabilities p0(Y=y given X=x) induced by the scoring function f0 for given x values.” (Shech and Tamir, 2022, p. 7)==
 
 ### Functionally Approximate Irrelevance
-A ML models learned probability distribution depends directly on parameterization and model architecture.
+A ML model's learned probability distribution depends directly on parameterization and model architecture.
+FAI is when variations in parameterization change how the learned distribution is induced by the model, but only in ways that preserve 
+
 ***==FAI is when variations in parameterization change the TML target, but only in ways that preserve the relevant features of the external target phenomenon that the TML target is an abstraction of.==***
+
+
 
 Parameterization influences how the TML target "looks" (which feature relationships it represents).
 FAI means that a parameterization preserves how a TML target "looks" relative to another different parameterization that generate a equivalent TML target
