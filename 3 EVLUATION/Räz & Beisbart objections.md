@@ -1,7 +1,7 @@
 ### Objections against Sullivan
-1. **==DNN are not harmless implementation black boxes==** (DNN implementation cannot be known analogous to factorials, DNN implementation is not transparent analogous to the Schelling model)
-2. **==DNN's higher-level properties are not known==** (saliency maps do not enable epistemic access)
-3. **==Understanding DNN implementation is relevant for understanding phenomena==**
+1. **==auxiliary: DNN are not harmless implementation black boxes==** (DNN implementation is significantly different and cannot be known analogous to factorials, is not transparent analogous to the Schelling model)
+2. **==auxiliary: DNN's higher-level properties are not known==** (saliency maps do not enable epistemic access)
+3. **==main: Understanding DNN implementation is relevant for understanding phenomena==**
 	1. DNN's epistemic achievements are not enough for explanatory understanding: a strong reading of Sullivan's thesis fails (DNN do not and cannot enable explanatory understanding, a weak reading is trivial or plausible (DNN can enable objectual understanding)
 	2. As we do not understand DNN properties that make DNN predictively successful, we cannot use them for understanding
 
