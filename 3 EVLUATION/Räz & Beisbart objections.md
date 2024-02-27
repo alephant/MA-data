@@ -6,7 +6,8 @@
 	2. As we do not understand DNN properties that make DNN predictively successful, we cannot use them for understanding
 
 ***==How do these objections also argue against T&S approach?==***
-
+- could their approach help to gain epistemic access to higher-level properties like generalization?
+- is T&S approach not in fact about understanding DNN implementation?
 ### Objections in detail
 Objection 1: 
 R&B challenge the arguments from analogy that Sullivan makes. We do not know what function a DNN implements in the same way we know what function an algorithm implements that computes factorials. In the case of the factorials we can give a description of the function that governs the input-output relation. For each input number the function computes its factorial. This description does not change when the computational implementation of the function changes.
