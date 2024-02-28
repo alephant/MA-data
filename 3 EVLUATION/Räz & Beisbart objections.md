@@ -8,6 +8,18 @@
 ***==How do these objections also argue against T&S approach?==***
 - could their approach help to gain epistemic access to higher-level properties like generalization?
 - is T&S approach not in fact about understanding DNN implementation?
+
+### What transpareny is needed to gain understanding of DNN implementation?
+
+**Creel:**
+**==functional vs structural transparency==**: knowing which vs knowing how a particular algorithm is instantiated?
+
+Probably, acc. to R&B accomplishing understanding DNN implementation would need **==structural transparency==**: “to understand how the code as written brings about the result of the program.” (Creel, 2020, p. 13)
+	- Creel argues that Humphreys’s process decomposition and Lipton's improvement on it d not define structural transparency
+
+**Creel argues that the knowledge of relations between subcomponents defines a system's structural transparency:** 
+this sounds a lot like T&S approach based on intra-model inferences on data representations that let us understand the relationships of features (in the abstraction of T)
+
 ### Objections in detail
 Objection 1: 
 R&B challenge the arguments from analogy that Sullivan makes. We do not know what function a DNN implements in the same way we know what function an algorithm implements that computes factorials. In the case of the factorials we can give a description of the function that governs the input-output relation. For each input number the function computes its factorial. This description does not change when the computational implementation of the function changes.
