@@ -1,5 +1,7 @@
 **Do post-hoc explanations help?**
-“Nevertheless, such outside in, post-hoc explanation generation increases a type of functional transparency: it provides access to the decision space most relevant to the token classification. In the language of functional transparency, it thus succeeds in explaining the functioning of the algorithm on that particular decision, albeit in coarsegrain, human-interpretable terms.” (Creel, 2020, p. 27)
+“Nevertheless, such outside in, post-hoc explanation generation increases a type of functional transparency: it provides access to the decision space most relevant to the token classification. In the language of functional transparency, it thus succeeds in explaining the functioning of the algorithm on ==that particular decision==, albeit in coarsegrain, human-interpretable terms.” (Creel, 2020, p. 27)
+
+It sounds like LIME provides local explanations and does not help understanding global properties of DNN.
 
 **Post-hoc explanations like LIME do not give insight how the DNN actually came to its decision**
 “But the decision-making process implied by LIME’s list of symptoms is not the way that the original system decides. At no point in the original machine learning system’s decision making does it build a sparse linear model that provides discrete symptoms. The linear model used by LIME accurately characterizes the relevant space for that decision, but it would not be of much use in detecting problems with the functioning of the original system. Nor does it open the “steps in the process” to “direct inspection and verification” (Humphreys 2004, 148)” (Creel, 2020, p. 28)
