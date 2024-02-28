@@ -1,4 +1,35 @@
-- The non-correlation between understanding model implementation and understanding target phenomenon is relevant in light of R&B criticism. R&B only object to implementation irrelevance, i.e. that understanding model implementation is irrelevant for understanding from the ML model. They argue that even if Sullivan's DNN case studies support her notion of link uncertainty as the deciding factor for whether or not understanding from a ML model is possible, support for implementation irrelevance does not necessarily follow from them as well.
+### Sullivan's argumentation
+Model opacity does not impede understanding phenomena.
+Black boxes do not interfere with understanding phenomena.
+Understanding the phenomena is independent from understanding model implementation. 
+Questions of how a model works are unrelated to how-possibly, -actually or understanding-why questions.
+Knowing more about model implementation does not increase understanding.
+Understanding phenomena simply needs to have a highly predictive model and knowing its high-level properties.
+1. DNN implementation black boxes are like any other black boxes like in factorials or the Schelling model
+2. the only problem would be if DNN were a highest-level black box, but DNN are not a highest-level black box, because we have understanding of their high-level properties
+3. Thus, understanding DNN implementation is irrelevant for understanding phenomena
+
+
+Understanding the phenomena depends on link uncertainty.
+Understanding model implementation does not help us with it - it is musguided to try.
+1. Level of opacity is independent of link uncertainty
+2. 
+
+### Sullivan's assumptions
+- Black boxes in Schelling model are compatible with how-possibly, how-actually and understanding-why.
+- The way DNN are black boxed is similar to how other models are black boxed.
+- DNN generalization can be ensured based on statistical assumptions.
+- Sullivan's argument works for all types of DNN, a difference in structure and implementation does not matter.
+- We have understanding of high-level properties of DNN.
+	- Having no direct control over the modelling process (like for the Schelling model) is not a problem to have understanding of high-level functioning of DNN.
+	- Background knowledge on DNN modelling and DNN properties and the use of indirect means are sufficient to ensure that the DNN is not black-boxed at the highest level and to gain understanding of high-level functioning of the DNN.
+	- We know enough of the DNN modelling process to "make intelligent changes to improve output and prediction"
+- prior knowledge helps to link a model to the target
+- link uncertainty comes in degrees.
+- If a DNN is able to answer how-actually questions it is due to low link uncertainty
+- A model with high level of link uncertainty can contribute to lower its level of link uncertainty by pointing out patterns that then can be researched which then would reduce the link uncertainty
+- a model can provide understanding precisely because link uncertainty is resolved 
+
 
 Whether or not ML models enable understanding of phenomena is not a question of model opacity, but depends on the degree of link uncertainty between the model and the phenomenon. Opacity is not an in-principle problem for understanding from ML models, i.e. the reason why opaque do not enable understanding is not opacity, but link uncertainty.
 Opacity is not the deciding factor for understanding from ML models. The implementation of ML models can be black-boxed on various levels without necessarily impeding understanding. 

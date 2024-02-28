@@ -1,3 +1,5 @@
+
+
 **T&S key approach:**  
 “we show how direct analysis of an estimator’s learned transformations (specifically, the hidden layers of a deep learning model) can improve understanding of the target phenomenon and reveal how the model organizes relevant information.” (Shech and Tamir, 2022, p. 1)
 
