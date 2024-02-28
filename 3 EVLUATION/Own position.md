@@ -1,3 +1,8 @@
+**Understanding DNN model implementation is relevant for understanding phenomena**
+==“Specifically, our lack of understanding of these properties means that we do not know why some DNNs are predictively successful, and that this, in turn, implies that we cannot use these DNN to obtain how-actually explanations about the target system, which is to say that our understanding of the target system with these DNNs is limited.” (Räz and Beisbart, 2022, p. 12)==
+
+
+
 - do I agree with Sullivan that model opacity is not an in-principle problem for understanding?
 - do I agree with Sullivan that higher-level properties of a ML models are causally relevant for the model decision?
 - do I agree with Sullivan that high-level properties of a ML model are intelligible?
