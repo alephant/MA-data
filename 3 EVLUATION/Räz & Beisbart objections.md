@@ -14,11 +14,7 @@
 **Creel:**
 **==functional vs structural transparency==**: knowing which vs knowing how a particular algorithm is instantiated?
 
-Probably, acc. to R&B accomplishing understanding DNN implementation would need **==structural transparency==**: “to understand how the code as written brings about the result of the program.” (Creel, 2020, p. 13)
-	- Creel argues that Humphreys’s process decomposition and Lipton's improvement on it d not define structural transparency
 
-**Creel argues that the knowledge of relations between subcomponents defines a system's structural transparency:** 
-this sounds a lot like T&S approach based on intra-model inferences on data representations that let us understand the relationships of features (in the abstraction of T)
 
 ### Objections in detail
 Objection 1: 
