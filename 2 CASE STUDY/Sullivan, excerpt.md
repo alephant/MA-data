@@ -1,35 +1,44 @@
 ### Sullivan's argumentation
-Model opacity does not impede understanding phenomena.
-Black boxes do not interfere with understanding phenomena.
-Understanding the phenomena is independent from understanding model implementation. 
-Questions of how a model works are unrelated to how-possibly, -actually or understanding-why questions.
-Knowing more about model implementation does not increase understanding.
-Understanding phenomena simply needs to have a highly predictive model and knowing its high-level properties.
 1. DNN implementation black boxes are like any other black boxes like in factorials or the Schelling model
 2. the only problem would be if DNN were a highest-level black box, but DNN are not a highest-level black box, because we have understanding of their high-level properties
-3. Thus, understanding DNN implementation is irrelevant for understanding phenomena
+3. Thus, understanding DNN implementation is irrelevant for understanding phenomena.
+	1. Model opacity does not impede understanding phenomena.
+	2. i.e. black boxes do not interfere with understanding phenomena.
+	3. Understanding the phenomena is independent from understanding model implementation. 
+	4. Knowing more about model implementation does not increase understanding.
+	5. Questions of how a model works are unrelated to how-possibly, -actually or understanding-why questions.
 
 
-Understanding the phenomena depends on link uncertainty.
-Understanding model implementation does not help us with it - it is musguided to try.
-1. Level of opacity is independent of link uncertainty
-2. 
+1. Level of understanding depends on the level of link uncertainty and not on the level of opacity.
+2. Thus, it is primarily link uncertainty that impedes understanding the phenomena.
 
+There are other reasons and factors that determine whether a model can provide understanding phenomena besides link uncertainty:
+- when a model cannot answer explanatory questions
+- when a model is a mere predictive tool
+- inductive risk and other non-epistemic values
 ### Sullivan's assumptions
-- Black boxes in Schelling model are compatible with how-possibly, how-actually and understanding-why.
+On black boxes:
+- Black boxes in Schelling model are compatible with answering various expl. questions
 - The way DNN are black boxed is similar to how other models are black boxed.
+
+On DNN:
 - DNN generalization can be ensured based on statistical assumptions.
 - Sullivan's argument works for all types of DNN, a difference in structure and implementation does not matter.
 - We have understanding of high-level properties of DNN.
 	- Having no direct control over the modelling process (like for the Schelling model) is not a problem to have understanding of high-level functioning of DNN.
 	- Background knowledge on DNN modelling and DNN properties and the use of indirect means are sufficient to ensure that the DNN is not black-boxed at the highest level and to gain understanding of high-level functioning of the DNN.
 	- We know enough of the DNN modelling process to "make intelligent changes to improve output and prediction"
-- prior knowledge helps to link a model to the target
-- link uncertainty comes in degrees.
-- If a DNN is able to answer how-actually questions it is due to low link uncertainty
-- A model with high level of link uncertainty can contribute to lower its level of link uncertainty by pointing out patterns that then can be researched which then would reduce the link uncertainty
-- a model can provide understanding precisely because link uncertainty is resolved 
 
+On model-based understanding:
+- Understanding phenomena simply needs to have a highly predictive model and knowing its high-level properties.
+
+On link uncertainty:
+- prior knowledge helps to link a model to the target
+- link uncertainty comes in degrees
+- A model with high level of link uncertainty can contribute to lower its level of link uncertainty by pointing out patterns that then can be researched which then would reduce the link uncertainty
+- a model can provide understanding precisely because link uncertainty is resolved
+
+### Sullivan excerpt
 
 Whether or not ML models enable understanding of phenomena is not a question of model opacity, but depends on the degree of link uncertainty between the model and the phenomenon. Opacity is not an in-principle problem for understanding from ML models, i.e. the reason why opaque do not enable understanding is not opacity, but link uncertainty.
 Opacity is not the deciding factor for understanding from ML models. The implementation of ML models can be black-boxed on various levels without necessarily impeding understanding. 

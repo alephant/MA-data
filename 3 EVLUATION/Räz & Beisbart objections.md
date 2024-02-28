@@ -52,7 +52,7 @@ Do we have to know why DNN are predictively successful to be able to gain expl. 
 
 ### Link uncertainty is connected to understanding model implementation
 R&B argue that Sullivan is misguided in the idea that link uncertainty and understanding the model are independent from each other.
-**==R&B argue, when link uncertainty is true (M must be linked to T to enable understanding), then implementation irrelevance (understanding how M works is irrelevant to understand T using M).==**
+***==R&B argue, when link uncertainty is true (M must be linked to T to enable understanding), then implementation irrelevance cannot be true as well (understanding how M works is irrelevant to understand T using M).==***
 
 If M is linked to T, M will be understood better.
 If M is better understood, a link between M and T is easier to establish. 

@@ -34,7 +34,7 @@ Sullivan argues that it is precisely when link uncertainty is resolved that a mo
 - two models of different degree of link uncertainty are an indication that the understanding that they can provide also differs in degree
 - a doctor can use a model that has a weaker link to a biological phenomenon to successfully provide some degree of understanding to a patient
 
-
+==Is it even possible within Sullivan's own framework for link uncertainty to be completely "removed"? (tying to the question of what happens when new evidence contradicts previously empirically validating evidence)==
 #### failed analogies
 - a climate model is very different from a deep patient DNN as I cannot imagine how it would be empirically validated in the same sense as the DNN would be empirically validated?
 - sub-models of a climate model could theoretically be empirically validated, but the whole model with all kludges (and admittedly it seems that there are a lot of untheorerical parts to a climate model)?
