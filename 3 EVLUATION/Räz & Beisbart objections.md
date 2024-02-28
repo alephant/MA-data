@@ -1,7 +1,8 @@
 ### Objections against Sullivan
 1. **==auxiliary: DNN are not harmless implementation black boxes==** (DNN implementation is significantly different and cannot be known analogous to factorials, is not transparent analogous to the Schelling model)
 2. **==auxiliary: DNN's higher-level properties are not known==** (saliency maps do not enable epistemic access)
-	1. ***==could post-hoc methods such as LIME help with that? or are they also only geared towards local explanations?==***
+	1. this would be necessary to understand which features & feature combinations drive DNN decision
+	2. ***==could post-hoc methods such as LIME help with that? or are they also only geared towards local explanations?==***
 3. **==main: Understanding DNN implementation is relevant for understanding phenomena, i.e. DNN opacity is an in-principle problem for understanding==**
 	1. DNN's epistemic achievements are not enough for explanatory understanding: a strong reading of Sullivan's thesis fails (DNN do not and cannot enable explanatory understanding), a weak reading is trivial or plausible (DNN can enable objectual understanding)
 	2. As we do not understand DNN properties that make DNN predictively successful, we cannot use them for understanding
@@ -9,6 +10,13 @@
 ***==How do these objections also argue against T&S approach?==***
 - could their approach help to gain epistemic access to higher-level properties like generalization?
 - is T&S approach not in fact about understanding DNN implementation?
+
+
+**High-level properties that we currently do not understand**
+generalization: “However, the reasons why these DNNs generalize well is only insufficiently understood (Zhang et al., 2017; Shwartz-Ziv & Tishby, 2017; Alain & Bengio, 2016; Zhang et al., 2021; Berner et al., 2021).” (Räz and Beisbart, 2022, p. 13)
+
+optimization: “One important example concerns the optimization properties of DNNs: It is not known whether stochastic gradient descent (SGD) finds the best approximation ̂ f of a function f of interest.” (Räz and Beisbart, 2022, p. 15)
+
 
 ### What transpareny is needed to gain understanding of DNN implementation?
 
@@ -43,7 +51,8 @@ DNN do not enable explanatory understanding as DNN achieve conditions for expl. 
 ### Lack of Understanding of DNNs Impedes Understanding With DNNs
 When R&B speak of "understanding the DNN model itself", they do not mean to understand the DNN in respect to a particular dataset , **==but how DNN work in general.==**
 
-There are high-level properties that we currently do not understand. 
+
+
 e.g. we do not properly understand DNN generalizations. We also do not understand whether a DNN is truly optimized (see stochastic gradient descent).
 DNN high-level properties are the reason that they are predictively successful.
 It is possible that DNN predict well, without enabling true understanding.

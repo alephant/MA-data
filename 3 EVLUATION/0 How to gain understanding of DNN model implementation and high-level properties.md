@@ -6,11 +6,16 @@ It sounds like LIME provides local explanations and does not help understanding 
 **Post-hoc explanations like LIME do not give insight how the DNN actually came to its decision**
 “But the decision-making process implied by LIME’s list of symptoms is not the way that the original system decides. At no point in the original machine learning system’s decision making does it build a sparse linear model that provides discrete symptoms. The linear model used by LIME accurately characterizes the relevant space for that decision, but it would not be of much use in detecting problems with the functioning of the original system. Nor does it open the “steps in the process” to “direct inspection and verification” (Humphreys 2004, 148)” (Creel, 2020, p. 28)
 
-==Can post-hoc explanations illuminate why DNN are predictively successful and tell us anything about their unique properties such as generalization? If not, then they are not helpful.==
+==Can post-hoc explanations illuminate why DNN are predictively successful and tell us anything about their unique properties such as generalization?==
+
+**Post-hoc explanantions could prove to be a step towards understanding DNN's predictive success and their unique properties**
+“Nevertheless, LIME does increase transparency. It provides faithful access to high-level features of the decision making process that are useful in aiding artifact detection and explanation.” (Creel, 2020, p. 29)
 
 
+**R&B: How to increase understanding of DNN high-level properties**
+“One way to understand generalization properties better is to prove an upper bound on the so-called generalization error (a measure of how well a DNN performs in the worst case), given assumptions about the data distribution, features of the model and of the learning algorithm.” (Räz and Beisbart, 2022, p. 14)
 
-**What are R&B argue is necessary to understand model implementation?**
+
 
 
 **Can structural transparency help?**

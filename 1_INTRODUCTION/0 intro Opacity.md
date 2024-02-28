@@ -1,4 +1,5 @@
-
+**Computational opacity due to different kinds of data that influence machine vs human decision-making**
+“Part of the ineliminable opacity of complex computational systems comes from the fact that the factors that influence machine classifications or predictions are of different kinds from those described as reason-giving by humans. Even when information that is sufficient for machine classifications or predictions is available, its difference in kind and scale means that it explains little to us.” (Creel, 2020, p. 31)
 
 
 **Epistemic opacity is a context-dependent feature of computational science**
