@@ -1,4 +1,8 @@
-
+**==new understanding of the TML:==**
+relationships of features = abstraction of T
+represented by the data = intra-model inferences on it
+Intra-model inferences on data representations let us understand abstraction of T.
+==Data representations are understood through different modes of understanding reveal different aspects of the target through different relationships of features in the abstraction of T.==
 
 **T&S key approach:**  
 “we show how direct analysis of an estimator’s learned transformations (specifically, the hidden layers of a deep learning model) can improve understanding of the target phenomenon and reveal how the model organizes relevant information.” (Shech and Tamir, 2022, p. 1)
@@ -93,13 +97,7 @@ T&S understand the TML target similar to the "learned" probability distribution 
 - relationships of features represented by the data, feature relationships
 - learned sample probability distribution
 
-### Wide vs narrow view of understanding from ML models
 
-==Sullivan's target of understanding refers to the external target T==
-==T&S' target of understanding refers to the abstraction of T==
-
-==**By making intra-map inferences you understand the mapping relation to the external target.**==
-==**By making intra-model inferences you understand the mapping relation to the abstraction of the external target. This is what it means to have a narrow view of understanding.**==
 
 ### C-Schema for T&S approach
 Horizontal top link concerns the modeling or representational relationship between M and T
