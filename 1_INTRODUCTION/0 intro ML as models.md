@@ -1,0 +1,9 @@
+**Three distinct senses of DNN as "models" identified by Boge**
+“In sum, at least three distinct senses of ‘model’ should be distinguished here, which, so far as I can see, exhaust the use of ‘model’ in the DL literature: (a) DNNs as (crude) models of actual brains, (b) the algorithms employed in DL as abstract, selective models of human learning, and (c) the input–output mappings approximated through training as models of features pertaining to the data, such as their statistical distribution.” (Boge, 2022, p. 46)
+
+**DNN as models or techniques? DNN as crude models of the brain**
+“Napoletani et al. (2011, p. 13) actually refrain from calling DNNs ‘models’ altogether and solely use ‘technique’. Humphreys (2013,  p. 580), on the other hand, acknowledges the possibility of “simulating neural dynamics” with DNNs, but also urges to “keep separate uses of neural nets as simulation models from their use as techniques in computational science”, and additionally finds most neural nets to be “extremely crude models of real brains[...].” The latter verdict is frequent in the literature (e.g. Chirimuuta, 2020; Goodfellow et  al., 2016; Sullivan, 2019), not least ==because feed-forward processing and gradient descent are biologically implausible==;” (Boge, 2022, p. 45)
+
+**Algorithms employed in DNN as abstract models for human learning**
+“Note that the learning algorithm involved in deriving this model may itself count as yet another model: Buckner (2018) points to the possibility of understanding concept abstraction on the basis of deep convolutional nets, without drawing too close a parallel to either brain processes or most details of human cognition. Similarly, it may be possible to understand certain errors made by DNNs in analogy to errors made by humans under similar conditions (Buckner, 2021, for discussion).” (Boge, 2022, p. 46) 
+

@@ -7,6 +7,11 @@
 **DNN exploit learned patterns that are potentially unknown to the modeler**
 “But letting a trained DNN loose on actual data of interest, it may be able to exploit the patterns encountered during training—of which the scientist may be fully unaware—to successfully predict further points to that pattern. As we saw above, this ideally leads to the recognition of new, scientifically interesting phenomena such as pulsars, i.e., to new discoveries.” (Boge, 2022, p. 47) 
 
+**A DNN model understood as input-output mapping is not inherently explanatory as its parameters and non-linear functions do not carry any representative meaning**
+“For a DL model, weights and biases are merely parameters to be adjusted automatically during training and h [some non-linear activations functions of hidden layers]represents a hyperparameter to be chosen in advance. Beyond that, they are in general not assigned any specific meaning at all: Just consider how for a deep network with some hundreds or even thousands of nodes, no scientist will presumably be able—or even bother—to sort out what each and every weight and bias might represent.” (Boge, 2022, p. 49)
+
+**Hyperparameters determine the class of DNN**
+“The choice of a class of DL models from which to choose, i.e., the general type of parameterized function to be adapted during the training, is effected by means of hyperparameters: those parameters, like number of layers, nodes, or even choice of activations, determining the general architecture and those, like learning rate or batch size, determining the training process.” (Boge, 2022, p. 51) 
 
 
 **Supervised and unsupervised ML training**
