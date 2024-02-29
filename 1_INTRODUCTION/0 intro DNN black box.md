@@ -13,10 +13,18 @@ Thus, the opacity of DNN is categorically different from how other complex linea
 **Lack of fathomability due to complexity impedes understanding how the model relates features to produce outputs**
 “Fathomability is understood to be the extent to which a person can understand, straight away, how the model relates features to produce outputs. As a result, the more complex a model (e.g., increased dimensionality, extreme nonlinearities, etc.), the less fathomable it becomes.” (Duede, 2023, p. 1092) 
 
-**DNN functioning is intelligible in a formal-mathematical sense, but not in a semantic sense**
+
+**DNN functioning is epistemically accessable in a formal-mathematical sense, but not in a semantic sense that permits us to understand how the DNN comes to its prediction**
 “From the above, it should be clear that there is a straightforwardly mathematical sense in which deep neural networks are fully transparent. All weights on all connections across the network, billions as there may be, are both available for inspection and computationally tractable. However, while formally precise, neural network logic is largely semantically unintelligible. That is, the mathematical expression of a fully trained neural network model cannot, in general, be given an intelligible interpretation in terms of the target system such that one can understand or comprehend how the parts interact and contribute to the network’s outputs.” (Duede, 2023, p. 1091) 
+
+“From a purely formal point of view, black box systems constitute a “mathematical glass box.”” (Zerilli, 2022, p. 8)
+
 
 **Why DNN lack functional transparency**
 “However, in all but the smallest networks it would be difficult to predict the outcome without tracing each step or to understand the behavior of the network, especially if the network includes feedback loops. More importantly, without further analysis it would be unclear to the observer why this neural net successfully classified an image and to what extent each of the neurons contributed to the result, or why different neural nets might have different patterns of classification. In this sense, although we know how the learning algorithm works and what formal guarantees (if any) we have about its performance, we do not know how the learned “algorithm” brings about the classification result. Thus we lack functional transparency.” (Creel, 2020, p. 21)
 
 Knowledge of the learning algorithm doesn't bring about knowledge of how the trained DNN comes to its outcome.
+
+
+**Zerilli: opacity of ML models is not an in-principle problem for evaluating their decisions on the basis of human practical reasoning**
+“So long as we are concerned with the evaluation of decisions, the formal prerequisites of explanation are in many cases satisfied by the quotidian form of explanation that practical reasoning assumes. That human practical reasoning takes this form is instructive for the kinds of explanations we can reasonably demand of ML systems because such systems function in loco hominum, and indeed have parity with humans not only in respect of how they are situated, as decision agents, but also in respect of the epistemic status they afford, as Type 2 systems.” (Zerilli, 2022, p. 36) 
