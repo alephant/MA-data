@@ -14,12 +14,6 @@ This commitment invokes the idea that without transparency, “scientists are un
 **Opacity is problematic in the "context of justification"**
 Concern arise “when network outputs are treated as scientific claims that stand in need of justification (e.g., treated as candidates for scientific knowledge, or treated as the basis for high-stakes decisions)” (Duede, 2023, p. 1090)
 
-**Epistemic opacity is not a problem when DNN are used to guide science in the "context of discovery"**
-“What I hope to have shown in this paper is that, despite their epistemic opacity, deep learning models can be used quite effectively in science, not just for pragmatic ends but also for genuine discovery and deeper theoretical understanding. This can be accomplished when DLMs are used as guides for exploring promising avenues of pursuit in the context of discovery.” (Duede, 2023, p. 1097)
-
-Epistemic concerns should be different when neural network outputs are treated as scientific findings in their own right (context of justification) versus when outputs serve to guides in the process of scientific discovery (context of discovery)
-
-
 **Computational opacity due to different kinds of data that influence machine vs human decision-making**
 “Part of the ineliminable opacity of complex computational systems comes from the fact that the factors that influence machine classifications or predictions are of different kinds from those described as reason-giving by humans. Even when information that is sufficient for machine classifications or predictions is available, its difference in kind and scale means that it explains little to us.” (Creel, 2020, p. 31)
 

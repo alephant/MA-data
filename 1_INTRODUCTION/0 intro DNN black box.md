@@ -39,3 +39,10 @@ The true and learned classifier function cannot be described like the true facto
 
 **Opacity of ML models is not an in-principle problem for evaluating their decisions on the basis of human practical reasoning**
 “So long as we are concerned with the evaluation of decisions, the formal prerequisites of explanation are in many cases satisfied by the quotidian form of explanation that practical reasoning assumes. That human practical reasoning takes this form is instructive for the kinds of explanations we can reasonably demand of ML systems because such systems function in loco hominum, and indeed have parity with humans not only in respect of how they are situated, as decision agents, but also in respect of the epistemic status they afford, as Type 2 systems.” (Zerilli, 2022, p. 36) 
+
+**Epistemic opacity is not a problem when DNN are used to guide science in the "context of discovery"**
+“What I hope to have shown in this paper is that, despite their epistemic opacity, deep learning models can be used quite effectively in science, not just for pragmatic ends but also for genuine discovery and deeper theoretical understanding. This can be accomplished when DLMs are used as guides for exploring promising avenues of pursuit in the context of discovery.” (Duede, 2023, p. 1097)
+
+“However, I argue that there are many cases in which the epistemic opacity of deep learning models is epistemically irrelevant to justifying claims arrived at with their aid. That is, it is justifiably possible to effectively use and gain scientific knowledge from epistemically opaque systems without sacrificing any justificatory rigor at all.” (Duede, 2023, p. 1093)
+
+Epistemic concerns should be different when neural network outputs are treated as scientific findings in their own right (context of justification) versus when outputs serve to guides in the process of scientific discovery (context of discovery)
