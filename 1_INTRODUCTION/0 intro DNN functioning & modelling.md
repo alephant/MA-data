@@ -1,6 +1,11 @@
 **DNN use is driven by the assumption that true function f is in the set of all functions f representable**
 “Deep learning is a machine learning technique based on artificial neural networks that is widely used for prediction and classification tasks. The goal of deep learning is to automate the search for a function ˆ f that approximates the true function f that generates observed data. The fundamental assumption that motivates the use of deep learning is that f is in the set of functions F representable by a neural network given some particular architecture and (hyper)parameterization. Of course, for any given parameterization k, we have no way of knowing a priori whether f is element of Fk. However, deep neural networks are universal approximators (Hornik et al. 1989), so the assumption is at least principled.” (Duede, 2023, p. 1091)
 
+**Iterative fitting of a model to a training set**
+“But the training stage thus also amounts to an iterative fitting of the model to a training set: It proceeds by a successive change of free parameters in response to the ‘loss’ experienced when offering a certain output for the data points encountered. If this is done carefully so as to avoid over- and underfitting to the training set (and with some tricks such as unsupervised pre-training of individual layers),5 a DNN can excel in handling so far unencountered examples.” (Boge, 2022, p. 47)
+
+**DNN exploit learned patterns that are potentially unknown to the modeler**
+“But letting a trained DNN loose on actual data of interest, it may be able to exploit the patterns encountered during training—of which the scientist may be fully unaware—to successfully predict further points to that pattern. As we saw above, this ideally leads to the recognition of new, scientifically interesting phenomena such as pulsars, i.e., to new discoveries.” (Boge, 2022, p. 47) 
 
 
 
