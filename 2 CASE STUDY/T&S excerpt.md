@@ -5,9 +5,9 @@ Intra-model inferences on data representations let us understand abstraction of 
 ==Data representations are understood through different modes of understanding reveal different aspects of the target through different relationships of features in the abstraction of T.==
 
 There are various ways how input data X and output data Y are related among each other.
-Through training the model learns conditional probabilities of p(y given x).
+Through training, the model learns conditional probabilities of p(y given x).
 These learned conditional probabilities form a probability distribution.
-i.e. the trained model acquired a learned probability distribution(Y given X) that can be used to make inferences on how well Y data can be estimated based on given X data.
+i.e. the trained model acquires a learned probability distribution(Y given X) that can be used to make inferences on how well Y data can be estimated based on given X data.
 
 It is assumed that the learned probability distribution is a best estimate of the true distribution containing all conditional probabilities of p(y given x) and how they would be set in the real-world.
 
@@ -22,7 +22,7 @@ The detail parameterization of a ML model directly influences how X and Y data a
 Due to ML model opacity, we do not know how the learned probability distribution estimates the actual probability distribution.
 Thus, it sounds like opacity impedes our understanding of the relationships of features in the real-world phenomenon as they are represented by the data.
 
-However, what if the detail parameterization matters to how the learned probability distribution estimates the actual probability distribution, but only in ways that are irrelevant for understanding of the relationships of features in the real-world phenomenon as they are represented by the data?
+However, what if the detail parameterization matters to how the learned probability distribution estimates the actual probability distribution, but only in ways that are irrelevant for understanding the relationships of features in the real-world phenomenon as they are represented by the data?
 
 This would mean that we do not need to know how the learned probability distribution estimates the actual probability distribution, as it doesn't matter to our target of understanding: relationships of features in the real-world phenomenon as they are represented by the data.
 
@@ -32,9 +32,11 @@ We can still look at the learned probability distribution and gain understanding
 
 i.e. one can still understand different ways how real-world features are related by drawing intra-model inferences based on how input data X and output data Y are related.
 
-i.e. we can still make intra-model inferences on how X and Y data are related to each other.
-
 We can still make inferences and understand that there is an informative relationship among features of the real-world phenomenon as they are represented by the data.
+
+==However, how would I know that the detail parameterization does matter only in ways that are irrelevant for understanding the relationships of features in the real-world phenomenon as they are represented by the data? ==
+==Is the reasoning for FAI dependent on the comparison between ML models with different parameterization? Like a co-validation between models to conclude that the significant difference between models is irrelevant to understanding?==
+
 
 
 
