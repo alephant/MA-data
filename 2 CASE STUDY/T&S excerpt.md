@@ -6,26 +6,35 @@ Intra-model inferences on data representations let us understand abstraction of 
 
 There are various ways how input data X and output data Y are related among each other.
 Through training the model learns conditional probabilities of p(y given x).
-These learned conditional probabilities can be described by a probability distribution.
-i.e. the trained model acquired a learned probability distribution(Y given X).
+These learned conditional probabilities form a probability distribution.
+i.e. the trained model acquired a learned probability distribution(Y given X) that can be used to make inferences on how well Y data can be estimated based on given X data.
 
-The learned probability distribution estimates the actual probability distribution.
-The actual probability distribution is assumed to describe the real-world relationships between features in the external target as they are represented in the relationships between X and Y data.
-i.e. the relationships between X and Y data could tell us something about the real-world feature relationships.
+It is assumed that the learned probability distribution is a best estimate of the true distribution containing all conditional probabilities of p(y given x) and how they would be set in the real-world.
 
-However, due to the opacity of the ML model one cannot look at the detail parameterization of the ML model to understand something about the real-world feature relationships as they are represented by the data.
+X and Y data represent features in the real-world phenomenon.
+The way how X and Y are related among each other, thus, their conditional probabilities tell us something about the relationship of features in the real-world phenomenon.
 
-The detail parameterization of a ML model directly influences the learned probability distribution.
+Their conditional probabilities are best described by the actual probability distribution.
+Thus, the learned probability distribution as a best estimate of the actual distribution is assumed to tell us something about the relationships of features in the real-world phenomenon as they are represented in the relationships between X and Y data.
 
-However, due to ML model opacity, we do not know how the learned probability distribution estimates the actual probability distribution that could tell us something about the real-world feature relationships as they are represented in the relationships between X and Y data.
+The detail parameterization of a ML model directly influences how X and Y data are related, thus, how the relationships of features of the real-world phenomenon are represented by the data, and thus, how the learned probability distribution estimates the actual distribution.
 
-How can we still understand something about the real-world feature relationships as they are represented by the data?
+Due to ML model opacity, we do not know how the learned probability distribution estimates the actual probability distribution.
+Thus, it sounds like opacity impedes our understanding of the relationships of features in the real-world phenomenon as they are represented by the data.
 
-What if the detail parameterization does not matter to what can be understood of the real-world feature relationships as they are represented by the data?
+However, what if the detail parameterization matters to how the learned probability distribution estimates the actual probability distribution, but only in ways that are irrelevant for understanding of the relationships of features in the real-world phenomenon as they are represented by the data?
 
-i.e. yes, the detail parameterization matters to how the learned probability distribution estimates the actual probability distribution, but only in ways that are irrelevant for understanding something about the real-world feature relationships as they are represented in the relationships between X and Y data.
+This would mean that we do not need to know how the learned probability distribution estimates the actual probability distribution, as it doesn't matter to our target of understanding: relationships of features in the real-world phenomenon as they are represented by the data.
 
-i.e. even with ML model opacity, one can still understand different ways how real-world features are related by drawing intra-model inferences based on how input data X and output data Y are related.
+This would mean that ML model opacity would not impede our understanding.
+
+We can still look at the learned probability distribution and gain understanding of relationships of features in the real-world phenomenon as they are represented by the X and Y data.
+
+i.e. one can still understand different ways how real-world features are related by drawing intra-model inferences based on how input data X and output data Y are related.
+
+i.e. we can still make intra-model inferences on how X and Y data are related to each other.
+
+We can still make inferences and understand that there is an informative relationship among features of the real-world phenomenon as they are represented by the data.
 
 
 
