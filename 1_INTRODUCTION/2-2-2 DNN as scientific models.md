@@ -1,0 +1,3 @@
+If we want to understand how DNN can be used as scientific models, we first need to consider which properties models much have to provide understanding and how these criteria relate to DNN.
+
+Models are intelligible in virtue of modellers that can understand and use them to gain understanding of phenomena in the world. In this sense, intelligibility is a context-dependent property of a model as it relates to the ability of the modeller or other scientists' to use the model to make inferences on the target phenomenon. An intelligible model doesn't need to be realistic to provide understanding (DeRegt_2005, 2015). 
