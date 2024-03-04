@@ -1,6 +1,11 @@
 **Understanding DNN model implementation is relevant for understanding phenomena**
 ==“Specifically, our lack of understanding of these properties means that we do not know why some DNNs are predictively successful, and that this, in turn, implies that we cannot use these DNN to obtain how-actually explanations about the target system, which is to say that our understanding of the target system with these DNNs is limited.” (Räz and Beisbart, 2022, p. 12)==
 
+**Epistemic opacity is not a problem when DNN are used to guide science in the "context of discovery"**
+“Be that as it may, the outputs of epistemically opaque models need not be treated in this way. Rather, they can serve as aspects or parts of a process of discovery. While the process ultimately leads to claims that stand in need of justification, the part played by an opaque model in that process can, itself, be epistemically insulated from the strong sort of evaluation that is applied to findings in the context of justification. ==In this way, neural network outputs can serve to facilitate discovery without their outputs or internal logic standing in need of justification==.” (Duede, 2023, p. 1093)
+
+“However, I argue that there are many cases in which ==the epistemic opacity of deep learning models is epistemically irrelevant to justifying claims arrived at with their aid==. That is, it is justifiably possible to effectively use and gain scientific knowledge from epistemically opaque systems without sacrificing any justificatory rigor at all.” (Duede, 2023, p. 1093)
+
 
 
 - do I agree with Sullivan that model opacity is not an in-principle problem for understanding?

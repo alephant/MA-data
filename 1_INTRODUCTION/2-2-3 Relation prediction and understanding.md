@@ -1,3 +1,6 @@
+**Scientific explanations are expected to have predictive accuracy**
+“Now following Douglas (2009, p. 458), we can hold predictive accuracy to also be a key marker of scientific explanations: A scientific explanation will be expected to produce new, generally successful predictions. An explanation that is not in fact used to generate predictions, or whose predictions quickly and obviously fail, would be scientifically suspect.” (Boge, 2022, p. 48) 
+
 **What provides DNN their predictive power? Parameterized input-output mapping powered by SGD**
 “It is exactly this mapping, established during the training phase, that provides DNNs with their predictive capabilities. To see this, recall that “[n]early all of deep learning is powered by [...] stochastic gradient descent” (Goodfellow et al., 2016, p. 147), which means the iterative minimization of a ‘loss function’ through several rounds of training (also called ‘epochs’).” (Boge, 2022, p. 46) 
 
