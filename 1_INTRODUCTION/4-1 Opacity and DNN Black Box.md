@@ -11,7 +11,8 @@ DNN opacity in context
 
 =="complex, non-obvious features that can be abstracted from the data" sounds a lot like T&S approach.==
 
-
+**Example for unknown, but epistemically relevant elements that are automatically discovered in data by DNN**
+“From this, Baldi et al. (2014, p. 7; emph. added) concluded “that [DNNs] are automatically discovering the insight contained in the high-level features.”” (Boge, 2022, p. 62)
 
 A cognitive agent is not able to know and understand all epistemically relevant elements of a computational process.
 Key question based on Humphreys: can I make justifiable claims on the basis of a process of which it is impossible to know all its epistemically relevant factors?
