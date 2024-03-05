@@ -45,6 +45,8 @@ Thus, the opacity of DNN is categorically different from how other complex linea
 **Boge: the two dimensions to the opacity-problem of DNN**
 “As a matter of fact, it is easy to recognize the very same process involved in h-opacity as involved also in w-opacity. This is what it means that there are two dimensions to ‘the’ opacity-problem in DL, instead of two problems. When a DNN learns to approximate a desired function, it is hence not only opaque how, precisely, it achieves this goal: It is also opaque what it is about the data that drives this process.” (Boge, 2022, p. 62)
 
+**“W-opacity constitutes an independent dimension to the opacity of DL, and may therefore create an independent epistemic problem (as I believe it does).”** (Boge, 2022, p. 65ff.)
+
 **Boge: h-opacity refers to the opacity of how the machine learns; it concerns mainly functional transparency**
 “The point hence is that, despite some abstract analogies between human and Deep Learning, it is in important respects opaque how the machine learns. Call that h-opacity. ==H-opacity concerns the way in which a DNN automatically alters the instantiated function in response to data==.” (Boge, 2022, p. 59)
 
