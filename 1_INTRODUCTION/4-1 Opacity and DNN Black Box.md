@@ -14,11 +14,11 @@ Key question based on Humphreys: can I make justifiable claims on the basis of a
 
 “From a purely formal point of view, black box systems constitute a “mathematical glass box.”” (Zerilli, 2022, p. 8)
 
+**Useful ML models have unavoidable complexity, and thus, opacity**
+“Though a machine learning algorithm can be implemented simply in such a way that its logic is almost fully comprehensible, in practice, such an instance is unlikely to be particularly useful. Machine learning models that prove useful (specifically, in terms of the ‘accuracy’ of classification) possess a degree of unavoidable complexity.” (Burrell, 2016, p. 5)
+
 ---
 DNN functional, computational opacity and its relation to model complexity
-
-**The usefulness of ML models is correlated with their complexity, and thus, with their level of opacity**
-“Though a machine learning algorithm can be implemented simply in such a way that its logic is almost fully comprehensible, in practice, such an instance is unlikely to be particularly useful. Machine learning models that prove useful (specifically, in terms of the ‘accuracy’ of classification) possess a degree of unavoidable complexity.” (Burrell, 2016, p. 5)
 
 **DNN are not fathomable and are highly opaque as they are characterized by non-linearity, high dimensionality and quasi-independent parameterization**
 “The opacity of a ML model is often defined by reference to the properties of linearity and dimensionality. Linearity and low dimensionality together can be said to make a system and/or its operations fathomable, in the sense that “a person can contemplate the entire model at once” (Lipton 2017, 4).” (Zerilli, 2022, p. 7)

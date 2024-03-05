@@ -16,6 +16,8 @@ There are other reasons and factors that determine whether a model can provide u
 - when a model cannot answer explanatory questions
 - when a model is a mere predictive tool
 - inductive risk and other non-epistemic values
+
+**Boge's h-opacity (opacity how the machine learns) is the opacity that Sullivan is concerned with.**
 ### Sullivan's assumptions
 On black boxes:
 - Black boxes in Schelling model are compatible with answering various expl. questions
