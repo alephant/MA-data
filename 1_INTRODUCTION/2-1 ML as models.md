@@ -9,7 +9,11 @@ idealization, simulation, abstraction, similarity:
 “Hence, establishing ways in which to represent a certain target by means of a model allows us to map the relations established in the model onto relations pertaining, for all we know, to the target, and so, if the model’s behavior matches that of the target in relevant respects (e.g., segregation patterns emerge), we may infer an explanation of the observed target-behavior from the model (e.g., in terms of moving behavior being in part determined by preferences for neighborhood-composition).” (Boge, 2022, p. 54)
 
 **de Regt: theories and models are explanatory if they have qualities that faciliate their use**
+“In de Regt’s account, for representational models to explain, they must also be constructed under the principles of an intelligible theory, where a theory is intelligible if it has certain qualities that “provide conceptual tools for achieving understanding” (de Regt, 2017, p. 118; emph. added). ==Among these tools, de Regt (2017, p. 115) lists “visualization, mathematical abstraction, and causality [as] prime examples.”==” (Boge, 2022, p. 54)
+
 “However, de Regt spells out the intelligibility of a theory in terms of “qualities [...] that facilitate the use of the theory” (de Regt, 2017, p. 40; emph. added), and Reutlinger et al. (2018, pp. 1084–1085) equally offer a use-oriented, empirically accessible explication of Strevens’ notion of grasping.” (Boge, 2022, p. 54)
+
+i.e. the representations of the model need to be adquate to make target mechanisms intelligible
 
 ---
 
