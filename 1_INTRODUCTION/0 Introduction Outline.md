@@ -15,6 +15,6 @@
 		2. DNN functioning and modelling
 		3. DNN implementation & parameterization ??
 	4. Problem of opacity of DNN (the black box problem)
-		1. DNN black boxes
+		1. Opacity and DNN black boxes
 		2. XAI
 		3. opacity not a problem?
