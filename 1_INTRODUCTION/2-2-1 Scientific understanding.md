@@ -3,5 +3,7 @@ Explanatory understanding
 Degrees of understanding
 
 
+
+
 how-possibly explanations/ heuristics etc. do enable understanding:
 - “Lipton (2009, pp. 49–52) presents interesting arguments for the thesis that potential (how-possibly) explanations can provide understanding” (Regt, 2015, p. 3789)

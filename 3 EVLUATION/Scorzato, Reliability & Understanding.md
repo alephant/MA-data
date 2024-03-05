@@ -33,6 +33,7 @@ The simplicity of assumptions is closely related to the interpretability of the 
 
 
 ### Model assumptions
+
 “Any model, whether TS or ML is essentially characterised by all its assumptions and its accuracy with respect to the existing empirical data.” (Scorzato, 2024, p. 7)
 - all those that are necessary to reproduce the outcome of the model
 - ==“including the comparison with the empirical evidence”: related to Sullivan's external link view?==

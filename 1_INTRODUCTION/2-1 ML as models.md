@@ -2,8 +2,18 @@ idealization, simulation, abstraction, similarity:
 - “The semantic conception provides a straightforward answer to the question of how models give us knowledge of the world: they specify structures that are posited as possible representations of either the observable phenomena or, even more ambitiously, the underlying structures of the real target systems.” (Knuuttila and Merz, 2009, p. 4) ==semantic approach to modelling==
 - “Thus, according to the semantic view, the structure specified by a model represents its target system if it is either structurally isomorphic or somehow similar to it.” (Knuuttila and Merz, 2009, p. 4)
 
-**Use-oriented accounts of theories and models that have qualities to enable understanding**
+
+**de Regt: models are explanatory, i.e. they can provide some understanding, because they represent their target and are intelligible (i.e. have qualities that facilitate their use)**
+“De Regt takes understanding on the basis of models to be possible if they are explanatory qua representational (also Giere, 2006, Chapter 4). A similarly important role for representation is reserved by Morrison (1999, p. 63): The reason that models are explanatory is that in representing [their target] systems they exhibit certain kinds of structural dependencies. The model shows us how particular bits of the system are integrated and fit together in such a way that the system’s behaviour can be explained.” (Boge, 2022, p. 53)
+
+“Hence, establishing ways in which to represent a certain target by means of a model allows us to map the relations established in the model onto relations pertaining, for all we know, to the target, and so, if the model’s behavior matches that of the target in relevant respects (e.g., segregation patterns emerge), we may infer an explanation of the observed target-behavior from the model (e.g., in terms of moving behavior being in part determined by preferences for neighborhood-composition).” (Boge, 2022, p. 54)
+
+**de Regt: theories and models are explanatory if they have qualities that faciliate their use**
 “However, de Regt spells out the intelligibility of a theory in terms of “qualities [...] that facilitate the use of the theory” (de Regt, 2017, p. 40; emph. added), and Reutlinger et al. (2018, pp. 1084–1085) equally offer a use-oriented, empirically accessible explication of Strevens’ notion of grasping.” (Boge, 2022, p. 54)
+
+---
+
+
 
 **Three distinct senses of DNN as "models" identified by Boge**
 “In sum, at least three distinct senses of ‘model’ should be distinguished here, which, so far as I can see, exhaust the use of ‘model’ in the DL literature: (a) DNNs as (crude) models of actual brains, (b) the algorithms employed in DL as abstract, selective models of human learning, and (c) the input–output mappings approximated through training as models of features pertaining to the data, such as their statistical distribution.” (Boge, 2022, p. 46)
