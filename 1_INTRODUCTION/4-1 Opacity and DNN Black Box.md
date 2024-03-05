@@ -6,8 +6,6 @@ DNN opacity in context
 **Epistemic opacity is a context-dependent feature of computational science**
 “Here a process is epistemically opaque relative to a cognitive agent X at time t just in case X does not know at t all of the epistemically relevant elements of the process.” (Humphreys, 2009, p. 618)
 
-“I take it for granted that epistemic opacity is relative to an agent and involves a lack of knowledge. The process in both cases is the computational process, and its ==opacity is usually traced back to the complexity of the algorithm== (cf. Burrell, 2016, p. 5; Humphreys, 2009, p. 619).” (Boge, 2022, p. 59)
-
 A cognitive agent is not able to know and understand all epistemically relevant elements of a computational process.
 Key question based on Humphreys: can I make justifiable claims on the basis of a process of which it is impossible to know all its epistemically relevant factors?
 
