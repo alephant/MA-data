@@ -12,7 +12,7 @@ It sounds like LIME provides local explanations and does not help understanding 
 **Post-hoc explanations like LIME do not give insight how the DNN actually came to its decision**
 “But the decision-making process implied by LIME’s list of symptoms is not the way that the original system decides. At no point in the original machine learning system’s decision making does it build a sparse linear model that provides discrete symptoms. The linear model used by LIME accurately characterizes the relevant space for that decision, but it would not be of much use in detecting problems with the functioning of the original system. Nor does it open the “steps in the process” to “direct inspection and verification” (Humphreys 2004, 148)” (Creel, 2020, p. 28)
 
-**Visualization does not tell us which DNN sub-component tracks which target features is**
+**Visualization does not tell us which DNN sub-component tracks which target features**
 “However, it does not localize the detected artifact to a particular submodel. Each of the artificial neurons that (metaphorically) fire differentially when presented with the image of the dumbbell is looking for slightly different sub-components or aspects of the definition of dumbbell. Although we can know which neurons are firing when presented with an arm, a dumbbell, and an arm with a dumbbell, teasing apart which “subcomponent” should be modified to fix the artifact is difficult due to the fuzzy modularity of neuron groups.” (Creel, 2020, p. 32)
 
 ---
