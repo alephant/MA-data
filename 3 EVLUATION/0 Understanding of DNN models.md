@@ -1,19 +1,23 @@
-**Can post-hoc explanations illuminate why DNN are predictively successful and tell us anything about their unique properties such as generalization?**
-“Nevertheless, such outside in, post-hoc explanation generation increases a type of functional transparency: it provides access to the decision space most relevant to the token classification. In the language of functional transparency, it thus succeeds in explaining the functioning of the algorithm on ==that particular decision==, albeit in coarsegrain, human-interpretable terms.” (Creel, 2020, p. 27)
+**Post-hoc explanations provide some high-level understanding of the functioning of the algorithm, but only as local explanations - PHE do not provide a global understanding which algorithm governs the input-output relation**
+“Nevertheless, such outside in, post-hoc explanation generation increases a type of functional transparency: ==it provides access to the decision space most relevant to the token classification==. In the language of functional transparency, it thus succeeds in explaining the functioning of the algorithm on ==that particular decision==, albeit in coarsegrain, human-interpretable terms.” (Creel, 2020, p. 27)
 
-It sounds like LIME provides local explanations and does not help understanding global properties of DNN.
-
-**Visualization?**
-“By supporting a high-level understanding of which features the algorithm is using to decide whether an image should be classified with a label, visualization delivers the capacity to detect artifacts.” (Creel, 2020, p. 31)
+**Visualization helps to detect artifacts**
+“By supporting a high-level understanding of which features the algorithm is using to decide whether an image should be classified with a label, visualization delivers the ==capacity to detect artifacts==.” (Creel, 2020, p. 31)
 “Visualization provides knowledge of features of the initial training data and subsequent trained algorithm that would otherwise be difficult to access merely from the output.” (Creel, 2020, p. 32)
 
 ---
 
-**Post-hoc explanations like LIME do not give insight how the DNN actually came to its decision**
-“But the decision-making process implied by LIME’s list of symptoms is not the way that the original system decides. At no point in the original machine learning system’s decision making does it build a sparse linear model that provides discrete symptoms. The linear model used by LIME accurately characterizes the relevant space for that decision, but it would not be of much use in detecting problems with the functioning of the original system. Nor does it open the “steps in the process” to “direct inspection and verification” (Humphreys 2004, 148)” (Creel, 2020, p. 28)
+**PHE such as saliency maps might provide understanding of a few individual input-output paths or predictions, but not of the algorithm as a whole**
+“There are many cases in which understanding the sub-components of a whole model might be prohibitively complex while a few of the model’s input-output paths remain easily understandable.” (Creel, 2020, p. 16)
+“Separating the transparency of individual paths or individual predictions from the transparency of the model or algorithm as a whole, as some analyses do, is reasonable, but one cannot stand in for the other (Ribeiro, Singh, and Guestrin 2016).” (Creel, 2020, p. 16)
 
-**Visualization does not tell us which DNN sub-component tracks which target features**
-“However, it does not localize the detected artifact to a particular submodel. Each of the artificial neurons that (metaphorically) fire differentially when presented with the image of the dumbbell is looking for slightly different sub-components or aspects of the definition of dumbbell. Although we can know which neurons are firing when presented with an arm, a dumbbell, and an arm with a dumbbell, teasing apart which “subcomponent” should be modified to fix the artifact is difficult due to the fuzzy modularity of neuron groups.” (Creel, 2020, p. 32)
+**PHE like LIME give an accurate characterization, but do not give insight how the DNN actually came to its decision**
+“But the decision-making process implied by LIME’s list of symptoms is not the way that the original system decides. At no point in the original machine learning system’s decision making does it build a sparse linear model that provides discrete symptoms. The linear model used by LIME accurately characterizes the relevant space for that decision, ==but it would not be of much use in detecting problems with the functioning of the original system==. Nor does it open the “steps in the process” to “direct inspection and verification” (Humphreys 2004, 148)” (Creel, 2020, p. 28)
+
+**Even though visualization helps to detect artifacts, it does not tell us which DNN sub-component is causing the artifact**
+“==However, it does not localize the detected artifact to a particular submodel==. Each of the artificial neurons that (metaphorically) fire differentially when presented with the image of the dumbbell is looking for slightly different sub-components or aspects of the definition of dumbbell. Although we can know which neurons are firing when presented with an arm, a dumbbell, and an arm with a dumbbell, teasing apart which “subcomponent” should be modified to fix the artifact is difficult due to the fuzzy modularity of neuron groups.” (Creel, 2020, p. 32)
+
+
 
 ---
 
