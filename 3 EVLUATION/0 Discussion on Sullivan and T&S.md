@@ -2,10 +2,11 @@
 
 **Sullivan: we know the algorithm that governs the input-output relation**
 
-Creel: PHE provide some local understanding of relevant features and functioning of the algorithm, but no global understanding of the algorithm.
+Creel: no, we have some indication of it, but we don't know what the learned algorithm is.
+PHE provide some local understanding of relevant features and functioning of the algorithm, but no global understanding of the algorithm.
 PHE do not give uns any insight how the ML model actually comes to its decision.
 
-**Sullivan: we know what drives model outcome**
+**Sullivan: it is sufficient to know high-level emergent properties as these determine model outcome (really?)**
 
 Creel: DNN lack structural transparency, i.e. we don't know how the algorithm is implemented in code that bring about the model outcome.
 We lack structural transparency to understand "how steps interact to bring about the algorithm or to what extent each individual step contributed to the final result"

@@ -9,14 +9,6 @@ DNN opacity in context
 **What are the epistemically relevant elements acc. to Boge?**
 “In fact, the unknowns are what makes w-opacity (and DL, accordingly) special: They correspond to ==automatically discovered insights==; ==complex, non-obvious features that can be abstracted from the data== and allow the machine to discriminate. ==Their existence is an empirical matter==, so I will provide examples below. ==It is these very features that drive predictive success== but, as the examples will show, at the same time yield the greatest prospects for understanding. They are hence epistemically relevant.” (Boge, 2022, p. 61)
 
-=="complex, non-obvious features that can be abstracted from the data" sounds a lot like T&S approach.==
-
-**Example for unknown, but epistemically relevant elements that are automatically discovered in data by DNN**
-“From this, Baldi et al. (2014, p. 7; emph. added) concluded “that [DNNs] are automatically discovering the insight contained in the high-level features.”” (Boge, 2022, p. 62)
-
-A cognitive agent is not able to know and understand all epistemically relevant elements of a computational process.
-Key question based on Humphreys: can I make justifiable claims on the basis of a process of which it is impossible to know all its epistemically relevant factors?
-
 **DNN functioning is epistemically accessable in a formal-mathematical sense, but not in a semantic sense that permits us to understand how the DNN comes to its prediction**
 “From the above, it should be clear that there is a straightforwardly mathematical sense in which deep neural networks are fully transparent. All weights on all connections across the network, billions as there may be, are both available for inspection and computationally tractable. However, while formally precise, neural network logic is largely semantically unintelligible. That is, the mathematical expression of a fully trained neural network model cannot, in general, be given an intelligible interpretation in terms of the target system such that one can understand or comprehend how the parts interact and contribute to the network’s outputs.” (Duede, 2023, p. 1091) 
 
@@ -55,19 +47,6 @@ Higher-level emergent properties are not decomposable (see Humphrey, 2004)
 
 **in Zerilli: Lack of fathomability due to complexity impedes understanding how the model relates features to produce outputs (structural opacity acc. to Creel)**
 “Fathomability is understood to be the extent to which a person can understand, straight away, how the model relates features to produce outputs. As a result, the more complex a model (e.g., increased dimensionality, extreme nonlinearities, etc.), the less fathomable it becomes.” (Duede, 2023, p. 1092) 
-
----
-Boge's h- and w-opacity
-
-**Boge: the two dimensions to the opacity-problem of DNN: how does it learn to estimate a desired function and what in the data drives this process?**
-“As a matter of fact, it is easy to recognize the very same process involved in h-opacity as involved also in w-opacity. This is what it means that there are two dimensions to ‘the’ opacity-problem in DL, instead of two problems. When a DNN learns to approximate a desired function, it is hence not only opaque how, precisely, it achieves this goal: It is also opaque what it is about the data that drives this process.” (Boge, 2022, p. 62)
-
-**“W-opacity constitutes an independent dimension to the opacity of DL, and may therefore create an independent epistemic problem (as I believe it does).”** (Boge, 2022, p. 65ff.)
-
-**Boge: h-opacity refers to the opacity of how the machine learns; it concerns mainly functional transparency**
-“The point hence is that, despite some abstract analogies between human and Deep Learning, it is in important respects opaque how the machine learns. Call that h-opacity. ==H-opacity concerns the way in which a DNN automatically alters the instantiated function in response to data==.” (Boge, 2022, p. 59)
-
-
 
 
 
