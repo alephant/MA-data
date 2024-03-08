@@ -1,3 +1,21 @@
+Weisberg (2013, 15) sees models as "interpreted structures": the structure of the Schelling model e.g. is a set of states and transitions. The interpretation of the structure "tell us what the model is about and set up relations of denotation between models and their intended targets".
+
+**What of the model carries the explanatory force?**
+Types of models can be distinguished in how they are used to give scientific explanations. 
+For explanations given by computational models such as Schelling model, the explanans is typically the transition rules or the algorithm. "Schelling explained segregation by pointing out that small decisions reflecting small amounts of bias will aggregate to massively segregated demographics. Neither the time sequence of the model's states nor the final, equilibrium state of the model carries the explanatory force; ==the algorithm itself is needed==."
+
+So while mathematical and computational models are not ontologically distinct, they are practically different in how they explain and represent the phenomenon of interest.
+
+Weisberg argues that to understand "the nature of models and model-world relations, we should be thinking about models much closer to the level of abstraction at which they function" (Weisberg, 2013, 23).
+Schelling model functions on the basis of an abstraction from individual preference to model agent's preference. 
+What is the level of abstraction at which DNN function?
+
+**Model parameters**
+"Model descriptions also contain parameters, which are fixed and taken to be exogenous, outside the scope of what the model can represent directly."
+e.g. the model parameter of Schelling model that represents individual preference is pre-set, similar to how nothing in a DNN directly informs the setting of its hyperparameters, they are pre-determined by the modeler.
+
+
+
 idealization, simulation, abstraction, similarity:
 - “The semantic conception provides a straightforward answer to the question of how models give us knowledge of the world: they specify structures that are posited as possible representations of either the observable phenomena or, even more ambitiously, the underlying structures of the real target systems.” (Knuuttila and Merz, 2009, p. 4) ==semantic approach to modelling==
 - “Thus, according to the semantic view, the structure specified by a model represents its target system if it is either structurally isomorphic or somehow similar to it.” (Knuuttila and Merz, 2009, p. 4)
