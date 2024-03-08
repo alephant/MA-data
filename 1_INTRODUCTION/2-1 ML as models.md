@@ -18,7 +18,10 @@ e.g. the model parameter of Schelling model that represents individual preferenc
 The core structure of computational models is procedural. This means that the computational structure, e.g. the algorithm can be understood as a set of instructions that carries out a procedure. 
 "[Computational models] represent causal properties of their targets by relating these causes to procedures." (Weisberg, 2013, 31)
 
-
+**Model descriptions**
+The relationship between model descriptions to models is many-to-many. (Weisberg, 2013, 35)
+Mathematical models can only be manipulated using their abstract descriptions in the form of mathematical equations.
+Computational models are described abstractly. 
 
 
 idealization, simulation, abstraction, similarity:
