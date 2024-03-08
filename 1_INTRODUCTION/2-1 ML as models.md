@@ -14,6 +14,11 @@ What is the level of abstraction at which DNN function?
 "Model descriptions also contain parameters, which are fixed and taken to be exogenous, outside the scope of what the model can represent directly."
 e.g. the model parameter of Schelling model that represents individual preference is pre-set, similar to how nothing in a DNN directly informs the setting of its hyperparameters, they are pre-determined by the modeler.
 
+**Computational models - algorithm - causal properties**
+The core structure of computational models is procedural. This means that the computational structure, e.g. the algorithm can be understood as a set of instructions that carries out a procedure. 
+"[Computational models] represent causal properties of their targets by relating these causes to procedures." (Weisberg, 2013, 31)
+
+
 
 
 idealization, simulation, abstraction, similarity:
