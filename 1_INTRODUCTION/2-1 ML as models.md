@@ -2,12 +2,12 @@ Weisberg (2013, 15) sees models as "interpreted structures": the structure of th
 
 **What of the model carries the explanatory force?**
 Types of models can be distinguished in how they are used to give scientific explanations. 
-For explanations given by computational models such as Schelling model, the explanans is typically the transition rules or the algorithm. "Schelling explained segregation by pointing out that small decisions reflecting small amounts of bias will aggregate to massively segregated demographics. Neither the time sequence of the model's states nor the final, equilibrium state of the model carries the explanatory force; ==the algorithm itself is needed==."
+For explanations given by computational models such as Schelling model, the explanans is typically the transition rules or the algorithm. "Schelling explained segregation by pointing out that small decisions reflecting small amounts of bias will aggregate to massively segregated demographics. Neither the time sequence of the model's states nor the final, equilibrium state of the model carries the explanatory force; ==the algorithm itself is needed==." (Weisberg, 2013, 20)
 
 So while mathematical and computational models are not ontologically distinct, they are practically different in how they explain and represent the phenomenon of interest.
 
 Weisberg argues that to understand "the nature of models and model-world relations, we should be thinking about models much closer to the level of abstraction at which they function" (Weisberg, 2013, 23).
-Schelling model functions on the basis of an abstraction from individual preference to model agent's preference. 
+Schelling model functions on the basis of abstracting from individual preference to model agent's preference. 
 What is the level of abstraction at which DNN function?
 
 **Model parameters**
@@ -19,9 +19,30 @@ The core structure of computational models is procedural. This means that the co
 "[Computational models] represent causal properties of their targets by relating these causes to procedures." (Weisberg, 2013, 31)
 
 **Model descriptions**
+Model descriptions specify models, models realize model descriptions. (Weisberg, 2013, 35)
 The relationship between model descriptions to models is many-to-many. (Weisberg, 2013, 35)
 Mathematical models can only be manipulated using their abstract descriptions in the form of mathematical equations.
-Computational models are described abstractly. 
+Computational models are typically described abstractly by explicating the model's procedures in programming code or discrete mathematics (Weisberg, 2013, 38).
+
+Model construal: interpretation of model structure (Weisberg, 2013, 3.3)
+"These four components of construal constitute the theorists' interpretation of the model":
+Assignment: "explicit specifications of how parts of real or imagined target systems are to be mapped onto parts of the model"
+Scope: specifies which aspects of potential target phenomena are intended to be represented by the model
+Fidelity criteria: describe how similar the model must be to the world in order to be considered an adequate representation (dynamical: how close must the model prediction match the behavior of the phenomenon; representational: how closely must the internal model structure match the causal structure of the phenomenon)
+
+**Idealization**
+An idealized model represents its target system in some distorted way, i.e. misrepresents its properties.
+
+**Galilean idealization**: introducing distortions into models in order to make them more computationally tractable. The key features of practicing Galilean idealization are: pragmatic, for computational tractability, nonpermanent, expecting future de-idealization and more accurate representation
+==Is this the kind of idealization involved in DL?==
+
+**Minimalist idealization**: "a minimal model contains only those factors that make a difference to the occurrence and essential character of the phenomenon in question" (Weisberg, 2013, 100)
+==Or are minimal models constructed by employing DNN models?==
+
+==Does **Multiple-Models Idealization** has anything to say to a **combination of Sullivan's and T&S' approach to using DNN as scientific models**?==
+
+
+
 
 
 idealization, simulation, abstraction, similarity:
