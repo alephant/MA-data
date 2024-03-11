@@ -1,3 +1,22 @@
+The most basic structure of neural network is called a perceptron. It consists of an input and an output layer. 
+Perceptrons were developed from the early 80s
+- as models for what?
+- higher preditive power compared to other network structures?
+
+**DNN properties**
+Buckner (2019) characterized deep neural networks in their increased depth, heterogeneity of nodes, sparse connectivity and employment of regularization techniques compared to perceptrons of earlier years of AI ML development. The introduction of a hidden layer into two-layer perceptrons unlocked the computation of an entire new set of functions. Adding further layers renders neural networks expontentially more efficient in their computations. DNN gain distinct task performance by the combination of nodes computing more elaborate and different activation functions (e.g. convolution, rectification or max pooling). This allows DNN to extract more and more abstract features from the input data. In contrast to fully-connected neural networks, the nodes in current DNN are only connected to nodes in previous and later layers that receive input from the same patch within the input data, e.g. from the same receptive fields of limited size in visual data. Sparse connectivity increases training and computational task efficiency. A DNN typically fails to generalize well beyond training, if it learned to predict idiosyncratic features of the training data, i.e. the DNN overfits training data. To counteract overfitting regularization techniques are used. These increase the reliance of network predictions on more generalizable characteristics of the input data, instead of pecularities.
+
+
+
+
+In the following, I focus on a type of ML model that is based on deep learning. 
+Deep neural networks are multilayered computational systems that perform numerical data transformations to predict output data based on input data.
+The basic computational sub-structures of a DNN are nodes that compute simple, non-linear transformations on numerical data, so called activation functions. EXAMPLES for activation functions.
+Nodes are arranged in layers. Each node computes its function on input data it receives from nodes of a previous layer and outputs its result to nodes in the next layer. Nodes of different layers are connected by edges. By each edge a weight is assigned to the output value of a node that serves as input to nodes in the next layer. Additional terms like biases can be assigned as well. The first layer is called input layer and and abstracts raw data into numerical form.
+The last layer is called output layer. In the case of a classifier DNN the output layer indicates the labels with which to classify the stimulus input to the DNN. Hidden layers are the layers in between input and output layer. The more hidden layers there are, the deeper the DNN. 
+
+
 **Key differences between perceptrons and DNN**
 “Contemporary deep neural networks, while stemming from their simpler ancestors, differ in at least four important ways, as summarized by Buckner (2019): they contain many more layers, increasing their efficiency; they are composed of heterogeneous processing units with different activation functions; they are sparsely connected; and they use more techniques to avoid overfitting. These added complexities increase both performance and opacity.” (Creel, 2020, p. 20)
 
+“The typical state-of-the-art DCNN, on the other hand, is (a) deep, containing anywhere from 5 to 250 (or more) layers; (b) heterogeneous, containing different kinds of processing nodes deploying different activation functions (especially convolutional nodes, rectified linear units or “ReLUs,” and nonlinear downsamplers like max poolers—each of which will be explained below); (c) sparsely connected, with later layers only taking input from nearby nodes with overlapping spatial receptivity from the previous layer (a fully-connected output layer is the common exception); and (d) deploys explicit techniques to avoid overfitting (such as dropout, which will also be explained below). Each of these features likely plays a role in making DCNNs orders of magnitude more efficient than shallower networks on the kinds of problems on which they reliably succeed.” (Buckner, 2019, p. 3) Properties of DNN
