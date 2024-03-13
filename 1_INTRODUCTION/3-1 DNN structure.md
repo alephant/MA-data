@@ -1,12 +1,3 @@
-The most basic structure of neural network is called a perceptron. It consists of an input and an output layer. 
-Perceptrons were developed from the early 80s
-- as models for what?
-- higher preditive power compared to other network structures?
-
-**DNN properties**
-Buckner (2019) characterized deep neural networks in their increased depth, heterogeneity of nodes, sparse connectivity and employment of regularization techniques compared to perceptrons of earlier years of AI ML development. The introduction of a hidden layer into two-layer perceptrons unlocked the computation of an entire new set of functions. Adding further layers renders neural networks expontentially more efficient in their computations. DNN gain distinct task performance by the combination of nodes computing more elaborate and different activation functions (e.g. convolution, rectification or max pooling). This allows DNN to extract more and more abstract features from the input data. In contrast to fully-connected neural networks, the nodes in current DNN are only connected to nodes in previous and later layers that receive input from the same patch within the input data, e.g. from the same receptive fields of limited size in visual data. Sparse connectivity increases training and computational task efficiency. A DNN typically fails to generalize well beyond training, if it learned to predict idiosyncratic features of the training data, i.e. the DNN overfits training data. To counteract overfitting regularization techniques are used. These increase the reliance of network predictions on more generalizable characteristics of the input data, instead of pecularities.
-
-
 
 
 In the following, I focus on a type of ML model that is based on deep learning. 
@@ -14,6 +5,15 @@ Deep neural networks are multilayered computational systems that perform numeric
 The basic computational sub-structures of a DNN are nodes that compute simple, non-linear transformations on numerical data, so called activation functions. EXAMPLES for activation functions.
 Nodes are arranged in layers. Each node computes its function on input data it receives from nodes of a previous layer and outputs its result to nodes in the next layer. Nodes of different layers are connected by edges. By each edge a weight is assigned to the output value of a node that serves as input to nodes in the next layer. Additional terms like biases can be assigned as well. The first layer is called input layer and and abstracts raw data into numerical form.
 The last layer is called output layer. In the case of a classifier DNN the output layer indicates the labels with which to classify the stimulus input to the DNN. Hidden layers are the layers in between input and output layer. The more hidden layers there are, the deeper the DNN. 
+
+
+**DNN properties**
+Buckner (2019) characterized deep neural networks in their increased depth, heterogeneity of nodes, sparse connectivity and employment of regularization techniques compared to perceptrons of earlier years of AI ML development. The introduction of a hidden layer into two-layer perceptrons unlocked the computation of an entire new set of functions. Adding further layers renders neural networks expontentially more efficient in their computations. DNN gain distinct task performance by the combination of nodes computing more elaborate and different activation functions (e.g. convolution, rectification or max pooling). This allows DNN to extract more and more abstract features from the input data. In contrast to fully-connected neural networks, the nodes in current DNN are only connected to nodes in previous and later layers that receive input from the same patch within the input data, e.g. from the same receptive fields of limited size in visual data. Sparse connectivity increases training and computational task efficiency. A DNN typically fails to generalize well beyond training, if it learned to predict idiosyncratic features of the training data, i.e. the DNN overfits training data. To counteract overfitting regularization techniques are used. These increase the reliance of network predictions on more generalizable characteristics of the input data, instead of pecularities.
+
+
+
+
+
 
 
 **Key differences between perceptrons and DNN**
