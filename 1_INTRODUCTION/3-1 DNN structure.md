@@ -1,10 +1,20 @@
 
 
 In the following, I focus on a type of ML model that is based on deep learning. 
-Deep neural networks are multilayered computational systems that perform numerical data transformations to predict output data based on input data.
-The basic computational sub-structures of a DNN are nodes that compute simple, non-linear transformations on numerical data, so called activation functions. EXAMPLES for activation functions.
-Nodes are arranged in layers. Each node computes its function on input data it receives from nodes of a previous layer and outputs its result to nodes in the next layer. Nodes of different layers are connected by edges. By each edge a weight is assigned to the output value of a node that serves as input to nodes in the next layer. Additional terms like biases can be assigned as well. The first layer is called input layer and and abstracts raw data into numerical form.
-The last layer is called output layer. In the case of a classifier DNN the output layer indicates the labels with which to classify the stimulus input to the DNN. Hidden layers are the layers in between input and output layer. The more hidden layers there are, the deeper the DNN. 
+Deep neural networks are multilayered computational systems that perform numerical data transformations to predict output data based on input data. The basic computational sub-structures of a DNN are nodes that compute simple, linear and non-linear functions on values, so called activation functions, e.g. used for filtering, thresholding, pooling or normalization of values. Nodes are arranged in layers. Each node computes its function on values it receives from nodes of a previous layer and outputs its result to nodes in the next layer. Nodes of different layers are connected by edges. By each edge a weight is assigned to the output value of a node that serves as input to nodes in the next layer. Additional terms like biases can be assigned as well. The first layer is called input layer and abstracts raw data, e.g. visual image data, into numerical data. The last layer is called output layer. In the case of a classifier DNN the output layer indicates the labels with which to classify the input to the DNN. Hidden layers are the layers in between input and output layer. The more hidden layers there are, the deeper the DNN. This multi-layered arrangement allows for the complex, non-linear transformation of original input data. 
+
+Key characteristics of DNN appear to mirror brain functioning. e.g. the way nodes of DCNN transform data to hierarchically compose more complex features from simpler representations is inspired by how different types of neurons hierarchically process perceptual stimuli in the ventral stream (Yamins and DiCarlo, 2016; Hong et al., 2016). Yamins and DiCarlo (2016) identify three criteria for for a model of the sensory cortical system: "stimulus-computability: The model should accept arbitrary stimuli within the general stimulus domain of interest", "Mappability: The components of the model should correspond to experimentally deinable components of the neural system" and "Predictivity" which means that the components of the model should accurately predict neuronal response patterns to stimuli outside the training domain. As DCNN are capable to generate responses to any kind of perceptual input image, their network layers can be mapped to observable structures of the ventral stream and predict neural response patterns to visual stimuli outside the training domain, Yamins and DiCarlo (2016) regard them as "good candidates for models of the ventral visual pathway".
+
+However, despite some aspects of DNN being biologically inspired, their ability to serve as good explanatory models of the brain remains debated. The assumed difference between "simple and complex cells" that initially inspired the hierarchical feature composition among nodes that employ convolutional and pooling functions was challenged by new neuroanatomical findings (Priebe, Mechler, Carandini, & Ferster, 2004). Furthermore, despite overall DNN functioning mimicks neuronal functioning, central components of DNN algorithmic processes such as feed-forward processing and gradient descent are biologically implausible (NOT READ: Chirimuuta, 2020; Goodfellow et  al., 2016). Humphreys concludes that neural nets are "extremely crude models of real brains" (Humphreys, 2013, 580).
+
+
+
+
+
+
+
+
+
 
 
 **DNN properties**

@@ -41,7 +41,10 @@ An idealized model represents its target system in some distorted way, i.e. misr
 
 ==Does **Multiple-Models Idealization** has anything to say to a **combination of Sullivan's and T&S' approach to using DNN as scientific models**?==
 
-
+What is the relation between models and targets?
+The weighted feature-matching account of similarity says that "models stand in representational relations to their targets, not lacking too many of these features, and not having too many extra features".
+"Scientific context, as specified by the modeler's construal, determines the choice and weighting of important features." (Weisberg, 2013, 173).
+For computational models, "features of models are compared to mathematical representations of features of targets"
 
 
 
