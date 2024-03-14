@@ -1,3 +1,8 @@
+DNN as models are computational models. According to Weisberg (2013), models are "interpreted structures", i.e. they consist of a structure and the modeler's interpretation of the structure. Computational models are constructed of procedures, i.e. at their core, their set of states and state-transitions are described by an algorithm that is a set of instructions that carries out procedures on an initial starting state and defines how this state changes and yields an output state.
+Computational models explain target systems of interest by...
+Weisberg contrast mathematical and computational models in how they provide explanations. Where in mathematical models the relationship among variables serves as explanans, in a computational model the algorithm carries the explanatory force. Schelling model, e.g. is a simple computational model that shows that an aggregate effect of individual preference is sufficient to cause wide-scale racial segregation. At the heart of the explanation provided by Schelling model lies the model's algorithm that describes how a model agent moves until a certain preference threshold is met that indicates that at least 30 % of its surrounding agents are of the same type, 
+
+
 Weisberg (2013, 15) sees models as "interpreted structures": the structure of the Schelling model e.g. is a set of states and transitions. The interpretation of the structure "tell us what the model is about and set up relations of denotation between models and their intended targets".
 
 **What of the model carries the explanatory force?**
