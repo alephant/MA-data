@@ -9,7 +9,7 @@ ML models in general and DNN in particular are predictive powerhouses and their 
 However, the use of DNN as scientific models is controversial. DNN are highly complex computational archictectures containing billions of parameters, their functioning is difficult to understand and control for the modeler. As DNN models lack transparency and simplicity, one lacks the insight into the computational process that enables their unique characteristics such as their high predictive power, and the driving factors that determine DNN model outcomes. Thus, the problem of opacity in DNN is discussed as a lack of epistemic access to all elements of the computational process that are epistemically relevant in understanding DNN functioning and outcomes (Humphreys, 2009).
 The epistemic opacity of DNN thus becomes a problem when DNN models are used for scientific explanation and understanding. Duede (2023) identifies the "context of justification" in science as critical in this matter: it becomes unreasonable to treat DNN output as scientific claims which are in need for justication as DNN lack transparency to all epistemically relevant elements that determine their output. e case of DNN. This is especially the case when DNN outputs directly inform high-stakes decision-making, e.g. in medical intervention or criminal justice.
 
-with in the "context of justification", i.e. 
+
 
 
 Thus, DNN are labelled black boxes. 
