@@ -1,7 +1,7 @@
 - Teaser Understanding of vs understanding with ML models
 - Teaser for narrow and wide view of understanding from ML models
 
-Sullivan argues that whether or not ML models enable understanding of phenomena is not a question of model opacity, but depends on the degree of link uncertainty between the model and the phenomenon. For a link to be established between model and phenomenon, 
+Sullivan argues that whether or not ML models enable understanding of phenomena is not a question of model opacity, but depends on the degree of link uncertainty between the model and the phenomenon. 
 
 Opacity is not an in-principle problem for understanding from ML models, i.e. the reason why opaque do not enable understanding is not opacity, but link uncertainty.
 
