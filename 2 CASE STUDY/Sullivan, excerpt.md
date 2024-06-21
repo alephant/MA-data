@@ -42,7 +42,7 @@ On link uncertainty:
 
 ### Sullivan excerpt
 
-Whether or not ML models enable understanding of phenomena is not a question of model opacity, but depends on the degree of link uncertainty between the model and the phenomenon. Opacity is not an in-principle problem for understanding from ML models, i.e. the reason why opaque do not enable understanding is not opacity, but link uncertainty.
+Whether or not ML models enable understanding of phenomena is not a question of model opacity, but depends on the degree of link uncertainty between the model and the phenomenon. Opacity is not an in-principle problem for understanding from ML models, i.e. the reason why opaque models do not enable understanding is not opacity, but link uncertainty.
 Opacity is not the deciding factor for understanding from ML models. The implementation of ML models can be black-boxed on various levels without necessarily impeding understanding. 
 - “A modeler may know the broad outline of the algorithm’s structure without knowing how each step is exactly implemented. In such a case, there is a black box around implementation; the implementation is either unknown or illegible to the modeler, the explainer, or the understander.” (Sullivan, 2022, p. 8)
 
