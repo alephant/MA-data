@@ -27,7 +27,7 @@ On DNN:
 - DNN generalization can be ensured based on statistical assumptions.
 - Sullivan's argument works for all types of DNN, a difference in structure and implementation does not matter.
 - We have understanding of high-level properties of DNN.
-	- Having no direct control over the modelling process (like for the Schelling model) is not a problem to have understanding of high-level functioning of DNN.
+	- Having no direct control over the modelling process (like for the Schelling model) is not a problem for having understanding of high-level functioning of DNN.
 	- Background knowledge on DNN modelling and DNN properties and the use of indirect means are sufficient to ensure that the DNN is not black-boxed at the highest level and to gain understanding of high-level functioning of the DNN.
 	- We know enough of the DNN modelling process to "make intelligent changes to improve output and prediction"
 
