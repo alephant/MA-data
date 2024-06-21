@@ -1,3 +1,6 @@
 Are ML models incapable of providing understanding? Does their black box nature prevent DNN to provide scientific understanding?
 
 To answer these questions, I first give a lay of the land and introduce DNN in their structure and  modelling process, clarify the use of DNN as scientific models and the black box problem of DNN. Then I compare two views on understanding from ML models: the first introduced by Sullivan that dismisses ML opacity as an in-principle problem for understanding, and second by T&S introduced as a refined of Sullivan's view that narrows the scope of understanding. I critically evaluate both in respect to key concepts and conclusions: I reject Sullivan's thesis on ML opacity being no problem, accept her external link view in principle, reject T&S' view on the relevance of ML implementation details and embrace their narrow view of understanding in principle. Then I present my own view: while opacity cannot be easily dismissed, understanding from ML models can be achieved in scientifically meaningful ways by combining an external link view with a narrow scope of understanding (understanding TML targets).
+
+
+Die Geschichte handelt von einer neuen Art Technologie und der Frage, ob sie als Modell für wiss. Erklärungen herangezogen werden können oder nicht. Also ein neues Ding, das die anderen Modelle 
