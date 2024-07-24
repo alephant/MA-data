@@ -1,21 +1,42 @@
 What is the overall argument that Sullivan is making?
 Sullivan rejects the popular claim that the opacity and complexity of DNN models are an in-principle problem for gaining understanding from DNN models. In contrary, she argues that it is not the opacity and complexity of DNN models that are the limiting factor when considering DNN as explanatory models, but like with any other model, simple or complex, it comes down to whether the model is linked to the target phenomenon. She introduces the notion of link uncertainty as the actual limiting factor.
 
+
 What is link uncertainty?
-At best, by using a model we want to understand what the actual causes of a phenomenon are. To enable the understanding of actual causes, the causes that the model identified must be empirically validated as actual causes. As long as the causes identified by the model are not empirically shown to be the actual causes, there is a high degree of link uncertainty between the model and the target phenomenon.
+At best, by using a model we want to understand what the actual causes of a phenomenon are. To enable the understanding of actual causes, the causes that the model identifies must be empirically (or scientifically) validated as actual causes. As long as the causes identified by the model are not empirically (or scientifically) shown to be the actual causes, there is a high degree of link uncertainty between the model and the target phenomenon.
+
 
 For which models is link uncertainty important?
-It is important to remove link uncertainty for any kind of model. Sullivan writes “This general claim about the importance of removing link uncertainty in order to gain understanding stretches beyond the cases of minimal and complex models.” (Sullivan, 2022, p. 27)
+It is important to remove link uncertainty for any kind of model. 
+>[!Sullivan]
+>“This general claim about the importance of removing link uncertainty in order to gain understanding stretches beyond the cases of minimal and complex models.” (Sullivan, 2022, p. 27)
+
 
 How can link uncertainty be removed?
-The question of how to remove link uncertainty is the question of how to establish a link between model and target. 
+The question of how to remove link uncertainty is the question of how to establish a link between model and target.
+>[!Sullivan]
+>“In my view, higher-level goals of algorithms are necessarily important for evaluating LU and the scope of possible understanding. Concerning ML models, the trained model executes an algorithm that has a specific classification or predictive task / goal. How the algorithm achieves the goal is an implementation question of the various steps that the learned model takes to reach an output, such as a set of learned weights. Which specific learned weights are necessary to know—and their level of description—for understanding phenomena with ML models is the question. I have argued that the answer to this question partly depends on the epistemic risk facing the model and is largely an external question regarding LU.” (Sullivan, 2022, p. 2)
 
-What of the algorithms executed by computational systems such as DNN must be known?
-Sullivan differentiates between the goal of an algorithm and how the algorithm achieves its goal.
-How the algorithm of DNN achieves its goal can be opaque (implementation opacity).
-“However, the general goal of the algorithm must be known for understanding to be possible.”
-The goals of lower-level algorithms become a matter of implementing higher-level algorithms. Thus, goals of lower-level algorithms become a matter of how a trained DNN achieve its specific classification or prediction goal. 
-It seems that Sullivan adheres to the notion that a trained DNN executes a "highest-level" algorithm that is identical to what the DNN is designed to achieve. For her, this algorithm is known. 
 
+Highest-level algorithm?
+The goal of the highest-level algorithm of a trained DNN must be known for understanding to be possible. It seems that Sullivan adheres to the notion that a trained DNN executes a "highest-level" algorithm that is identical to what the DNN is designed to do. For her, this algorithm is known and knowable.
+
+>[!Sullivan]
+>“However, the general goal of the algorithm must be known for understanding to be possible.” (Sullivan, 2022, p. 2)
+>“In my view, higher-level goals of algorithms are necessarily important for evaluating LU and the scope of possible understanding.” (Sullivan, 2022, p. 2)
+
+
+Lower-level algorithm?
+>[!Sullivan]
+>“The lower-level algorithms become the way of implementing higher-level algorithms. Thus, lower-level algorithm goals are also a matter of implementation.” (Sullivan, 2022, p. 2)
+
+
+What is implementation opacity?
+The way how an algorithm achieves its goal is opaque.
+How an algorithm is implemented is opaque.
+
+
+Is implementation opacity relevant for understanding a phenomenon from ML models?
+No, Sullivan argues that implementation opacity is irrelevant, i.e. for the question whether a trained DNN enables understanding or not, the opacity of how the algorithm is implemented is irrelevant.
 
 
