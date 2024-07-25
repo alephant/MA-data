@@ -1,6 +1,9 @@
 What is the overall argument that Sullivan is making?
 Sullivan rejects the popular claim that the opacity and complexity of DNN models are an in-principle problem for gaining understanding from DNN models. In contrary, she argues that it is not the opacity and complexity of DNN models that are the limiting factor when considering DNN as explanatory models, but like with any other model, simple or complex, it comes down to whether the model is linked to the target phenomenon. She introduces the notion of link uncertainty as the actual limiting factor.
 
+What does Sullivan refute?
+She refutes that "DL models cannot be used for understanding merely due to some opacity".
+
 
 What is link uncertainty?
 At best, by using a model we want to understand what the actual causes of a phenomenon are. To enable the understanding of actual causes, the causes that the model identifies must be empirically (or scientifically) validated as actual causes. As long as the causes identified by the model are not empirically (or scientifically) shown to be the actual causes, there is a high degree of link uncertainty between the model and the target phenomenon.
@@ -39,4 +42,16 @@ How an algorithm is implemented is opaque.
 Is implementation opacity relevant for understanding a phenomenon from ML models?
 No, Sullivan argues that implementation opacity is irrelevant, i.e. for the question whether a trained DNN enables understanding or not, the opacity of how the algorithm is implemented is irrelevant.
 
+What is **the** question regarding the ML model output?
+The output of a trained ML model is set of learned weights. Sullivan implies that understanding phenomena with ML models requires to know some of the learned weights and their "level of description". The question which learned weights need to be known depends on the "epistemic risk facing the model".
 
+
+What does Sullivan mean when she dismisses FAI by saying that "a view from nowhere is untenable"?
+The relevance of implementation details for understanding phenomena cannot be answered in-principle, but the relevance depends on what the target of understanding is.
+
+
+What is the conflict between T&S' TML hypothesis and Sullivan's notion of implementation irrelevance?
+Sullivan's defense of the possibility of understanding from ML models despite their opacity relies on the implementation irrelevance of certain details.
+
+
+Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
