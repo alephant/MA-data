@@ -73,3 +73,14 @@ By drawing intra-model inferences on the TML target, we gain a better understand
 >[!TS]
 >“Our hypothesis is that the appropriate target of understanding with ML models closely relates to how a learned distribution estimates the “actual” distribution describing a phenomenon’s studied features.” (Shech and Tamir, 2022, p. 8)
 
+
+What do intra-model inferences do?
+Intra-model inferences give us insight into the TML target and by doing so give us understanding of the actual T.
+
+What are the different modes of understanding?
+A different mode of understanding means to draw intra-model inferences on different aspects of feature relationships as they are represented by data, thus, gaining understanding of different aspects of actual T.
+So there are different modes how one can gain understanding of actual T by means of drawing intra-model inferences.
+
+How are the modes of understanding related to each other?
+What is their target??
+
