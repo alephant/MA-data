@@ -63,3 +63,13 @@ If it is irrelevant, why is it not similarly irrelevant to know all detail param
 
 Does the map analogy (implementation opacity is irrelevant as it is irrelevant to use red or blue ink to draw a map) actually work?
 
+Do T&S mean by drawing intra-model inferences the ML model is horizontally linked to (actual) T?
+
+What do T&S mean by "appropriate target of understanding with ML models"?
+Similar to how a learned distribution is a good estimate of the actual distribution of the target features, 
+the TML target gives us insight into the actual target.
+By drawing intra-model inferences on the TML target, we gain a better understanding of the actual T.
+
+>[!TS]
+>“Our hypothesis is that the appropriate target of understanding with ML models closely relates to how a learned distribution estimates the “actual” distribution describing a phenomenon’s studied features.” (Shech and Tamir, 2022, p. 8)
+
