@@ -55,3 +55,11 @@ Sullivan's defense of the possibility of understanding from ML models despite th
 
 
 Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
+
+
+When Schelling model is run on a computer, can we say that it is irrelevant to know all detail parameterization of the computer? 
+If it is irrelevant, why is it not similarly irrelevant to know all detail parameterization of an ML model?
+
+
+Does the map analogy (implementation opacity is irrelevant as it is irrelevant to use red or blue ink to draw a map) actually work?
+
