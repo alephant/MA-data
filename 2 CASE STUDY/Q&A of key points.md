@@ -57,9 +57,13 @@ Sullivan's defense of the possibility of understanding from ML models despite th
 Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
 
 
+As Sullivan assumes that we know enough about "high-level decision points of the model", understanding from ML models becomes an external problem. Is this assumption fair?
+
+
 When Schelling model is run on a computer, can we say that it is irrelevant to know all detail parameterization of the computer? 
 If it is irrelevant, why is it not similarly irrelevant to know all detail parameterization of an ML model?
 
+Is T&S' approach a way to reduce LU? "Reducing LU may require a comparison between different models,..."
 
 Does the map analogy (implementation opacity is irrelevant as it is irrelevant to use red or blue ink to draw a map) actually work?
 
