@@ -88,3 +88,10 @@ So there are different modes how one can gain understanding of actual T by means
 How are the modes of understanding related to each other?
 What is their target??
 
+
+What does Sullivan mean by arguing that T&S have a "model-centric view of understanding phenomena"?
+FAI as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is. Thus, the introduction of FAI gives Sullivan reason to argue that T&S follow a model-centric view of understanding phenomena.
+
+Could it be that Sullivan misunderstands T&S' approach as "model-centric"?
+It could be that the TML target is about the external target as much as the model output of e.g. the melanoma DNN that Sullivan uses as an example to illustrate her self-described "model-as-means" view.
+The TML target is the "relationships of features represented by data". T&S explain that by "relationships of features" they mean the real-world relationships between features of the target phenomenon. They explain that by "represented features" they mean measurable properties of model data that are associated with the phenomenon insofar model data represents target features. The model output of the melanoma DNN is part of its model data. It is used to gain understanding of the target phenomenon. So I don't understand why Sullivan claims that there is difference between both approaches in what the target of understanding is or how much emphasis is put on the model.
