@@ -96,6 +96,11 @@ Could it be that Sullivan misunderstands T&S' approach as "model-centric"?
 It could be that the TML target is about the external target as much as the model output of e.g. the melanoma DNN that Sullivan uses as an example to illustrate her self-described "model-as-means" view.
 The TML target is the "relationships of features represented by data". T&S explain that by "relationships of features" they mean the real-world relationships between features of the target phenomenon. They explain that by "represented features" they mean measurable properties of model data that are associated with the phenomenon insofar model data represents target features. The model output of the melanoma DNN is part of its model data. It is used to gain understanding of the target phenomenon. So I don't understand why Sullivan claims that there is a difference between both approaches in what the target of understanding is or how much emphasis is put on the model.
 
+What part of the model is used to gain understanding of the target?
+Sullivan: model prediction; emergent high-level properties
+T&S: relationships/ properties within model data
+How different is that?
+
 
 So according to T&S, there are some implementation details that do in fact matter to the studied target compared to other implementation details that are "purely irrelevant implementation details like coding language etc." (learned parameterization).
 And accounting for FAI, there are some aspects of the of target feature relationships that can be understood (IR, FI, LR).
