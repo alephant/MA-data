@@ -67,6 +67,23 @@ Is T&S' approach a way to reduce LU? "Reducing LU may require a comparison betwe
 
 Does the map analogy (implementation opacity is irrelevant as it is irrelevant to use red or blue ink to draw a map) actually work?
 
+On what (implicit?) notion does FAI build on?
+Contrary to Sullivan's "pure implementation irrelevance" stane, T&S argue that there are in-principle differences between implementation details on whether or not they are relevant or not for understanding. 
+T&S use "topological facts" to illustrate what an implementation detail would look like for which variation would in fact matter for the target phenomenon (navigation) compared to other in-principle irrelevcant details such as color choice.
+
+What does Sullivan have against this "in-principle difference between implementation details"-view of T&S?
+She argues that this "view from nowhere" is not reasonable, as "relevance is related to a target".
+
+How is the buildup to FAI?
+“What distinguishes functionally approximate irrelevance from implementation irrelevance is that in the former varied details matter to the studied target, but they are varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood.” (Shech and Tamir, 2022, p. 10)
+varied details matter to the studied target: implicit notion behind FAI
+varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood: FAI
+
+How does this reasoning for FAI look like?
+T&S open up a can of worms themselves (certain implementation details matter which creates a dilemma for understanding when they are opaque). And close it themselves (FAI fixes this supposed dilemma).
+
+Or to put it differently: 1) Because Sullivan's reliance on pure implementation irrelevance is problematic for understanding, we introduce the notion that certain implementation details are in fact in-principle relevant for the target of understanding; 2) our notion causes a dilemma as these relevant implementation details cannot be used to for understanding as they are opaque; 3) we fix the dilemma that we introduced by positing that these implementation details matter to the target of understanding, but only insofar they do not substantially change the relevant aspects of the target of understanding.
+
 Do T&S mean by drawing intra-model inferences the ML model is horizontally linked to (actual) T?
 
 What do T&S mean by "appropriate target of understanding with ML models"?
