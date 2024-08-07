@@ -84,6 +84,14 @@ T&S open up a can of worms themselves (certain implementation details matter whi
 
 Or to put it differently: 1) Because Sullivan's reliance on pure implementation irrelevance is problematic for understanding, we introduce the notion that certain implementation details are in fact in-principle relevant for the target of understanding; 2) our notion causes a dilemma as these relevant implementation details cannot be used to for understanding as they are opaque; 3) we fix the dilemma that we introduced by positing that these implementation details matter to the target of understanding, but only insofar they do not substantially change the relevant aspects of the target of understanding.
 
+What is the "role and degree" of FAI?
+The role of FAI is to fix the dilemma and to make opaque implementation details that are relevant to the target compatible with understanding
+
+Can "topological facts" in the map example and "learned parameter instantiations" in ML models be compared?
+
+What do T&S mean by varied details matter to the studied target, but "only in ways that approximately preserve the relevant aspects of the phenomenon to be understood"?
+
+
 Do T&S mean by drawing intra-model inferences the ML model is horizontally linked to (actual) T?
 
 What do T&S mean by "appropriate target of understanding with ML models"?
