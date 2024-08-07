@@ -91,6 +91,7 @@ Can "topological facts" in the map example and "learned parameter instantiations
 
 What do T&S mean by varied details matter to the studied target, but "only in ways that approximately preserve the relevant aspects of the phenomenon to be understood"?
 
+How do T&S qualify what "significant parameter detail differences" mean?
 
 Do T&S mean by drawing intra-model inferences the ML model is horizontally linked to (actual) T?
 
