@@ -69,7 +69,7 @@ Does the map analogy (implementation opacity is irrelevant as it is irrelevant t
 
 On what (implicit?) notion does FAI build on?
 Contrary to Sullivan's "pure implementation irrelevance" stane, T&S argue that there are in-principle differences between implementation details on whether or not they are relevant or not for understanding. 
-T&S use "topological facts" to illustrate what an implementation detail would look like for which variation would in fact matter for the target phenomenon (navigation) compared to other in-principle irrelevcant details such as color choice.
+T&S use "topological facts" to illustrate what an implementation detail would look like for which variation would in fact matter to the target phenomenon (navigation) compared to other in-principle irrelevant details such as color choice.
 
 What does Sullivan have against this "in-principle difference between implementation details"-view of T&S?
 She argues that this "view from nowhere" is not reasonable, as "relevance is related to a target".
