@@ -63,9 +63,12 @@ As Sullivan assumes that we know enough about "high-level decision points of the
 When Schelling model is run on a computer, can we say that it is irrelevant to know all detail parameterization of the computer? 
 If it is irrelevant, why is it not similarly irrelevant to know all detail parameterization of an ML model?
 
+
 Is T&S' approach a way to reduce LU? "Reducing LU may require a comparison between different models,..."
 
+
 Does the map analogy (implementation opacity is irrelevant as it is irrelevant to use red or blue ink to draw a map) actually work?
+
 
 On what (implicit?) notion does FAI build on?
 Contrary to Sullivan's "pure implementation irrelevance" stane, T&S argue that there are in-principle differences between implementation details on whether or not they are relevant or not for understanding. 
@@ -89,11 +92,16 @@ The role of FAI is to fix the dilemma and to make opaque implementation details 
 
 Can "topological facts" in the map example and "learned parameter instantiations" in ML models be compared?
 
-What do T&S mean by varied details matter to the studied target, but "only in ways that approximately preserve the relevant aspects of the phenomenon to be understood"?
+
+What do T&S mean by varied details matter to the studied target, but "only in ways that __approximately__ preserve the relevant aspects of the phenomenon to be understood"?
+
 
 How do T&S qualify what "significant parameter detail differences" mean?
 
-Do T&S mean by drawing intra-model inferences the ML model is horizontally linked to (actual) T?
+
+What is the relation between TML target and target phenomenon?
+
+
 
 What do T&S mean by "appropriate target of understanding with ML models"?
 Similar to how a learned distribution is a good estimate of the actual distribution of the target features, 
