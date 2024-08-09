@@ -43,7 +43,7 @@ Is implementation opacity relevant for understanding a phenomenon from ML models
 No, Sullivan argues that implementation opacity is irrelevant, i.e. for the question whether a trained DNN enables understanding or not, the opacity of how the algorithm is implemented is irrelevant.
 
 What is **the** question regarding the ML model output?
-The output of a trained ML model is set of learned weights. Sullivan implies that understanding phenomena with ML models requires to know some of the learned weights and their "level of description". The question which learned weights need to be known depends on the "epistemic risk facing the model".
+The output of a trained ML model is determined by the implementation of a set of learned weights. Sullivan implies that understanding phenomena with ML models requires to know some of the learned weights and their "level of description". The question which learned weights need to be known depends on the "epistemic risk facing the model". It is an "external question regarding LU".
 
 
 What does Sullivan mean when she dismisses FAI by saying that "a view from nowhere is untenable"?
@@ -51,8 +51,15 @@ The relevance of implementation details for understanding phenomena cannot be an
 
 
 What is the conflict between T&S' TML hypothesis and Sullivan's notion of implementation irrelevance?
-Sullivan's defense of the possibility of understanding from ML models despite their opacity relies on the implementation irrelevance of certain details.
+Sullivan's defense of the possibility of understanding from ML models despite their opacity relies on the implementation irrelevance of certain details. 
 
+What do T&S claim that Sullivan's argument against opacity as an in-principle problem for understanding relies on, and what does it actually rely on?
+>[!TS]
+>“Sullivan’s argument refutes that DL models cannot be used for understanding merely due to some opacity, but the reliance on the implementation irrelevance of certain details, particularly their irrelevance to the target of understanding, is essential for this defense.” (Shech and Tamir, 2022, p. 10)
+
+Sullivan differentiates implementation details according to their level of abstraction. Lower-level details can be opaque without causing a problem for understanding. However, the goals of higher-level algorithms and higher-level emergent properties need to be known in order to evaluate LU and gain understanding from ML models.
+Sullivan does not argue for the irrelevance of learned parameter instantiations per se.
+So it is not that Sullivan argues for the irrelevance of details comparable to "topological facts" in the map example. She argues that if the high-level algorithmic goal is to represent a target system, it is irrelevant how this goal is achieved, i.e. how the topological facts are expressed through the model implementation.
 
 Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
 
