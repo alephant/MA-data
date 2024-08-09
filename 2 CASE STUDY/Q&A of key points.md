@@ -60,6 +60,10 @@ What do T&S claim that Sullivan's argument against opacity as an in-principle pr
 Sullivan differentiates implementation details according to their level of abstraction. Lower-level details can be opaque without causing a problem for understanding. However, the goals of higher-level algorithms and higher-level emergent properties need to be known in order to evaluate LU and gain understanding from ML models.
 Sullivan does not argue for the irrelevance of learned parameter instantiations per se.
 So it is not that Sullivan argues for the irrelevance of details comparable to "topological facts" in the map example. She argues that if the high-level algorithmic goal is to represent a target system, it is irrelevant how this goal is achieved, i.e. how the topological facts are expressed through the model implementation.
+>[!Sullivan]
+>“I am not suggesting that the topological features of the map are irrelevant for adequately representing, say, NYC’s subway system. On the contrary, for the draw_subway_map() algorithm to be successful, the topological features of the map output must share the relevant topological features of NYC’s subway system. How these topological features are expressed (or computed)—either by a visual depiction of nodes and edges or in mathematical notation—does not affect the general goal of representing NYC’s subway system.” (Sullivan, 2022, p. 2)
+
+
 
 Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
 
