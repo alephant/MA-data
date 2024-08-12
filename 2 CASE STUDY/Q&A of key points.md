@@ -46,6 +46,16 @@ What is **the** question regarding the ML model output?
 The output of a trained ML model is determined by the implementation of a set of learned weights. Sullivan implies that understanding phenomena with ML models requires to know some of the learned weights and their "level of description". The question which learned weights need to be known depends on the "epistemic risk facing the model". It is an "external question regarding LU".
 
 
+What does LU measure?
+LU can be understood as a measure of how well external causal support justifies the explanation that is induced by the ML model.
+
+Can an ML model provide understanding itself?
+No, an ML model alone cannot provide understanding. The ML model induces an explanation that must be linked with external causal support. 
+>[!Sullivan]
+>“It is not the ML model alone that provides understanding; the model induces an explanation paired with external links connecting the model to the phenomena that enables understanding. This is why I argued that most ML models merely provide how-possibly explanations. The ML models do not provide causal support themselves, but rather indicate possible (causal) hypotheses that additional research must justify through reducing LU.” (Sullivan, 2022, p. 4)
+
+
+
 What does Sullivan mean when she dismisses FAI by saying that "a view from nowhere is untenable"?
 The relevance of implementation details for understanding phenomena cannot be answered in-principle, but the relevance depends on what the target of understanding is.
 
