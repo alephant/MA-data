@@ -177,7 +177,7 @@ For Sullivan, these data relationships are part of the model. Thus, the TML hypo
 The notion of model-based explanations put forward by Lawler & Sullivan is relevant here.
 In support of this notion that the TML is model-centric, FAI serves as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is.
 
-But how different in being model-centric or not are data relationships (T&S) vs. higher-level emergent features (Sullivan)?
+==But how different in being model-centric or not are data relationships (T&S) vs. higher-level emergent features (Sullivan)?==
 
 
 
