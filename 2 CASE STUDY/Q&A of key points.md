@@ -177,6 +177,9 @@ For Sullivan, these data relationships are part of the model. Thus, the TML hypo
 The notion of model-based explanations put forward by Lawler & Sullivan is relevant here.
 In support of this notion that the TML is model-centric, FAI serves as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is.
 
+But how different in being model-centric or not are data relationships (T&S) vs. higher-level emergent features (Sullivan)?
+
+
 
 Could it be that Sullivan misunderstands T&S' approach as "model-centric"?
 It could be that the TML target is about the external target as much as the model output of e.g. the melanoma DNN that Sullivan uses as an example to illustrate her self-described "model-as-means" view.
