@@ -6,11 +6,15 @@ She refutes that model opacity is an internal problem, but it is an external pro
 >[!Sullivan]
 >“model opacity should not be understood as simply an internal problem that requires greater transparency of how the model works. Model opacity qua opacity need not undermine explanation or understanding from complex ML models. Instead, the problem of model opacity is largely an external problem connecting the model to the target. Specifically, the problem of opacity is a function of how much link uncertainty (LU) the model has.” (“Scientific Understanding and Representation: Modeling in the Physical Sciences”, 2022, p. 307)
 
+According to Sullivan, what of the model is the basis for its decision?
+The basis for model decision are its higher-level abstract features and "how those features are externally supported in providing insight into the target phenomenon that matters for understanding".
 
-"Model opacity qua opacity need not undermine explanation or understanding from complex ML models."
-She refutes that model opacity is not an "internal problem that requires greater transparency of how the model works". 
-"Instead, the problem of model opacity is largely an external problem connecting the model to the target."
+As T&S' approach is concerned with understanding correlations between features represented by data, is it helpful to understand in which feature relationships higher-level abstract features are engaged in?
 
+
+T&S seem to admit that modes of understanding mostly provide correlative understanding of feature relationships represented by data. 
+i.e. FI understanding tells us which x-data highly correlates with y-targets and can thus be attributed as important in predicting target features as represented by data.
+But FI understanding does not provide us with an understanding of whether target features represented by x-data (e.g. the visual appearance of a skin area) are causally related to target features represented by y-data (e.g. the dermatological state).
 
 What is link uncertainty?
 At best, by using a model we want to understand what the actual causes of a phenomenon are. To enable the understanding of actual causes, the causes that the model identifies must be empirically (or scientifically) validated as actual causes. As long as the causes identified by the model are not empirically (or scientifically) shown to be the actual causes, there is a high degree of link uncertainty between the model and the target phenomenon.
