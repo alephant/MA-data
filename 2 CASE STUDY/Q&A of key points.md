@@ -11,6 +11,10 @@ The basis for model decision are its higher-level abstract features and "how tho
 
 As T&S' approach is concerned with understanding correlations between features represented by data, is it helpful to understand in which feature relationships higher-level abstract features are engaged in?
 
+What is the role of ML interpretability methods for Sullivan's approach?
+ML interpretability methods make it so that the problem of model opacity becomes an external problem of LU rather than an internal problem of lack of transparency.
+They do this by providing us with model transparency of exactly those model details on which the trained ML model relies on to make its decision.
+
 
 T&S seem to admit that modes of understanding mostly provide correlative understanding of feature relationships represented by data. 
 i.e. FI understanding tells us which x-data highly correlates with y-targets and can thus be attributed as important in predicting target features as represented by data.
