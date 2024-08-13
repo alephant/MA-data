@@ -161,13 +161,13 @@ So according to T&S, there are some implementation details that do in fact matte
 And accounting for FAI, there are some aspects of the of target feature relationships that can be understood (IR, FI, LR).
 
 
-What is the reasoning behind Sullivan's characterization of T&S' approach as being "model-centric"?
-Is it true that the "target of the TML hypothesis consists of understanding the model"?
-How is T&S' approach truly different from Sullivan's?
-How target-centric is Sullivan's approach really?
-
-
 What do T&S understand by misrepresentation link uncertainty?
 When model data does not only represent intended features, but other not intended features of the target phenomenon. Thus, link uncertainty between the model and target is caused as the model data misrepresents features of the target to be understood.
 T&S argue that correcting for empirical LU alone is not enough to ensure a clear link between model and target. A background of scientific evidence in support of the model can lower empirical LU, but the model data can still misrepresent target features, e.g. by data leakage or a confounding bias in data sampling, preparation or y-target labeling. Thus, for a ML model to enable understanding of the target phenomenon, it is necessary to prevent empirical as well as misrepresentation LU.
 FI and LR understanding can help to prevent misrepresentation LU.
+
+
+What is the reasoning behind Sullivan's characterization of T&S' approach as being "model-centric"?
+Is it true that the "target of the TML hypothesis consists of understanding the model"?
+How is T&S' approach truly different from Sullivan's?
+How target-centric is Sullivan's approach really?
