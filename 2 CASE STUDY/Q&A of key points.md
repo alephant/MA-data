@@ -143,6 +143,16 @@ So there are different modes how one can gain understanding of actual T by means
 How are the modes of understanding related to each other?
 What is their target??
 
+What do the modes of understanding actually help us to understand of the TML targets?
+>[!TS]
+>“Although the three modes of ML understanding explored in Section 4 are not intended to be comprehensive, we emphasize that a predictable relationship between the represented features __is not necessarily causal__. Background scientific theory is vital for inferring causal claims from information-theoretic claims about features.” (Shech and Tamir, 2022, p. 18)
+
+T&S seem to admit that modes of understanding mostly provide correlative understanding of feature relationships represented by data. 
+i.e. FI understanding tells us which x-data highly correlates with y-targets and can thus be attributed as important in predicting target features as represented by data.
+But FI understanding does not provide us with an understanding of whether target features represented by x-data (e.g. the visual appearance of a skin area) are causally related to target features represented by y-data (e.g. the dermatological state).
+
+
+
 
 What does Sullivan mean by arguing that T&S have a "model-centric view of understanding phenomena"?
 FAI as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is. Thus, the introduction of FAI gives Sullivan reason to argue that T&S follow a model-centric view of understanding phenomena.
