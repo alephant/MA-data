@@ -16,12 +16,12 @@ ML interpretability methods make it so that the problem of model opacity becomes
 They do this by providing us with model transparency of exactly those model details on which the trained ML model relies on to make its decision.
 
 
-T&S seem to admit that modes of understanding mostly provide correlative understanding of feature relationships represented by data. 
-i.e. FI understanding tells us which x-data highly correlates with y-targets and can thus be attributed as important in predicting target features as represented by data.
-But FI understanding does not provide us with an understanding of whether target features represented by x-data (e.g. the visual appearance of a skin area) are causally related to target features represented by y-data (e.g. the dermatological state).
-
 What is link uncertainty?
 At best, by using a model we want to understand what the actual causes of a phenomenon are. To enable the understanding of actual causes, the causes that the model identifies must be empirically (or scientifically) validated as actual causes. As long as the causes identified by the model are not empirically (or scientifically) shown to be the actual causes, there is a high degree of link uncertainty between the model and the target phenomenon.
+
+What does it mean "to link a model to the target"?
+"linking the model’s inferences to the target phenomenon".
+
 
 
 For which models is link uncertainty important?
