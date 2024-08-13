@@ -1,10 +1,13 @@
 What is the overall argument that Sullivan is making?
 Sullivan rejects the popular claim that the opacity and complexity of DNN models are an in-principle problem for gaining understanding from DNN models. In contrary, she argues that it is not the opacity and complexity of DNN models that are the limiting factor when considering DNN as explanatory models, but like with any other model, simple or complex, it comes down to whether the model is linked to the target phenomenon. She introduces the notion of link uncertainty as the actual limiting factor.
+i.e. "the problem of model opacity is a function of LU"
 
 What does Sullivan refute?
 She refutes that model opacity is an internal problem, but it is an external problem of linking the model to the target.
 >[!Sullivan]
 >“model opacity should not be understood as simply an internal problem that requires greater transparency of how the model works. Model opacity qua opacity need not undermine explanation or understanding from complex ML models. Instead, the problem of model opacity is largely an external problem connecting the model to the target. Specifically, the problem of opacity is a function of how much link uncertainty (LU) the model has.” (“Scientific Understanding and Representation: Modeling in the Physical Sciences”, 2022, p. 307)
+>
+>“However, in order to explain and gain understanding with an ML model the problem of opacity greatly depends on features external to the model instead of features internal to it (i.e., link uncertainty and empirical support, explanatory functions, and the social and personal significance of the model and its domain).” (“Scientific Understanding and Representation: Modeling in the Physical Sciences”, 2022, p. 318)
 
 According to Sullivan, what of the model is the basis for its decision?
 The basis for model decision are its higher-level abstract features and "how those features are externally supported in providing insight into the target phenomenon that matters for understanding".
@@ -170,7 +173,10 @@ But FI understanding does not provide us with an understanding of whether target
 
 
 What does Sullivan mean by arguing that T&S have a "model-centric view of understanding phenomena"?
-FAI as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is. Thus, the introduction of FAI gives Sullivan reason to argue that T&S follow a model-centric view of understanding phenomena.
+For Sullivan, the key problem is that data relationships (i.e. the TML target, i.e. relationships of features represented by data) are not used as a means to further provide understanding by some explanation that is induced by the ML model, but that T&S see data relationships as the target of ML understanding themselves. 
+For Sullivan, these data relationships are part of the model. Thus, the TML hypothesis is model-centric.
+The notion of model-based explanations put forward by Lawler & Sullivan is relevant here.
+In support of this notion that the TML is model-centric, FAI serves as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is.
 
 Could it be that Sullivan misunderstands T&S' approach as "model-centric"?
 It could be that the TML target is about the external target as much as the model output of e.g. the melanoma DNN that Sullivan uses as an example to illustrate her self-described "model-as-means" view.
