@@ -2,8 +2,8 @@ What is the overall argument that Sullivan is making?
 Sullivan rejects the popular claim that the opacity and complexity of DNN models are an in-principle problem for gaining understanding from DNN models. In contrary, she argues that it is not the opacity and complexity of DNN models that are the limiting factor when considering DNN as explanatory models, but like with any other model, simple or complex, it comes down to whether the model is linked to the target phenomenon. She introduces the notion of link uncertainty as the actual limiting factor.
 i.e. "the problem of model opacity is a function of LU"
 
-What does Sullivan refute?
-She refutes that model opacity is an internal problem, but it is an external problem of linking the model to the target.
+What does Sullivan rejects?
+She rejects that model opacity is an internal problem, but it is an external problem of linking the model to the target.
 >[!Sullivan]
 >“model opacity should not be understood as simply an internal problem that requires greater transparency of how the model works. Model opacity qua opacity need not undermine explanation or understanding from complex ML models. Instead, the problem of model opacity is largely an external problem connecting the model to the target. Specifically, the problem of opacity is a function of how much link uncertainty (LU) the model has.” (“Scientific Understanding and Representation: Modeling in the Physical Sciences”, 2022, p. 307)
 >
