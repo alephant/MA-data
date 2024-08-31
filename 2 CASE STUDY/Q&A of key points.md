@@ -67,8 +67,8 @@ The output of a trained ML model is determined by the implementation of a set of
 What does LU measure?
 LU can be understood as a measure of how well external causal support justifies the explanation that is induced by the ML model.
 
-Can an ML model provide understanding itself?
-No, an ML model alone cannot provide understanding. The ML model induces an explanation that must be linked with external causal support. 
+Can a ML model provide understanding itself?
+No, a ML model alone cannot provide understanding, the ML model itself is not the explanation. The ML model induces an explanation that must be linked with external causal support. 
 >[!Sullivan]
 >“It is not the ML model alone that provides understanding; the model induces an explanation paired with external links connecting the model to the phenomena that enables understanding. This is why I argued that most ML models merely provide how-possibly explanations. The ML models do not provide causal support themselves, but rather indicate possible (causal) hypotheses that additional research must justify through reducing LU.” (Sullivan, 2022, p. 4)
 
