@@ -2,7 +2,15 @@ what is understood by understanding?
 
 For T&S, understanding with ML models require the identification of the appropriate target of understanding. For them, this the Target of ML models, i.e. TML target. 
 T&S define the TML target, i.e. the appropriate target of understanding with ML models, as the "relationships of features represented by the data". What do they mean by that?
-The model data of a DNN can be subsumed as x and y-data. x-data is the input data, i.e. the data on which data transformations are executed given the respective neural network architecture and parameterization. Y-data is the data which determines the prediction or classification to be made. Through training, the parameterization of DNN model change in such a way that the prediction of y-data is optimized based on given x-data. 
+The model data of a DNN can be subsumed as x and y-data. x-data is the input data, i.e. the data on which data transformations are executed given the respective neural network architecture and parameterization. Y-data is the data which determines the prediction or classification to be made. For T&S, both x and y data represent features of an actual target phenomenon, i.e. model data represents some aspect of a real-world phenomenon, e.g. x-data visually represents how a section of skin looks, and y-data represents what its dermatological state is. Through training, the parameterization of DNN model change in such a way that the prediction of y-data is optimized based on given x-data, i.e. a trained estimator function optimally relates x and y-data, so that feature relationships represented by model data more closely resemble some true feature relationships active in the target phenomenon. 
+Inferences on these data relationships are intra-model as they are part of the intrinsic makeup of the model. But for T&S, what we want to better understand by drawing intra-model inferences on TML targets is still the actual target phenomenon comparable to "how a learned distribution estimates the “actual” distribution describing a phenomenon’s studied features.” (Shech and Tamir, 2022, p. 8). 
+T&S introduce three different modes of understanding to illustrate what they mean by that. A different mode of understanding means to draw intra-model inferences on different aspects of feature relationships as they are represented by data, thus, gaining understanding of different aspects of actual T. 
+IR (informative relationship) understanding indicates that there is some signal in x-data that is relevant for predicting y-data. 
+FI (feature importance) understanding indicates which features in x-data is more or less relevant for predicting y-data,
+LR (learned representation) understanding indicates how learned representations (e.g. intrinsic properties of the vector space such as relative angle or position of vectors) are organized to transform x-data to optimally predict y-data.
+
+So there are different modes how one can gain understanding of actual T by means of drawing intra-model inferences.
+
 
 Throughout their work they rely on probability distributions to illustrate
 By drawing inferences on T, a model is used to explain a phenomenon T and provide understanding of T. For T&S, by drawing intra-model inferences on the TML target, one can gain understanding of T, i.e. the actual target phenomenon.
