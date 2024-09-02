@@ -14,10 +14,7 @@ The TML hypothesis introduces a different perspective on how the opacity of impl
 As the TML hypothesis identifies feature relationships as represented by data as the target of ML understanding, the TML target directly refers to certain details of how a ML model is implemented that theoretically need to be epistemically accessible to make sense of said feature relationships. Thus, ML opacity of implementation details regarding feature relationships would be problematic for T&S' notion of ML understanding.
 To alleviate this problem, T&S introduce Functionally Approximate Irrelevance (FAI) as a "refined" account of Sullivan's general account of implementation irrelevance.
 Contrary to Sullivan, T&S argues that certain implementation details do in fact matter to ML understanding, i.e. that a variation in these implementation details would impact our understanding of the target phenomenon to be gained. FAI identifies those cases in which “varied details matter to the studied target, but they are varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood.” (Shech and Tamir, 2022, p. 10).
-
-
-
-in regards to the relationship between x and y-data are in fact relevant for understanding the TML target. However, they are relevant only insofar 
+T&S argues as follows: Sullivan's reliance on pure implementation irrelevance is problematic for understanding according to the TML hypothesis, we introduce the notion that certain implementation details are in fact in-principle relevant for the target of understanding; 2) our notion causes a dilemma as these relevant implementation details cannot be used to for understanding as they are opaque; 3) we fix the dilemma that we introduced by positing that these implementation details matter to the target of understanding, but only insofar they do not substantially change the relevant aspects of the target of understanding.
 
 
 
