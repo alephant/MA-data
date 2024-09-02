@@ -79,7 +79,8 @@ The relevance of implementation details for understanding phenomena cannot be an
 
 
 What is the conflict between T&S' TML hypothesis and Sullivan's notion of implementation irrelevance?
-Sullivan's defense of the possibility of understanding from ML models despite their opacity relies on the implementation irrelevance of certain details. 
+Sullivan's defense of the possibility of understanding from ML models despite their opacity relies on the implementation irrelevance of certain details.
+
 
 What do T&S claim that Sullivan's argument against opacity as an in-principle problem for understanding relies on, and what does it actually rely on?
 >[!TS]
@@ -110,14 +111,16 @@ Does the map analogy (implementation opacity is irrelevant as it is irrelevant t
 
 
 On what (implicit?) notion does FAI build on?
-Contrary to Sullivan's "pure implementation irrelevance" stane, T&S argue that there are in-principle differences between implementation details on whether or not they are relevant or not for understanding. 
+Contrary to Sullivan's "pure implementation irrelevance" stance, T&S argue that there are in-principle differences between implementation details on whether or not they are relevant or not for understanding. 
 T&S use "topological facts" to illustrate what an implementation detail would look like for which variation would in fact matter to the target phenomenon (navigation) compared to other in-principle irrelevant details such as color choice.
 
 What does Sullivan have against this "in-principle difference between implementation details"-view of T&S?
 She argues that this "view from nowhere" is not reasonable, as "relevance is related to a target".
 
 How is the buildup to FAI?
-“What distinguishes functionally approximate irrelevance from implementation irrelevance is that in the former varied details matter to the studied target, but they are varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood.” (Shech and Tamir, 2022, p. 10)
+>[!TS]
+>“What distinguishes functionally approximate irrelevance from implementation irrelevance is that in the former varied details matter to the studied target, but they are varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood.” (Shech and Tamir, 2022, p. 10)
+
 varied details matter to the studied target: implicit notion behind FAI
 varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood: FAI
 
