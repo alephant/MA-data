@@ -11,8 +11,13 @@ LR (learned representation) understanding indicates how learned representations 
 T&S make clear that modes of understanding provide correlative but not causal understanding of feature relationships as represented by data, i.e. FI understanding tells us which x-data highly correlates with y-data and can thus be understood as important in predicting target features as represented by data.
 But FI understanding does not provide us with an understanding of whether target features represented by x-data (e.g. the visual appearance of a skin area) are causally related to target features represented by y-data (e.g. the dermatological state).
 The TML hypothesis introduces a different perspective on how the opacity of implementation details of an ML model is relevant or irrelevant for ML understanding. 
-As the TML hypothesis identifies feature relationships as represented by data as the target of ML understanding, the TML target directly refers to certain details of how a ML model is implemented that theoretically need to be epistemically accessible to make sense of said feature relationships. Thus, ML opacity of implementation details relating to feature relationships would be problematic for T&S' notion of ML understanding.
+As the TML hypothesis identifies feature relationships as represented by data as the target of ML understanding, the TML target directly refers to certain details of how a ML model is implemented that theoretically need to be epistemically accessible to make sense of said feature relationships. Thus, ML opacity of implementation details regarding feature relationships would be problematic for T&S' notion of ML understanding.
 To alleviate this problem, T&S introduce Functionally Approximate Irrelevance (FAI) as a "refined" account of Sullivan's general account of implementation irrelevance.
+Contrary to Sullivan, T&S argues that certain implementation details do in fact matter to ML understanding, i.e. that a variation in these implementation details would impact our understanding of the target phenomenon to be gained. FAI identifies those cases in which “varied details matter to the studied target, but they are varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood.” (Shech and Tamir, 2022, p. 10).
+
+
+
+in regards to the relationship between x and y-data are in fact relevant for understanding the TML target. However, they are relevant only insofar 
 
 
 
