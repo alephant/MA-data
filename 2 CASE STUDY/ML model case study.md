@@ -1,3 +1,13 @@
+what is understood by understanding?
+
+For T&S, understanding with ML models require the identification of the appropriate target of understanding. For them, this the Target of ML models, i.e. TML target. 
+T&S define the TML target, i.e. the appropriate target of understanding with ML models, as the "relationships of features represented by the data". What do they mean by that?
+The model data of a DNN can be subsumed as x and y-data. x-data is the input data, i.e. the data on which data transformations are executed given the respective neural network architecture and parameterization. Y-data is the data which determines the prediction or classification to be made. Through training, the parameterization of DNN model change in such a way that the prediction of y-data is optimized based on given x-data. 
+
+Throughout their work they rely on probability distributions to illustrate
+By drawing inferences on T, a model is used to explain a phenomenon T and provide understanding of T. For T&S, by drawing intra-model inferences on the TML target, one can gain understanding of T, i.e. the actual target phenomenon.
+
+
 What is irrelevant for understanding? Understanding of the ML model!
 Sullivan: implementation irrelevance
 T&S: functional approximate irrelevance
