@@ -37,17 +37,14 @@ For both Sullivan and T&S, epistemic opacity is not an in-principle problem for 
 T&S view implementation irrelevance in a principled fashion, i.e. certain implementation details of a ML model are in-principle relevant for understanding, whereby the view is "FAI-enabled" as opaque implementation details are functionally irrelevant as long as relevant aspects of the target phenomenon to be understood are approximately preserved in feature relationships represented by data.
 
 
-
-illustrate TML hypothesis in the case of melanoma DNN
-
-
-
+introduce relevant concepts of both accounts
+introduce melanoma DNN as case study
+illustrate concepts, key similiarities and differences through melanoma DNN
 
 
-What is irrelevant for understanding? Understanding of the ML model!
-Sullivan: implementation irrelevance
-T&S: functional approximate irrelevance
-conclusion: epistemic/ structural opacity is no problem
+
+
+
 
 What is relevant for understanding? Necessary for understanding from ML models
 Sullivan: link between M and T
