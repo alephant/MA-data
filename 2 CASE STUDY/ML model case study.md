@@ -17,6 +17,12 @@ e.g. other than color choices, topological facts represented by a map model, can
 To reiterate, T&S argue as follows: as the TML hypothesis posits feature relationships represented by data as the appropriate target of ML understanding, implementation details regarding those feature relationships are relevant for ML understanding; looking at TML targets from Sullivan's notion of implementation irrelevance introduces a dilemma, as opaque implementation details regarding feature relationships do not allow for understanding the TML target; the dilemma is fixed by positing that these implementation details matter to feature relationships of the target phenomenon as represented by data (the target of understanding), but only insofar they do not substantially change the relevant aspects of the feature relationships of the target phenomenon represented by data.
 Thus, the distinction into implementation details that are irrelevant versus those that are in-principle relevant for ML understanding is crucial for FAI. And FAI is crucial to render such implementation details that are opaque compatible with understanding.
 
+For both Sullivan and T&S, epistemic opacity is no in-principle problem for understanding. But both rest their account on a different notion of implementation irrelevance. For Sullivan, the relevance of implementation details for understanding phenomena cannot be answered in-principle, but the relevance depends on what the target of understanding is. Thus, her view on implementation relevance could be described as "target-related", i.e. the relevance of implementation details, and thus, the question whether or not their opacity is problematic for understanding, depends on the target phenomenon that the ML model is built to provide understanding for.
+compared to a "FAI-enabled" view by T&S, that identifies implementation details as in-principle 
+
+and her respective view on understanding from ML models 
+
+her view can be described as 
 
 
 FAI as backbone to TML hypothesis
@@ -24,9 +30,6 @@ illustrate TML hypothesis in the case of melanoma DNN
 
 
 
-
-Throughout their work they rely on probability distributions to illustrate
-By drawing inferences on T, a model is used to explain a phenomenon T and provide understanding of T. For T&S, by drawing intra-model inferences on the TML target, one can gain understanding of T, i.e. the actual target phenomenon.
 
 
 What is irrelevant for understanding? Understanding of the ML model!
