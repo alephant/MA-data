@@ -8,8 +8,13 @@ T&S introduce three modes of understanding that can be used to gain understandin
 IR (informative relationship) understanding indicates that there is some signal in x-data that is relevant for predicting y-data. 
 FI (feature importance) understanding indicates which features in x-data is more or less relevant for predicting y-data,
 LR (learned representation) understanding indicates how learned representations (e.g. intrinsic properties of the vector space such as relative angle or position of vectors) are organized to transform x-data to optimally predict y-data.
-T&S make clear that that modes of understanding provide correlative but not causal understanding of feature relationships as represented by data, i.e. FI understanding tells us which x-data highly correlates with y-data and can thus be understood as important in predicting target features as represented by data.
+T&S make clear that modes of understanding provide correlative but not causal understanding of feature relationships as represented by data, i.e. FI understanding tells us which x-data highly correlates with y-data and can thus be understood as important in predicting target features as represented by data.
 But FI understanding does not provide us with an understanding of whether target features represented by x-data (e.g. the visual appearance of a skin area) are causally related to target features represented by y-data (e.g. the dermatological state).
+The TML hypothesis introduces a different perspective on how the opacity of implementation details of an ML model is relevant or irrelevant for ML understanding. 
+As the TML hypothesis identifies feature relationships as represented by data as the target of ML understanding, the TML target directly refers to certain details of how a ML model is implemented that theoretically need to be epistemically accessible to make sense of said feature relationships. Thus, ML opacity of implementation details relating to feature relationships would be problematic for T&S' notion of ML understanding.
+To alleviate this problem, T&S introduce Functionally Approximate Irrelevance (FAI) as a "refined" account of Sullivan's general account of implementation irrelevance.
+
+
 
 FAI as backbone to TML hypothesis
 illustrate TML hypothesis in the case of melanoma DNN
