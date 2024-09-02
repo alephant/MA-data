@@ -67,22 +67,18 @@ The output of a trained ML model is determined by the implementation of a set of
 What does LU measure?
 LU can be understood as a measure of how well external causal support justifies the explanation that is induced by the ML model.
 
-Can a ML model provide understanding itself?
+###### Can a ML model provide understanding itself?
 No, a ML model alone cannot provide understanding, the ML model itself is not the explanation. The ML model induces an explanation that must be linked with external causal support. 
 >[!Sullivan]
 >“It is not the ML model alone that provides understanding; the model induces an explanation paired with external links connecting the model to the phenomena that enables understanding. This is why I argued that most ML models merely provide how-possibly explanations. The ML models do not provide causal support themselves, but rather indicate possible (causal) hypotheses that additional research must justify through reducing LU.” (Sullivan, 2022, p. 4)
 
 
 
-What does Sullivan mean when she dismisses FAI by saying that "a view from nowhere is untenable"?
-The relevance of implementation details for understanding phenomena cannot be answered in-principle, but the relevance depends on what the target of understanding is.
-
-
-What is the conflict between T&S' TML hypothesis and Sullivan's notion of implementation irrelevance?
+###### What is the conflict between T&S' TML hypothesis and Sullivan's notion of implementation irrelevance?
 Sullivan's defense of the possibility of understanding from ML models despite their opacity relies on the implementation irrelevance of certain details.
 
 
-What do T&S claim that Sullivan's argument against opacity as an in-principle problem for understanding relies on, and what does it actually rely on?
+###### What do T&S claim that Sullivan's argument against opacity as an in-principle problem for understanding relies on, and what does it actually rely on?
 >[!TS]
 >“Sullivan’s argument refutes that DL models cannot be used for understanding merely due to some opacity, but the reliance on the implementation irrelevance of certain details, particularly their irrelevance to the target of understanding, is essential for this defense.” (Shech and Tamir, 2022, p. 10)
 
@@ -94,7 +90,7 @@ So it is not that Sullivan argues for the irrelevance of details comparable to "
 
 
 
-Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
+###### Why does Sullivan dismiss T&S' approach to distinguish different kinds of implementation details?
 
 
 As Sullivan assumes that we know enough about "high-level decision points of the model", understanding from ML models becomes an external problem. Is this assumption fair?
@@ -110,42 +106,43 @@ Is T&S' approach a way to reduce LU? "Reducing LU may require a comparison betwe
 Does the map analogy (implementation opacity is irrelevant as it is irrelevant to use red or blue ink to draw a map) actually work?
 
 
-On what (implicit?) notion does FAI build on?
+###### On what (implicit?) notion does FAI build on?
 Contrary to Sullivan's "pure implementation irrelevance" stance, T&S argue that there are in-principle differences between implementation details on whether or not they are relevant or not for understanding. 
 T&S use "topological facts" to illustrate what an implementation detail would look like for which variation would in fact matter to the target phenomenon (navigation) compared to other in-principle irrelevant details such as color choice.
 
-What does Sullivan have against this "in-principle difference between implementation details"-view of T&S?
+###### What does Sullivan have against this "in-principle difference between implementation details"-view of T&S? And why does she dismiss FAI?
 She argues that this "view from nowhere" is not reasonable, as "relevance is related to a target".
+She dismisses FAI as the relevance of implementation details for understanding phenomena cannot be answered in-principle, but the relevance depends on what the target of understanding is.
 
-How is the buildup to FAI?
+###### How is the buildup to FAI?
 >[!TS]
 >“What distinguishes functionally approximate irrelevance from implementation irrelevance is that in the former varied details matter to the studied target, but they are varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood.” (Shech and Tamir, 2022, p. 10)
 
 varied details matter to the studied target: implicit notion behind FAI
 varied only in ways that approximately preserve the relevant aspects of the phenomenon to be understood: FAI
 
-How does this reasoning for FAI look like?
+###### How does this reasoning for FAI look like?
 T&S open up a can of worms themselves (certain implementation details matter which creates a dilemma for understanding when they are opaque). And close it themselves (FAI fixes this supposed dilemma).
 
 Or to put it differently: 1) Because Sullivan's reliance on pure implementation irrelevance is problematic for understanding, we introduce the notion that certain implementation details are in fact in-principle relevant for the target of understanding; 2) our notion causes a dilemma as these relevant implementation details cannot be used to for understanding as they are opaque; 3) we fix the dilemma that we introduced by positing that these implementation details matter to the target of understanding, but only insofar they do not substantially change the relevant aspects of the target of understanding.
 
-What is the "role and degree" of FAI?
+###### What is the "role and degree" of FAI?
 The role of FAI is to fix the dilemma and to make opaque implementation details that are relevant to the target compatible with understanding
 
 Can "topological facts" in the map example and "learned parameter instantiations" in ML models be compared?
 
 
-What do T&S mean by varied details matter to the studied target, but "only in ways that __approximately__ preserve the relevant aspects of the phenomenon to be understood"?
+###### What do T&S mean by varied details matter to the studied target, but "only in ways that __approximately__ preserve the relevant aspects of the phenomenon to be understood"?
 
 
-How do T&S qualify what "significant parameter detail differences" mean?
+###### How do T&S qualify what "significant parameter detail differences" mean?
 
 
-What is the relation between TML target and target phenomenon?
+###### What is the relation between TML target and target phenomenon?
 
 
 
-What do T&S mean by "appropriate target of understanding with ML models"?
+###### What do T&S mean by "appropriate target of understanding with ML models"?
 Similar to how a learned distribution is a good estimate of the actual distribution of the target features, 
 the TML target gives us insight into the actual target.
 By drawing intra-model inferences on the TML target, we gain a better understanding of the actual T.
@@ -154,17 +151,16 @@ By drawing intra-model inferences on the TML target, we gain a better understand
 >“Our hypothesis is that the appropriate target of understanding with ML models closely relates to how a learned distribution estimates the “actual” distribution describing a phenomenon’s studied features.” (Shech and Tamir, 2022, p. 8)
 
 
-What do intra-model inferences do?
+###### What do intra-model inferences do?
 Intra-model inferences give us insight into the TML target and by doing so give us understanding of the actual T.
 
-What are the different modes of understanding?
+###### What are the different modes of understanding?
 A different mode of understanding means to draw intra-model inferences on different aspects of feature relationships as they are represented by data, thus, gaining understanding of different aspects of actual T.
 So there are different modes how one can gain understanding of actual T by means of drawing intra-model inferences.
 
-How are the modes of understanding related to each other?
-What is their target??
+###### How are the modes of understanding related to each other? What is their target?
 
-What do the modes of understanding actually help us to understand of the TML targets?
+###### What do the modes of understanding actually help us to understand of the TML targets?
 >[!TS]
 >“Although the three modes of ML understanding explored in Section 4 are not intended to be comprehensive, we emphasize that a predictable relationship between the represented features __is not necessarily causal__. Background scientific theory is vital for inferring causal claims from information-theoretic claims about features.” (Shech and Tamir, 2022, p. 18)
 
@@ -174,17 +170,17 @@ But FI understanding does not provide us with an understanding of whether target
 
 
 
-What does Sullivan mean by arguing that T&S have a "model-centric view of understanding phenomena"?
+###### What does Sullivan mean by arguing that T&S have a "model-centric view of understanding phenomena"?
 For Sullivan, the key problem is that data relationships (i.e. the TML target, i.e. relationships of features represented by data) are not used as a means to further provide understanding by some explanation that is induced by the ML model, but that T&S see data relationships as the target of ML understanding themselves. 
 For Sullivan, these data relationships are part of the model. Thus, the TML hypothesis is model-centric.
 The notion of model-based explanations put forward by Lawler & Sullivan is relevant here.
 In support of this notion that the TML is model-centric, FAI serves as an indication that T&S are invested in the idea that some model implementation details can be inherently relevant irrespective of what the target is.
 
-==But how different in being model-centric or not are data relationships (T&S) vs. higher-level emergent features (Sullivan)?==
+###### ==But how different in being model-centric or not are data relationships (T&S) vs. higher-level emergent features (Sullivan)?==
 
 
 
-Could it be that Sullivan misunderstands T&S' approach as "model-centric"?
+###### Could it be that Sullivan misunderstands T&S' approach as "model-centric"?
 It could be that the TML target is about the external target as much as the model output of e.g. the melanoma DNN that Sullivan uses as an example to illustrate her self-described "model-as-means" view.
 The TML target is the "relationships of features represented by data". T&S explain that by "relationships of features" they mean the real-world relationships between features of the target phenomenon. They explain that by "represented features" they mean measurable properties of model data that are associated with the phenomenon insofar model data represents target features. The model output of the melanoma DNN is part of its model data. It is used to gain understanding of the target phenomenon. So I don't understand why Sullivan claims that there is a difference between both approaches in what the target of understanding is or how much emphasis is put on the model.
 
