@@ -11,7 +11,8 @@ LR (learned representation) understanding indicates how learned representations 
 T&S make clear that that modes of understanding provide correlative but not causal understanding of feature relationships as represented by data, i.e. FI understanding tells us which x-data highly correlates with y-data and can thus be understood as important in predicting target features as represented by data.
 But FI understanding does not provide us with an understanding of whether target features represented by x-data (e.g. the visual appearance of a skin area) are causally related to target features represented by y-data (e.g. the dermatological state).
 
-
+FAI as backbone to TML hypothesis
+illustrate TML hypothesis in the case of melanoma DNN
 
 
 
