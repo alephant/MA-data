@@ -9,7 +9,7 @@ IR (informative relationship) understanding indicates that there is some signal 
 FI (feature importance) understanding indicates which features in x-data is more or less relevant for predicting y-data,
 LR (learned representation) understanding indicates how learned representations (e.g. intrinsic properties of the vector space such as relative angle or position of vectors) are organized to transform x-data to optimally predict y-data.
 
-So there are different modes how one can gain understanding of actual T by means of drawing intra-model inferences.
+
 
 
 Throughout their work they rely on probability distributions to illustrate
