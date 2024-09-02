@@ -18,11 +18,8 @@ To reiterate, T&S argue as follows: as the TML hypothesis posits feature relatio
 Thus, the distinction into implementation details that are irrelevant versus those that are in-principle relevant for ML understanding is crucial for FAI. And FAI is crucial to render such implementation details that are opaque compatible with understanding.
 
 For both Sullivan and T&S, epistemic opacity is no in-principle problem for understanding. But both rest their account on a different notion of implementation irrelevance. For Sullivan, the relevance of implementation details for understanding phenomena cannot be answered in-principle, but the relevance depends on what the target of understanding is. Thus, her view on implementation relevance could be described as "target-related", i.e. the relevance of implementation details, and thus, the question whether or not their opacity is problematic for understanding, depends on the target phenomenon that the ML model is built to provide understanding for.
-compared to a "FAI-enabled" view by T&S, that identifies implementation details as in-principle 
+T&S view implementation relevance in a principled fashion, i.e. certain implementation details of a ML model are in-principle relevant for understanding, whereby the view is "FAI-enabled" as the opacity of said implementation details is functionally irrelevant as long as relevant aspects of the target phenomenon to be understood are approximately preserved in feature relationships represented by data.
 
-and her respective view on understanding from ML models 
-
-her view can be described as 
 
 
 FAI as backbone to TML hypothesis
