@@ -1,5 +1,8 @@
 The melanoma DNN was developed to classify skin cancer based on images of skin lesions. The DNN was trained on on a dataset of dermatologist-labelled clinical images containing >2000 diseases. Its performance to classify malignant versus benign skin lesions was tested against 21 expert dermatologists on biopsy-proven clinical images. Malignant and benign lesions are difficult to classify as they share many visual features. The melanoma DNN outperforms the average expert performance.
 Early-detection of skin cancer is crucial to improve the survival rate for melanoma. With current mobile devices having the computing power to run DNN, proactive tracking of skin lesions and early detection of melanoma could be significantly improved. 
+
+**work with Sullivan excerpt!**
+
 To understand Sullivan's view on the opacity problem, it is helpful to look at the different answerability of explanatory questions that we could ask of the melanoma DNN. We could ask questions of how the model works which can be answered by looking at how the model is implemented. 
 A key aspect of the implementation refers to how the trained DNN is parameterized, i.e. which parameter values for weights, biases etc. were acquired through training that determine the functioning of the deep net. Due to model complexity the parameterization of a DNN is not easily accessible. Accordingly, the problem of opacity can be understood as the problem of having no clear knowledge of the whole parameterization of a DNN. The whole set of parameter values that determine the classification of the melanoma DNN is not known. Thus, the question arises whether one could gain understanding from a model of which the determining factors for its output is unknown.
 Or we could asks questions on the phenomenon that the model bears on, i.e. skin disease in the case of the melanoma DNN. 
@@ -7,8 +10,9 @@ Or we could asks questions on the phenomenon that the model bears on, i.e. skin 
 Sullivan argues that understanding model implementation is not necessary for understanding of the phenomenon that the model bears on. 
 
 
+
+
 Bridge to implementation irrelevance:
-what is meant by implementation
 explanatory questions regarding implementation vs phenomenon
 opacity (impl. black boxes) only negatively impacts the answerability of expl. questions regarding implementation
 contrary to knowledge of higher-level workings of the ML model, knowledge of "lower-level workings" (finegrained weights etc.) is irrelevant
