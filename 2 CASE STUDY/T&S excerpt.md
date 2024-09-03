@@ -1,8 +1,8 @@
-**==new understanding of the TML:==**
+TML hypothesis
 relationships of features = abstraction of T
-represented by the data = intra-model inferences on it
-Intra-model inferences on data representations let us understand abstraction of T.
-==Data representations are understood through different modes of understanding reveal different aspects of the target through different relationships of features in the abstraction of T.==
+represented by the data = intra-model inferences on data representations
+Intra-model inferences on abstraction of T provides understanding of T.
+Different aspects of T are understood through different modes of understanding.
 
 There are various ways how input data X and output data Y are related among each other.
 Through training, the model learns conditional probabilities of p(y given x).
@@ -30,7 +30,7 @@ This would mean that ML model opacity would not impede our understanding.
 
 We can still look at the learned probability distribution and gain understanding of relationships of features in the real-world phenomenon as they are represented by the X and Y data.
 
-i.e. one can still understand different ways how real-world features are related by drawing intra-model inferences based on how input data X and output data Y are related.
+i.e. one can still understand different ways how real-world features are related by drawing intra-model inferences on how input data X and output data Y are related.
 
 We can still make inferences and understand that there is an informative relationship among features of the real-world phenomenon as they are represented by the data.
 
