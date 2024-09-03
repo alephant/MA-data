@@ -1,7 +1,14 @@
-# what is understood by understanding?
+The melanoma DNN was developed to identify skin cancer based on images of skin lesions. 
+An introduction to DNN structure, modelling and implementation opacity was already given in a previous section.
+
+Based on the introduction of how the algorithmic computations of a DNN can be described according to their level, Sullivan argues that DNN such as the melanoma DNN are not black-boxed at the highest-level.
+For Sullivan the question whether or not an implementation detail is relevant for understanding, and thus, whether or not its opacity is problematic for understanding, depends on whether it must be known for understanding to be possible. 
+Sullivan adheres to the notion that a trained DNN executes a algorithm that is identical to what the DNN is designed to do. For her, the goal of this "highest-level" algorithm is known and its transparency is necessary for ML understanding. 
+
+e.g. the melanoma DNN is built to classify skin cancer based on visual input data. 
 
 
-Sullivan rejects that ML opacity is an internal problem, but it is an external problem of linking the model to the target, i.e. 
+
 
 
 ###### TML hypothesis, x and y-data, distributions, relation between TML and T:
@@ -45,7 +52,6 @@ introduce relevant concepts of both accounts
 introduce melanoma DNN as case study
 illustrate concepts, key similiarities and differences through melanoma DNN
 
-sdsdsd
 
 
 
