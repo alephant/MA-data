@@ -1,5 +1,4 @@
 The melanoma DNN was developed to identify skin cancer based on images of skin lesions. 
-An introduction to DNN structure, modelling and implementation opacity was already given in a previous section.
 
 Based on the introduction of how the algorithmic computations of a DNN can be described according to their level, Sullivan argues that DNN such as the melanoma DNN are not black-boxed at the highest-level.
 For Sullivan the question whether or not an implementation detail is relevant for understanding, and thus, whether or not its opacity is problematic for understanding, depends on whether it must be known for understanding to be possible. 
