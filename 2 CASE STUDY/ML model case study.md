@@ -1,4 +1,10 @@
-The melanoma DNN was developed to identify skin cancer based on images of skin lesions. 
+The melanoma DNN was developed to classify skin cancer based on images of skin lesions. The DNN was trained on on a dataset of dermatologist-labelled clinical images containing >2000 diseases. Its performance to classify malignant versus benign skin lesions was tested against 21 expert dermatologists on biopsy-proven clinical images. Malignant and benign lesions are difficult to classify as they share many visual features. The melanoma DNN outperforms the average expert performance.
+Early-detection of skin cancer is crucial to improve the survival rate for melanoma. With current mobile devices having the computing power to run DNN, proactive tracking of skin lesions and early detection of melanoma could be significantly improved. 
+To understand Sullivan's view on the opacity problem, it is helpful to look at the different answerability of explanatory questions that we could ask of the melanoma DNN. We could ask questions of how the model works which can be answered by looking at how the model is implemented.  
+
+Or we could asks questions on the phenomenon that the model bears on, i.e. skin disease in the case of the melanoma DNN. 
+
+
 
 Based on the introduction of how the algorithmic computations of a DNN can be described according to their level, Sullivan argues that DNN such as the melanoma DNN are not black-boxed at the highest-level.
 For Sullivan the question whether or not an implementation detail is relevant for understanding, and thus, whether or not its opacity is problematic for understanding, depends on whether it must be known for understanding to be possible. 
